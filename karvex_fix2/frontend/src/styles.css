@@ -1,0 +1,306 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  background: #000304;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.karvex-app {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000304;
+}
+
+.karvex-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+  user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+
+/* The real input is transparent so the artwork stays visible.
+   Its placeholder starts after the search icon in the artwork. */
+.karvex-search-shell {
+  position: absolute;
+  left: 28.7%;
+  bottom: 7.2%;
+  width: 41.8%;
+  height: 9.2%;
+  z-index: 20;
+}
+
+.karvex-search-form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.karvex-search-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: #f4fbff;
+  font-size: clamp(13px, 1.05vw, 20px);
+  font-weight: 500;
+  padding: 0 15% 0 9%;
+  caret-color: #58dcff;
+  text-shadow: 0 0 8px rgba(80, 210, 255, 0.18);
+}
+
+.karvex-search-input::placeholder {
+  color: rgba(220, 239, 247, 0.68);
+  opacity: 1;
+}
+
+.karvex-send-button {
+  position: absolute;
+  top: 9%;
+  right: 1%;
+  width: 11%;
+  height: 82%;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.karvex-send-button:disabled {
+  cursor: default;
+}
+
+.karvex-mic-button {
+  position: absolute;
+  left: 45.1%;
+  bottom: 16.2%;
+  width: 9.7%;
+  aspect-ratio: 1;
+  z-index: 21;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+  opacity: 0.01;
+}
+
+.karvex-mic-button:disabled {
+  cursor: default;
+}
+
+.karvex-mic-button.listening {
+  opacity: 0.05;
+  box-shadow: 0 0 34px rgba(0, 225, 255, 0.9);
+}
+
+.karvex-status {
+  position: absolute;
+  left: 50%;
+  bottom: 1.2%;
+  transform: translateX(-50%);
+  z-index: 30;
+  min-height: 14px;
+  color: rgba(132, 226, 244, 0.82);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  pointer-events: none;
+  text-shadow: 0 0 10px rgba(50, 220, 255, 0.6);
+}
+
+@media (max-width: 900px) {
+  .karvex-search-shell {
+    left: 22%;
+    width: 56%;
+    bottom: 5.5%;
+    height: 10%;
+  }
+
+  .karvex-mic-button {
+    left: 42.5%;
+    bottom: 16%;
+    width: 15%;
+  }
+
+  .karvex-search-input {
+    font-size: 13px;
+    padding-left: 12%;
+  }
+}
+
+@media (max-width: 600px) {
+  .karvex-search-shell {
+    left: 15%;
+    width: 70%;
+    bottom: 4%;
+  }
+
+  .karvex-mic-button {
+    left: 40%;
+    bottom: 16%;
+    width: 20%;
+  }
+
+  .karvex-status {
+    font-size: 7px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .karvex-background {
+    animation: none;
+  }
+}
+
+/* Dynamic response panel: the artwork provides the visual frame, while React
+   renders the current question/answer so it changes with every request. */
+.karvex-response-panel {
+  position: absolute;
+  top: 24.9%;
+  right: 2.1%;
+  width: 23.2%;
+  min-height: 31.5%;
+  z-index: 25;
+  padding: 1.35% 1.25%;
+  border: 1px solid rgba(0, 220, 255, 0.48);
+  border-radius: 20px;
+  background: linear-gradient(145deg, rgba(2, 16, 28, 0.97), rgba(1, 9, 17, 0.92));
+  box-shadow: inset 0 0 30px rgba(0, 173, 255, 0.06), 0 0 18px rgba(0, 156, 255, 0.08);
+  color: #eefaff;
+  overflow: hidden;
+}
+
+.response-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+  color: #39dfff;
+  font-size: clamp(9px, 0.62vw, 13px);
+  font-weight: 800;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+
+.response-dot {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+  border-radius: 50%;
+  background: #46e9ff;
+  box-shadow: 0 0 10px rgba(70, 233, 255, 0.9);
+}
+
+.response-label {
+  margin: 0 0 8px;
+  color: #39dfff;
+  font-size: clamp(8px, 0.54vw, 11px);
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.response-question,
+.response-answer,
+.response-empty,
+.response-error,
+.response-thinking {
+  color: rgba(235, 247, 252, 0.92);
+  font-size: clamp(11px, 0.78vw, 16px);
+  line-height: 1.55;
+}
+
+.response-question {
+  min-height: 25px;
+}
+
+.response-answer {
+  max-height: 145px;
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.response-divider {
+  height: 1px;
+  margin: 15px 0 18px;
+  background: rgba(93, 197, 224, 0.25);
+}
+
+.response-empty,
+.response-thinking {
+  color: rgba(183, 218, 229, 0.72);
+}
+
+.response-thinking {
+  letter-spacing: 1.6px;
+  font-size: clamp(9px, 0.62vw, 12px);
+  font-weight: 700;
+}
+
+.response-error {
+  color: #ffb5b5;
+}
+
+@media (max-width: 900px) {
+  .karvex-response-panel {
+    top: 21%;
+    right: 2%;
+    width: 30%;
+    min-height: 32%;
+    padding: 14px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .karvex-response-panel {
+    top: 15%;
+    right: 4%;
+    width: 42%;
+    min-height: 27%;
+    padding: 11px;
+    border-radius: 12px;
+  }
+
+  .response-title {
+    margin-bottom: 12px;
+    letter-spacing: 1.3px;
+  }
+
+  .response-divider {
+    margin: 9px 0 11px;
+  }
+}
