@@ -1,0 +1,17 @@
+[project]
+name = "rag-goa"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-multipart",
+    "sarvamai",
+    "ollama",
+    "pyarrow",
+    "requests",
+    "google-genai",
+]
+
+[tool.vercel]
+entrypoint = "backend.api.app:app"

@@ -1,0 +1,1149 @@
+[
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "নিগম হৈছে এটা কোম্পানী বা মানুহৰ এটা গোট যিটোক আইনত একক সত্তা হিচাপে কাম কৰিবলৈ আৰু স্বীকৃতি দিয়া হৈছে।",
+    "query_id": 1102432,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "A company is incorporated in a specific nation, often within the bounds of a smaller subset of that nation, such as a state or province. The corporation is then governed by the laws of incorporation in that state. A corporation may issue stock, either private or public, or may be classified as a non-stock corporation. If stock is issued, the corporation will usually be governed by its shareholders, either directly or indirectly.",
+        "Today, there is a growing community of more than 2,100 Certified B Corps from 50 countries and over 130 industries working together toward 1 unifying goal: to redefine success in business. Join the Movement",
+        "Corporation definition, an association of individuals, created by law or under authority of law, having a continuous existence independent of the existences of its members, and powers and liabilities distinct from those of its members. See more.",
+        "Examples of corporation in a Sentence. 1  He works as a consultant for several large corporations. 2  a substantial corporation that showed that he was a sucker for all-you-can-eat buffets.",
+        "1: a government-owned corporation (as a utility or railroad) engaged in a profit-making enterprise that may require the exercise of powers unique to government (as eminent domain) — called also government corporation, publicly held corporation",
+        "McDonald's Corporation is one of the most recognizable corporations in the world. A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature).",
+        "Corporations are owned by their stockholders (shareholders) who share in profits and losses generated through the firm's operations, and have three distinct characteristics (1) Legal existence: a firm can (like a person) buy, sell, own, enter into a contract, and sue other persons and firms, and be sued by them.",
+        "An Association is an organized group of people who share in a common interest, activity, or purpose. 1  Start a business Plan your business. Create your business structure Types of business structures. 2  Change or update your business Add a new location to your existing business. Add an endorsement to your existing business.",
+        "B Corp certification shines a light on the companies leading the global movement...",
+        "LLCs offer greater flexibility when it comes to income taxes. 1  The owner or member of an LLC can have their income taxed in three ways: 2  A single owner LLC is treated as a Schedule C (sole proprietor) for tax purposes."
+      ],
+      "Translated_passages": [
+        "এটা কোম্পানী একটা নির্দিষ্ট দেশত অন্তৰ্ভুক্ত কৰা হয়, প্ৰায়েই সেই দেশৰ একটা সৰু উপসমষ্টিৰ সীমাৰ ভিতৰত, যেনে এখন ৰাজ্য বা প্ৰদেশ। তাৰপিছত সেই কোম্পানীটো সেই ৰাজ্যৰ অন্তৰ্ভুক্তিৰ আইনৰ দ্বাৰা পৰিচালিত হয়। এটা কোম্পানীয়ে হয় ব্যক্তিগত বা সৰকাৰী ভাবে ষ্টক জাৰি কৰিব পাৰে, বা এটাক অ-ষ্টক কোম্পানী হিচাপে শ্ৰেণীবদ্ধ কৰিব পাৰে। যদি ষ্টক জাৰি কৰা হয়, তেন্তে কোম্পানীটো সাধাৰণতে ইয়াৰ শ্বেয়াৰহোল্ডাৰসকলৰ দ্বাৰা পৰোক্ষভাৱে বা প্রত্যক্ষভাৱে পৰিচালিত হয়।",
+        "আজি, ৫০খন দেশৰ ২,১০০ৰো অধিক প্ৰত্যয়িত বি কৰ্পছ আৰু ১৩০টাতকৈও অধিক উদ্যোগৰ এক বৰ্ধিত সম্প্ৰদায় আছে যি ১টা একীকৰণমূলক লক্ষ্যৰ দিশে একেলগে কাম কৰি আছে: ব্যৱসায়ত সফলতাক পুনৰ সংজ্ঞায়িত কৰা। আন্দোলনত যোগদান কৰক",
+        "নিগমৰ সংজ্ঞা, ব্যক্তিসকলৰ এক সংঘ, আইনৰ দ্বাৰা সৃষ্টি কৰা হয় বা আইনৰ অধীনত, ইয়াৰ সদস্যসকলৰ অস্তিত্বৰ পৰা স্বাধীন এক অবিচ্ছিন্ন অস্তিত্ব থাকে আৰু ইয়াৰ সদস্যসকলৰ পৰা পৃথক ক্ষমতা আৰু দায়বদ্ধতা থাকে। অধিক জানক।",
+        "এক বাক্যত কৰ্পোৰেশ্যনৰ উদাহৰণ। ১ তেওঁ কেইবাটাও বৃহৎ কৰ্পোৰেশ্যনৰ পৰামৰ্শদাতা হিচাপে কাম কৰে। ২ এটা উল্লেখযোগ্য কৰ্পোৰেশ্যন যিয়ে দেখুৱাইছিল যে তেওঁ সকলো খাব পৰা বুফেটৰ প্রতি আকৰ্ষিত আছিল।",
+        "১: একটা চৰকাৰী মালিকানাধীন নিগম (একটা ইউটিলিটি বা ৰেলপথ হিচাপে) যি একটা লাভজনক উদ্যোগত নিয়োজিত হৈ থাকে যাৰ বাবে চৰকাৰী ক্ষমতা (একটা বিশিষ্ট ডোমেইন হিচাপে) প্ৰয়োগ কৰাৰ প্ৰয়োজন হয় — যাক চৰকাৰী নিগম, পাব্লিকভাবে অধিকৃত নিগম বুলিও কোৱা হয়।",
+        "মেকডোনাল্ড'ছ কৰ্পোৰেশ্যন হৈছে বিশ্বৰ আটাইতকৈ চিনাকি কৰ্পোৰেশ্যনসমূহৰ ভিতৰত অন্যতম। এটা কৰ্পোৰেশ্যন হৈছে এটা কোম্পানী বা মানুহৰ গোট যাক আইনত একক সত্তা (আইনগতভাৱে এজন ব্যক্তি) হিচাপে কাম কৰিবলৈ অনুমোদিত আৰু স্বীকৃত। প্ৰাৰম্ভিক অন্তৰ্ভুক্ত সত্তাসমূহ চাৰ্টাৰৰ দ্বাৰা প্ৰতিষ্ঠা কৰা হৈছিল (অৰ্থাৎ এজন ৰজাৰ দ্বাৰা প্ৰদত্ত বা সংসদ বা বিধানমণ্ডলৰ দ্বাৰা গৃহীত এক অস্থায়ী আইন)।",
+        "নিগমসমূহ তেওঁলোকৰ শ্বেয়াৰহোল্ডাৰসকলৰ মালিকানাধীন (শ্বেয়াৰহোল্ডাৰ) যিসকলে প্ৰতিষ্ঠানটোৰ কাৰ্যকলাপৰ জৰিয়তে উৎপন্ন হোৱা লাভ আৰু লোকচানত অংশীদাৰী কৰে আৰু তেওঁলোকৰ তিনিটা স্বতন্ত্ৰ বৈশিষ্ট্য (১) আইনী অস্তিত্ব থাকে: এটা প্ৰতিষ্ঠানে (এজন ব্যক্তিৰ দৰে) ক্ৰয় কৰিব পাৰে, বিক্ৰী কৰিব পাৰে, মালিকানা লাভ কৰিব পাৰে, চুক্তিত প্ৰৱেশ কৰিব পাৰে আৰু অন্য ব্যক্তি আৰু প্ৰতিষ্ঠানসমূহৰ বিৰুদ্ধে গোচৰ তৰিব পাৰে আৰু তেওঁলোকৰ দ্বাৰা গোচৰ তৰিব পাৰে।",
+        "একটা এছ'চিয়েশ্যন হৈছে একটা সংগঠিত গোষ্ঠী যিয়ে একটা সাধাৰণ আগ্ৰহ, কাৰ্যকলাপ বা উদ্দেশ্য ভাগ কৰে। ১ ব্যৱসায় আৰম্ভ কৰক আৰু ব্যৱসায় পৰিকল্পনা কৰক। ব্যৱসায়ৰ গঠন সৃষ্টি কৰক। ২ আপোনাৰ ব্যৱসায় সলনি বা আপডেট কৰক আৰু বিদ্যমান ব্যৱসায়ত একটা নতুন অৱস্থান যোগ কৰক। আপোনাৰ বিদ্যমান ব্যৱসায়ত একটা সমৰ্থন যোগ কৰক।",
+        "বি কৰ্পৰ প্ৰমাণপত্ৰই বিশ্বব্যাপী আন্দোলনৰ নেতৃত্ব দিয়া কোম্পানীসমূহৰ ওপৰত পোহৰ পেলাইছে...",
+        "আয়কৰৰ ক্ষেত্ৰত এলএলচি-সমূহে অধিক নমনীয়তা প্ৰদান কৰে। ১ এলএলচি-ৰ মালিক বা সদস্যক তিনিটা পদ্ধতিত কৰ দিব পাৰে: ২ একক মালিকৰ এলএলচিক কৰৰ উদ্দেশ্যে একক অনুসূচী (একক মালিক) হিচাপে বিবেচনা কৰা হয়।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": ". what is a corporation?",
+    "Eng_Answer": "A corporation is a company or group of people authorized to act as a single entity and recognized as such in law.",
+    "query": "কৰ্পোৰেচন কি?"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "ৰেচেল কাৰ্চনে দ্য অব্লিগেশ্যন টু এণ্ডিউৰ লিখিছে কাৰণ তেওঁ বিশ্বাস কৰে যে মানুহে অবাঞ্চিত পোক-পতংগ আৰু আগাছ নিৰ্মূল কৰিবলৈ চেষ্টা কৰিলেও তেওঁ পৰিৱেশ প্ৰদূষিত কৰি প্ৰকৃততে অধিক সমস্যাৰ সৃষ্টি কৰিছে।",
+    "query_id": 1102431,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "Read to write - grow a love of books (even if it's a comic book) Organizing an argument into paragraphs, words [that] worked together for a common purpose Walker: Using models - read other research papers, look at MLA samples Maintain a larger perspective of the world and in your writing - stay objective Write about what fascinates you",
+        "Carson subtly defers her writing in just the right writing technique for it to not be subject to an induction run rampant style which grabs the readers interest without biasing the whole article. Rachel slights the opposition very nicely Rachel Carson: “THE OBLIGATION TO ENDURE”. 4 by keeping it simple yet informative and persuasive and stays away from being caught in a fallacy which makes it readable and proves effective in validlating her point of view.",
+        "The essay starts out with the statement “The history of life on earth has been an interaction between living things and their surroundings” (Carson, pg. 57). On the other hand, it closes with “The obligation to endure gives us the right to know” (Carson, pg. 6). These are good statements that give the reader an idea of what can be expected. However, there were times when it seemed as if the author was backing up her opinion with facts that were not necessarily factual.",
+        "Ashley Deemer. Eastern gateway Community College. Abstract. In the following pages the reader will find a written rhetorical analysis of Rachel Carson’s “The Obligation to Endure.” The following analysis involves the second chapter of Carson’s book, Silent Spring and was antecedently written in 1962.",
+        "The Obligation to Endure by Rachel Carson Rachel Carson's essay on The Obligation to Endure, is a very convincing argument about the harmful uses of chemicals, pesticides, herbicides, and fertilizers on the environment.",
+        "Carson believes that as man tries to eliminate unwanted insects and weeds, however he is actually causing more problems by polluting the environment with, for example, DDT and harming living things. Carson adds that the intensification of agriculture is causing other major problems, like newly developed or created insects and diseases.",
+        "“The Obligation to Endure” from Silent Springby Rachel Carson. Copyright © 1962 by Rachel L. Carson.",
+        "In, “Silent Spring” an excerpt from Rachel Carson’s, “The Obligation to Endure,” Carson suggests that the pesticides and insecticides we have are harmful to more than just the environment. Rachel Carson is an author who is passionate about the environment and concerned about the well being of its inhabitants.",
+        "1 Limitation of science - As the world changes over time, the understanging of science ... However Aristotle stated that there is not only one future which is determined by a cause. 2  A man travels in the Yukon on an extremely cold morning with a husky ... the reader only ocasionally gets insight into the inner workings of the mans mind.",
+        "Rachel Carson was born on May 27, 1907, on a family farm near Springdale, Pennsylvania, just up the Allegheny River from Pittsburgh. She was the daughter of Maria Frazier (McLean) and Robert Warden Carson, an insurance salesman. She spent a lot of time exploring around her family's 65-acre (26 ha) farm."
+      ],
+      "Translated_passages": [
+        "পঢ়িবলৈ লিখিবলৈ - কিতাপৰ প্ৰতি ভালপোৱা বৃদ্ধি কৰক (যদিও ই এখন কমিক কিতাপ) এটা যুক্তি অনুচ্ছেদত সংগঠিত কৰক, শব্দ [যি] এক সাধাৰণ উদ্দেশ্যৰ বাবে একেলগে কাম কৰিছিল ওয়াকাৰ: মডেল ব্যৱহাৰ কৰি - অন্যান্য গৱেষণা পত্ৰ পঢ়ক, বিধায়কৰ নমুনা চাওক বিশ্বৰ এক বৃহত্তৰ দৃষ্টিভংগী বজাই ৰাখক আৰু আপোনাৰ লিখনিত - আপোনাক কি আকৰ্ষিত কৰে সেই বিষয়ে বস্তুনিষ্ঠ হৈ থাকক",
+        "কাৰ্চনে তাইৰ লিখনিক সূক্ষ্মভাৱে সঠিক লিখন কৌশলেৰে পৰামৰ্শ দিয়ে যাতে ই এক অবাধ শৈলীৰ অধীন নহয় যি সমগ্ৰ প্ৰবন্ধটোক পক্ষপাতিত্ব নকৰাকৈ পাঠকৰ আগ্ৰহ আকৰ্ষণ কৰে। ৰাচেলে বিৰোধিতাক খুব সুন্দৰভাৱে উপেক্ষা কৰে: \"দ্য অ'ব্লিগেশ্যন টু এণ্ডিউৰ\"। ৪ ইয়াক সহজ কিন্তু তথ্যপূৰ্ণ আৰু প্ৰভাৱশালী কৰি ৰাখে আৰু এক ভুল ধাৰণাত ধৰা পৰাৰ পৰা আঁতৰি থাকে যি ইয়াক পঢ়াৰ যোগ্য কৰে তোলে আৰু তাইৰ দৃষ্টিভংগীক বৈধ কৰে তোলে।",
+        "নিবন্ধটি \"পৃথিৱীত জীৱনৰ ইতিহাস জীৱিত বস্তু আৰু তেওঁলোকৰ চৌপাশৰ মাজত এক পাৰস্পৰিক ক্ৰিয়া\" (কাৰ্চন, পৃ. ৫৭) বিবৃতিৰে আৰম্ভ হয়। আনহাতে, ইয়াক \"সহ্য কৰাৰ বাধ্যবাধকতাই আমাক জানিবলৈ অধিকাৰ দিয়ে\" (কাৰ্চন, পৃ. ৬) বাক্যটোৰে সমাপ্ত কৰে। এইবোৰ ভাল বিবৃতি যি পাঠকক কি আশা কৰিব পাৰি তাৰ এক ধাৰণা দিয়ে। অৱশ্যে, এনে সময় আছিল যেতিয়া লেখকে তেওঁৰ মতামতক তথ্যৰে সমৰ্থন কৰিছিল যি অগত্যা তথ্যপূৰ্ণ নাছিল।",
+        "এশ্লে ডীমাৰ। ইষ্টাৰ্ণ গেটৱে' কমিউনিটি কলেজ। সাৰাংশ। তলৰ পৃষ্ঠাসমূহত পাঠকে ৰেচেল কাৰ্চনৰ \"দ্য অব্লিগেশ্যন টু এণ্ডুৰ\"ৰ এক লিখিত আলংকাৰিক বিশ্লেষণ পাব। তলৰ বিশ্লেষণটোত কাৰ্চনৰ গ্ৰন্থ চাইলেণ্ট স্প্ৰিংৰ দ্বিতীয় অধ্যায় জড়িত আৰু ইয়াক ১৯৬২ চনত পূৰ্বতে লিখা হৈছিল।",
+        "ৰেচেল কাৰ্চনৰ দ্য অ'ব্লিগেশ্যন টু এণ্ডিউৰ নামৰ প্ৰবন্ধটোত ৰেচেল কাৰ্চনে পৰিৱেশত ৰাসায়নিক, কীটনাশক, গছনাশক আৰু সাৰৰ ক্ষতিকাৰক ব্যৱহাৰৰ বিষয়ে এক অতি প্ৰভাৱশালী যুক্তি দাঙি ধৰিছে।",
+        "কাৰ্চনে বিশ্বাস কৰে যে মানুহে অবাঞ্চিত পোক-পতংগ আৰু আগাছা নিৰ্মূল কৰিবলৈ চেষ্টা কৰাৰ সময়ত তেওঁ প্ৰকৃততে পৰিৱেশ প্ৰদূষিত কৰি আন সমস্যাৰ সৃষ্টি কৰিছে, উদাহৰণস্বৰূপে, ডিডিটিৰ দ্বাৰা আৰু জীৱিত বস্তুক ক্ষতি কৰি। কাৰ্চনে লগতে কয় যে কৃষিৰ তীব্ৰতাৰ ফলত অন্যান্য গুৰুতৰ সমস্যাৰ সৃষ্টি হৈছে, যেনে নতুনকৈ বিকশিত বা সৃষ্টি কৰা পোক-পতংগ আৰু ৰোগ।",
+        "ৰেচেল এল. কাৰ্চনৰ ১৯৬২ চনৰ কপিৰাইট \"দ্য অব্লিগেশ্যন টু এণ্ডুৰ\"।",
+        "ৰেচেল কাৰ্চনৰ \"দ্য অ'ব্লিগেশ্যন টু এণ্ডিউৰ\"ৰ পৰা লোৱা \"ছাইলেণ্ট স্প্ৰিং\" নামৰ এটা অংশত কাৰ্চনে কয় যে আমাৰ ওচৰত থকা কীটনাশক আৰু কীটনাশকবোৰ কেৱল পৰিৱেশৰ বাবেই নহয়, বহুত বেছি ক্ষতিকাৰক। ৰেচেল কাৰ্চন এগৰাকী লেখিকা যি পৰিৱেশৰ প্ৰতি আগ্ৰহী আৰু ইয়াৰ বাসিন্দাসকলৰ মঙ্গলৰ বিষয়ে চিন্তিত।",
+        "১ বিজ্ঞানৰ সীমাবদ্ধতা - সময়ৰ সৈতে পৃথিৱী সলনি হোৱাৰ লগে লগে বিজ্ঞানৰ অবজ্ঞা... অৱশ্যই এৰিষ্টটলে কৈছিল যে একমাত্ৰ এক ভৱিষ্যত নাই যি একটা কাৰণৰ দ্বাৰা নিৰ্ধাৰিত হয়। ২ এজন মানুহ এক অত্যন্ত ঠাণ্ডা পুৱাৰে ইউকনত ভ্ৰমণ কৰে এক খসখসীয়া... পাঠকে কেতিয়াবা মানুহৰ মনৰ ভিতৰৰ কাম-কাজৰ অন্তৰ্দৃষ্টি পায়।",
+        "ৰেচেল কাৰ্চনৰ জন্ম হৈছিল ১৯০৭ চনৰ ২৭ মে'ত পেনছিলভেনিয়াৰ স্প্ৰিংডেলৰ ওচৰৰ এখন পাৰিবাৰিক খেতিত, পিটছবাৰ্গৰ পৰা এলেগেনি নদীৰ ওপৰেৰে যোৱা ঠাইত। তেওঁ মাৰিয়া ফ্ৰেজিয়াৰ (মেকলিন) আৰু ৰবাৰ্ট ৱাৰ্ডেন কাৰ্চন নামৰ এজন বীমা বিক্ৰেতাৰ কন্যা আছিল। তেওঁ তেওঁৰ পৰিয়ালৰ ৬৫ একৰ (২৬ হেক্টৰ) খেতি অঞ্চলত বহুত সময় কটাইছিল।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "why did rachel carson write an obligation to endure",
+    "Eng_Answer": "Rachel Carson writes The Obligation to Endure because believes that as man tries to eliminate unwanted insects and weeds, however he is actually causing more problems by polluting the environment.",
+    "query": "ৰেচেল কাৰ্চনে কিয় এক বাধ্যবাধকতা সহ্য কৰিবলৈ লিখিছিল"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 90836,
+    "query_type": "ENTITY",
+    "passages": {
+      "English_passages": [
+        "Low Sodium Low Potassium Foods List. On this page we offer a searchable collection of nutritional data on thousands of foods for healthy diet. Healthy eating is not only beneficial to weight loss, but will obviously improve your health.",
+        "Alleviation of High Blood Pressure (Hypertension) - Studies show that a diet high in potassium, especially potassium from fruits and vegetables, lowers blood pressure. This is especially true if the increase in potassium foods is not accompanied by an increase in high sodium foods.",
+        "High potassium foods include beans, dark leafy greens, potatoes, squash, yogurt, fish, avocados, mushrooms, and bananas. The current daily value for potassium is 3,500 milligrams (mg).",
+        "That is because the kidneys regulate potassium. If they aren’t working correctly, the potassium may not be flushed out of the body properly. To minimize potassium buildup, a person with chronic kidney disease should stick to a low-potassium diet of between 1,500 and 2,000 milligrams (mg) per day. Limiting phosphorus, sodium, and fluids may also be important for people with kidney dysfunction.",
+        "Watch portions on all foods. Be careful with coffee. The National Kidney Foundation recommends that people who should limit their potassium should limit their coffee in take to 1 cup per day. There are still plenty of nutritious, delicious, low-potassium options for people with kidney disease, Armul says.",
+        "Food Sources of Potassium. Food Sources of Potassium ranked by milligrams of potassium per standard amount, also showing calories in the standard amount. (The AI for adults is 4,700 mg/day potassium.) Food, Standard Amount Potassium (mg) Calories. Sweetpotato, baked, 1 potato (146 g) 694 131. Tomato paste, 1/4 cup 664 54.",
+        "It is important for disease prevention such as: diabetes, heart disease, high cholesterol, anemia, high blood pressure, and cancer. All the nutritional data of foods is based on the U.S. Department of Agriculture database for standard reference SR22.",
+        "Below is a list of high potassium foods ranked by common serving sizes, for more see the lists of high potassium foods by nutrient density, potassium rich foods, fruits high in potassium, and vegetables high in potassium.",
+        "LOW POTASSIUM DIET. INTRODUCTION. Potassium is a mineral that the body needs for normal cell and muscle function. When blood. levels of potassium are too high, heart contractions can be affected. Dietary intake is the main. source of potassium for the body. This diet limits potassium intake to less than 60 mmol per. day. AIMS.",
+        "High-Fiber means 5 grams or more fiber per serving. A food must have less than 5g of sugar (natural or added) per 100g or 2.5g of sugar per 100mls to be a low sugar food. Sugar-free means less than 0.5g of sugar per 100g or per 100ml."
+      ],
+      "Translated_passages": [
+        "কম ছ'ডিয়াম কম পটাছিয়াম খাদ্য তালিকা। এই পৃষ্ঠাত আমি স্বাস্থ্যকৰ আহাৰৰ বাবে হাজাৰ হাজাৰ খাদ্যৰ পুষ্টিগত তথ্যৰ এক সন্ধানযোগ্য সংগ্ৰহ আগবঢ়াইছোঁ। স্বাস্থ্যকৰ খাদ্য গ্ৰহণ কেৱল ওজন হ্ৰাসৰ বাবেই উপকাৰী নহয়, স্পষ্টতই আপোনাৰ স্বাস্থ্যও উন্নত কৰিব।",
+        "উচ্চ ৰক্তচাপ (হাইপাৰটেনচন)ৰ উপশম - অধ্যয়নসমূহে দেখুৱাইছে যে পটাছিয়াম বেছি থকা আহাৰ, বিশেষকৈ ফল আৰু শাক-পাচলিৰ পৰা পটাছিয়াম থকা খাদ্যই ৰক্তচাপ কমায়। এইটো বিশেষভাৱে সত্য যদি পটাছিয়াম যুক্ত খাদ্যৰ বৃদ্ধিৰ সৈতে উচ্চ ছ'ডিয়াম যুক্ত খাদ্যৰ বৃদ্ধি নহয়।",
+        "পটেছিয়াম যুক্ত খাদ্যসমূহৰ ভিতৰত আছে মটৰমাহ, ডাৰ্ক লীফী শাক-পাত, আলু, স্কোৱাশ্ব, দই, মাছ, এভোকাডো, কাঠফুলা আৰু কল। পটেছিয়ামৰ বৰ্তমানৰ দৈনিক মূল্য ৩,৫০০ মিলিগ্ৰাম (মিলিগ্ৰাম)।",
+        "ইয়াৰ কাৰণ হৈছে বৃক্কই পটাছিয়াম নিয়ন্ত্ৰণ কৰে। যদি সেইবোৰ সঠিকভাৱে কাম নকৰে, তেন্তে পটাছিয়াম শৰীৰৰ পৰা সঠিকভাৱে বাহিৰ হৈ নাযাব পাৰে। পটাছিয়াম বৃদ্ধি কমাবলৈ দীৰ্ঘস্থায়ী বৃক্কৰ ৰোগ থকা ব্যক্তিয়ে দিনে ১,৫০০ ৰ পৰা ২,০০০ মিলিগ্ৰাম (মিলিগ্ৰাম) পৰ্যন্ত কম পটাছিয়াম থকা আহাৰ গ্ৰহণ কৰিব লাগে। ফছফৰাছ, ছ'ডিয়াম আৰু তৰল পদাৰ্থৰ পৰিমাণ সীমিত কৰাটোও বৃক্কৰ ৰোগ থকা লোকৰ বাবে গুৰুত্বপূৰ্ণ হ'ব পাৰে।",
+        "সকলো খাদ্যৰ অংশবিশেষ চাওক। কফিৰ ক্ষেত্ৰত সাৱধান হওক। নেশ্যনেল কিডনী ফাউণ্ডেশ্যনে পৰামৰ্শ দিয়ে যে যিসকল লোকে তেওঁলোকৰ পটাছিয়াম সীমিত কৰিব লাগে তেওঁলোকে দিনে ১ কাপ কফি খাব লাগে। বৃক্কৰ ৰোগ থকা লোকসকলৰ বাবে এতিয়াও পুষ্টিকৰ, সুস্বাদু, কম পটাছিয়াম থকা বিকল্প প্ৰচুৰ আছে বুলি আৰ্মুলে কয়।",
+        "পটাশিয়ামৰ খাদ্য উৎস। পটাশিয়ামৰ খাদ্য উৎস প্ৰতি মানক পৰিমাণত মিলিগ্ৰাম অনুসৰি স্থান দিয়া হৈছে, য'ত মানক পৰিমাণত কেলৰি দেখুওৱা হৈছে। (প্ৰাপ্তবয়স্কৰ বাবে এআই হৈছে ৪,৭০০ মিলিগ্ৰাম/দিন পটাশিয়াম।) খাদ্য, মানক পৰিমাণ পটাশিয়াম (মিলিগ্ৰাম) কেলৰি। মিঠা আলু, বেক কৰা, ১ আলু (১৪৬ গ্ৰাম) ৬৯৪ ১৩১। টমেটো পেষ্ট, ১/৪ কাপ ৬৬৪ ৫৪।",
+        "ডায়েবেটিছ, হৃদৰোগ, উচ্চ কলেষ্টেৰল, ৰক্তাল্পতা, উচ্চ ৰক্তচাপ আৰু কৰ্কট ৰোগৰ দৰে ৰোগ প্ৰতিৰোধৰ বাবে ই গুৰুত্বপূৰ্ণ। খাদ্যৰ সকলো পুষ্টিগত তথ্য মানক তথ্য এছআৰ২২ৰ বাবে ইউ.এছ. কৃষি বিভাগৰ ডাটাবেছৰ ওপৰত আধাৰিত।",
+        "তলত সাধাৰণভাৱে পৰিবেশন কৰা আকাৰ অনুসৰি পটাছিয়াম যুক্ত খাদ্যৰ এখন তালিকা দিয়া হৈছে, বেছি তথ্যৰ বাবে পুষ্টিৰ ঘনত্ব, পটাছিয়াম সমৃদ্ধ খাদ্য, পটাছিয়াম যুক্ত ফল আৰু পটাছিয়াম যুক্ত শাক-পাচলিৰ তালিকা চাওক।",
+        "প'টেছিয়াম ডাইট. পৰিচয়. প'টেছিয়াম হৈছে এক খনিজ যি শৰীৰক স্বাভাৱিক কোষ আৰু পেশীৰ কাৰ্যকলাপৰ বাবে প্ৰয়োজন৷ যেতিয়া ৰক্তত প'টেছিয়ামৰ মাত্ৰা বেছি হয়, হৃদয়ৰ সংকোচন প্ৰভাৱিত হ'ব পাৰে। খাদ্য গ্ৰহণ হৈছে শৰীৰৰ বাবে প'টেছিয়ামৰ মুখ্য উৎস। এই খাদ্যই প'টেছিয়াম গ্ৰহণক দিনে ৬০ মিমি অল তকৈ কমলৈ সীমিত কৰে।",
+        "হাই-ফাইবাৰৰ অৰ্থ হৈছে প্ৰতি পৰিমাণত ৫ গ্ৰাম বা তাতকৈ অধিক ফাইবাৰ। এবিধ খাদ্যত কম চেনি (প্ৰাকৃতিক বা যোগ কৰা) প্ৰতি ১০০ গ্ৰাম বা প্ৰতি ১০০ মিলিলিটাৰত ২.৫ গ্ৰাম চেনি থাকিব লাগে। চেনি-মুক্ত মানে হৈছে প্ৰতি ১০০ গ্ৰাম বা প্ৰতি ১০০ মিলিলিটাৰত ০.৫ গ্ৰামতকৈ কম চেনি।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "chart for foods low in potassium.",
+    "Eng_Answer": "No Answer Present.",
+    "query": "পটাছিয়াম কম থকা খাদ্যৰ তালিকা।"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 55665,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "Take advantage of great opportunities that regularly present themselves through Shipned. Besides flat bottom tankers you will find anything from river barges to ferries, tankers, chemical oil tankers, or dry cargo vessels. Be the first to know. Be the first to know when new flat bottom tankers enter our stock. Subscribe yourself to our mailing list so that you are notified of our new arrivals. Shipned has been active as an international ship trader since 1984, offering both river and sea vessels and other maritime projects such as yachts.",
+        "Bilge ----Curved section between the bottom and. the side of a ship; the recess into which all water. drains. Bilge Blocks ----Supporting blocks used under. bilge for support during construction or. drydocking. Bilge blocks supporting a vessel on a drydock.",
+        "Smithsonian divers explore the hull of a massive cargo ship for biological invasions of organisms that hitch a ride on the hull of the vessel. Biofilms are microorganisms that accumulate in layers on the ship's hull.",
+        "Smithsonian divers explore the hull of a massive cargo ship for biological invasions of organisms that hitch a ride on the hull of the vessel. (Photograph by Laurie Penland) Biofilms are microorganisms that accumulate in layers on the ship's hull.",
+        "Smithsonian photographer Laurie Penland details the exhausting, but rewarding, work of scraping invasive species off the hull of a boat. Bubbles from the divers' breathing aparatus collect on the belly of the ship. I am once again leaving my familiar world behind and descending into the abyss below.",
+        "As I descend from the water surface at the bow of the ship, a large grated hole opens up in front of me and reveals its enormous propellers. I swim closer to the grate to get a better view inside the tunnel containing the bow thrusters.",
+        "Access Holes---- Holes cut in ship's structure to. permit entering or leaving various. compartments. Accommodation Ladder---- A portable set of. steps on a ship's side for the accommodation of. people boarding from small boats or from a pier.",
+        "Take advantage of great opportunities that regularly present themselves through Shipned. Besides flat bottom tankers you will find anything from river barges to ferries, tankers, chemical oil tankers, or dry cargo vessels. Be the first to know when new flat bottom tankers enter our stock.",
+        "As I sink beneath the belly of a massive cargo ship, I glide my hand down the side of the vessel. The painted metal feels like smooth skin, but it is covered in a thin layer of brown biofilm, microbial life that clings to painted surfaces and is generally found covering the bottom of ships.",
+        "Amidships ----At or near the midship section of. the ship. Anchor---- A heavy hook-shaped device for. holding a ship at rest in water. The anchor grips. the ocean bottom and is fastened to the ship by a. chain. Angle Clip---- A short piece of angle bar. Angle Collar ----A ring made of angle bar. Anneal ----To soften metal by heating and. allowing it to cool slowly."
+      ],
+      "Translated_passages": [
+        "শ্বিপড মাধ্যমে নিয়মিতভাবে উপস্থিত হোৱা বিশাল সুযোগসমূহৰ সুবিধা লওক। ফ্লেট বটম টেংকাৰৰ উপৰিও আপুনি নদীৰ বাৰ্জ, ফেৰী, টেংকাৰ, ৰাসায়নিক তেলৰ টেংকাৰ বা শুকান কাৰ্গো জাহাজৰ দৰে যিকোনো বস্তু পাব। আমাৰ স্টকত নতুন ফ্লেট বটম টেংকাৰ প্ৰৱেশ কৰাৰ সময়ত প্ৰথমে জানক। আমাৰ মেইলিং তালিকাত নিজকে চাবস্ক্ৰাইব কৰক যাতে আমাৰ নতুন আগমনৰ বিষয়ে আপুনি অৱগত হয়। শ্বিপড ১৯৮৪ চনৰ পৰা আন্তঃৰাষ্ট্ৰীয় জাহাজ ব্যৱসায়ী হিচাপে সক্ৰিয় হৈ আছে, নদী আৰু সাগৰীয় জাহাজ আৰু ইয়টৰ দৰে অন্যান্য সামুদ্ৰিক প্ৰকল্প উভয়ই আগবঢ়াই আহিছে।",
+        "বিলগে- জাহাজৰ তল আৰু কাষৰ মাজৰ বাঁকা অংশ; যিটো খালী জাহাজখনৰ পানী পৰিষ্কাৰ কৰা ঠাই। বিলগে ব্লক - নিৰ্মাণ বা ড্ৰাইডকিং কৰাৰ সময়ত সহায়তাৰ বাবে ব্যৱহাৰ কৰা সমৰ্থনকাৰী ব্লক। বিলগে ব্লক যি এটা ড্ৰাইডকত এখন জাহাজক সমৰ্থন কৰে।",
+        "স্মিথছ’নিয়ান ডাইভাৰসকলে জীৱবিজ্ঞানীৰ আক্ৰমণৰ বাবে এখন বিশাল কাৰ্গো জাহাজৰ পাত্ৰটো অন্বেষণ কৰে যিয়ে জাহাজখনৰ পাত্ৰত উঠি থকা জীৱবিজ্ঞানীৰ আক্ৰমণ কৰে। বায়’ফিল্ম হৈছে অণুজীৱ যিয়ে জাহাজখনৰ পাত্ৰৰ ওপৰত স্তৰত জমা হয়।",
+        "স্মিথছ’নিয়ান ডাইভাৰসকলে জীৱ-জন্তুৰ জৈৱিক আক্ৰমণৰ বাবে এখন বিশাল কাৰ্গো জাহাজৰ পাত্ৰটো অন্বেষণ কৰে যিয়ে জাহাজখনৰ পাত্ৰত উঠি থাকে (ল’ৰী পেনলেণ্ডৰ ফটোগ্ৰাফ) বায়’ফিল্ম হৈছে সেই অণুজীৱ যিয়ে জাহাজখনৰ পাত্ৰৰ ওপৰত স্তৰত জমা হয়।",
+        "স্মিথছ’নিয়ান ফটোগ্ৰাফাৰ ল’ৰি পেনলেণ্ডে নাওখনৰ খোলাটোৰ পৰা আক্ৰমণাত্মক প্ৰজাতিবোৰ আঁতৰোৱাৰ ক্লান্তিকৰ কিন্তু পুৰস্কৃত কামৰ বিৱৰণ দিছে। ডাইভাৰসকলে সাঁতোৰৰ সময়ত জলত উঠা বুদবুদবোৰ জাহাজখনৰ পেটত জমা হয়। মই আকৌ মোৰ চিনাকি পৃথিৱীখন এৰি তলৰ অতল গভীৰতালৈ নামি আহিছোঁ।",
+        "জাহাজখনৰ ধনুকত থকা পানীৰ পৃষ্ঠৰ পৰা নামি অহাৰ লগে লগে মোৰ সন্মুখত এটা ডাঙৰ খহটা গাঁত মুকলি হৈ পৰে আৰু ইয়াৰ বিশাল প্ৰপেলাৰবোৰ দেখা পোৱা যায়। সুৰংগটোৰ ভিতৰত থকা ধনুকৰ থ্ৰাষ্টাৰবোৰ ভালদৰে দেখা পাবলৈ মই গ্ৰেটৰ ওচৰলৈ সাঁতুৰি যাওঁ।",
+        "প্ৰৱেশ গাঁত---- জাহাজৰ গঠনত কাটি উলিওৱা গাঁত যাতে বিভিন্ন কক্ষত প্ৰৱেশ বা প্ৰস্থান কৰিব পাৰি। থাকিবলৈ মই বা এটা ঘাটৰ পৰা ওপৰলৈ উঠা মানুহক থাকিবলৈ এটা জাহাজৰ কাষত থকা সিঁড়িৰ এটা বহনযোগ্য সেট।",
+        "শ্বিপডৰ জৰিয়তে নিয়মীয়াকৈ দেখা দিয়া ভাল সুযোগসমূহৰ সুবিধা লওক। ফ্লেট বটম টেংকাৰৰ উপৰিও আপুনি নদীৰ বাৰ্জ, ফেৰী, টেংকাৰ, ৰাসায়নিক তেলৰ টেংকাৰ বা শুকান কাৰ্গো জাহাজৰ দৰে যিকোনো বস্তু বিচাৰি পাব। আমাৰ মজুতত নতুন ফ্লেট বটম টেংকাৰ প্ৰৱেশ কৰাৰ সময়ত প্ৰথমে জানক।",
+        "যেতিয়া মই এখন বিশাল কাৰ্গো জাহাজৰ পেটৰ তলত ডুব যাওঁ, মই মোৰ হাতখন জাহাজখনৰ কাষত লৈ গলি যাওঁ। এই ৰং কৰা ধাতুখন মসৃণ ছালৰ দৰে লাগে, কিন্তু ইয়াক মৃদু বাদামী ৰঙৰ জৈৱপটিৰ এটা পাতল আৱৰণেৰে আবৃত কৰি ৰাখে, যি সাধাৰণতে জাহাজৰ তলত পোৱা যায়।",
+        "মধ্যবিন্দু অংশত বা জাহাজটোৰ মধ্যবিন্দু অংশৰ ওচৰত নোঙৰ: এটা ভাৰী হুক-আকৃতিৰ যন্ত্ৰ যাৰ সহায়ত জাহাজখন পানীত স্থিৰ হৈ থাকে। নোঙৰটো সাগৰৰ তলত ধৰি ৰাখে আৰু এডাল শৃংখলেৰে জাহাজখনত বান্ধি ৰাখে। কোণ ক্লিপ: এডাল চুটি কোণ বাৰ। কোণ কলাৰ: কোণ বাৰেৰে তৈয়াৰ কৰা এটা আংটি। এনিয়েল: ধাতুক গৰম কৰি আৰু ধীৰে ধীৰে ঠাণ্ডা কৰি নৰম কৰা।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "bottom front of a cargo ship",
+    "Eng_Answer": "No Answer Present.",
+    "query": "কাৰ্গো জাহাজ এখনৰ তল প্ৰথম ভাগ"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "সততা: সততাৰ অৱস্থা। \nসততাৰ সৈতে সম্পৰ্কিত বা তাৰ উপৰিও এজন ব্যক্তিৰ মূল্য আৰু নৈতিকতা।",
+    "query_id": 205107,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "Integrity is about conduct; honesty is about adherence to the facts. The person who without fail submits his timesheet every week, seeking clarification if unsure how to charge some time, is acting with integrity. He is probably also acting with honesty, ensuring that the numbers he reports are correct.",
+        "1 He should be ​ praised for his honesty. 2  And the ​ moral of the ​ story is that honesty is always the ​ best ​ policy. 3  I have no ​ reason to ​ doubt her honesty, it's just that I can't ​ understand how it ​ happened.",
+        "honesty. n, pl-ties. 1. the condition of being honest. 2. sincerity or fairness. 3. virtue or respect.",
+        "1 And the ​ moral of the ​ story is that honesty is always the ​ best ​ policy. 2  I have no ​ reason to ​ doubt her honesty, it's just that I can't ​ understand how it ​ happened. 3  Well, I don't ​ want to ​ offend anyone but, in all honesty, I do have some ​ criticisms to make.",
+        "hence, a white lie in some cases, is a result of integrity. integrity is the value and morals of a individual in relation or in addition to honesty. honestly is frankness and as the other guy said, adherence to facts.",
+        "The Wikipedia page about integrity is useful here. It defines the word this way: a concept of consistency of actions, values, methods, measures, principles, expectations, and outcomes. In ethics, integrity is regarded as the honesty and truthfulness or accuracy of one's actions.",
+        "1 She ​ spoke with ​ brutal honesty-I was too ​ old for the ​ job. 2  He should be ​ praised for his honesty. 3  And the ​ moral of the ​ story is that honesty is always the ​ best ​ policy. 4  I have no ​ reason to ​ doubt her honesty, it's just that I can't ​ understand how it ​ happened.",
+        "honesty noun [U]. B2 the ​quality of being ​honest: I ​appreciate ​your honesty. I must ​tell you in all honesty (= truthfully and ​hiding nothing) that there is little ​chance of the ​proposal being ​approved. More examples. 1  She ​ spoke with ​ brutal honesty-I was too ​ old for the ​ job. 2  He should be ​ praised for his honesty.",
+        "honesty. 1. The quality of being honest: honor, honorableness, incorruptibility, integrity, upstandingness. 2.",
+        "1 Honesty is a compulsion swinging a heavy sword like loving —Marge Piercy. 2  Honesty is like an icicle; if once it melts that is the end of it —Anon. 3  Incorruptible as a statue —Jean Garrigue. 4  Law-abiding as a cow —G."
+      ],
+      "Translated_passages": [
+        "সততা হৈছে আচৰণৰ বিষয়ে; সততা হৈছে তথ্যসমূহৰ প্ৰতি আনুগত্যৰ বিষয়ে। যিজন ব্যক্তিয়ে প্ৰতি সপ্তাহত তেওঁৰ টাইমশ্বীট নিঃসন্দেহে জমা দিয়ে, কিছু সময় কেনেকৈ ল’ব লাগে সেই বিষয়ে নিশ্চিত নহ’লে স্পষ্টীকৰণ বিচাৰি, তেওঁ সততাৰে কাম কৰি আছে। তেওঁ সম্ভৱতঃ সততাৰেও কাম কৰি আছে, তেওঁ প্ৰতিবেদন কৰা সংখ্যাবোৰ সঠিক তাৰ নিশ্চিতি দি আছে।",
+        "১ তেওঁৰ সততাক প্ৰশংসা কৰা উচিত। ২ আৰু কাহিনীটোৰ নৈতিকতা হৈছে যে সততা সদায় সৰ্বোত্তম নীতি। ৩ মোৰ তেওঁৰ সততাক সন্দেহ কৰাৰ কোনো কাৰণ নাই, ইয়াৰ কাৰণ হৈছে মই বুজি নাপাও যে ইয়াক কেনেকৈ ঘটিল।",
+        "সততা. এন, প্ল-টাইজ। ১. সৎ হোৱাৰ অৱস্থা। ২. আন্তৰিকতা বা নিৰপেক্ষতা। ৩. গুণ বা সন্মান।",
+        "আৰু কাহিনীটোৰ নৈতিকতা হৈছে যে সততা সদায় সৰ্বোত্তম নীতি। ২ মোৰ তাইৰ সততাক সন্দেহ কৰাৰ কোনো কাৰণ নাই, ইয়াৰ কাৰণ মাত্ৰ মই বুজি নাপাও যে ইয়াক কেনেকৈ ঘটিল। ৩ মই কাকো আঘাত কৰিব নিবিচাৰো, কিন্তু সততাৰ সৈতে, মোৰ কিছু সমালোচনা কৰাৰ আছে।",
+        "সেয়েহে, কিছুমান ক্ষেত্ৰত এটা বগা মিছা কথা হৈছে সততাৰ ফলাফল। সততা হৈছে সততাৰ লগতে সম্পৰ্কিত বা অতিৰিক্ত এজন ব্যক্তিৰ মূল্য আৰু নৈতিকতা। সততা হৈছে স্পষ্টতা আৰু আনজনে কোৱাৰ দৰে, তথ্যৰ প্ৰতি অনুগত হোৱা।",
+        "সততা সম্পৰ্কীয় ৱিকিপিডিয়া পৃষ্ঠাটো ইয়াত উপযোগী। ইয়াত এই শব্দটোক এনেদৰে সংজ্ঞায়িত কৰা হৈছে: কাৰ্য্য, মূল্য, পদ্ধতি, পৰিমাপ, নীতি, প্ৰত্যাশা আৰু ফলাফলৰ সামঞ্জস্যৰ এক ধাৰণা। নৈতিকতাত সততাক এজন ব্যক্তিৰ কাৰ্য্যৰ সততা আৰু সত্যতা বা নিৰ্ভুলতা হিচাপে গণ্য কৰা হয়।",
+        "১. তেওঁ নিষ্ঠাৰে কথা কৈছিল - মই চাকৰিৰ বাবে বহুত বুঢ়া আছিলো। ২. তেওঁৰ নিষ্ঠাৰ বাবে তেওঁক প্ৰশংসা কৰা উচিত। ৩. আৰু কাহিনীটোৰ নৈতিকতা হৈছে যে নিষ্ঠা সদায় সৰ্বোত্তম নীতি। ৪. মোৰ তেওঁৰ নিষ্ঠাৰ ওপৰ সন্দেহ কৰাৰ কোনো কাৰণ নাই, কাৰণ মই বুজি নাপাও যে এইটো কেনেকৈ ঘটিল।",
+        "সততা বিশেষ্য [ইউ]। বি২ সততাৰ গুণমান: মই তোমাৰ সততাক প্ৰশংসা কৰোঁ। মই তোমাক সম্পূৰ্ণ সততাৰে (সত্যভাৱে আৰু কিছুই লুকুৱাই ৰাখি) ক'ব লাগিব যে প্ৰস্তাৱটো অনুমোদিত হোৱাৰ সম্ভাৱনা কম। আৰু উদাহৰণ। ১ তাই নিষ্ঠুৰভাৱে কথা কৈছিল-মই চাকৰিৰ বাবে বহুত বুঢ়া আছিলোঁ। ২ তেওঁৰ সততাৰ বাবে তেওঁক প্ৰশংসা কৰা উচিত।",
+        "সততাৰ গুণমান: সততা, সন্মান, অপৰিবৰ্তনীয়তা, সততা, অপৰিবর্তনীয়তা।",
+        "১ সততা হল একটি ভাৰী তৰোৱাল ঘূৰ্ণায়মান কৰাৰ এক বাধ্যবাধকতা যেনে প্ৰেম - মাৰ্জ পিয়াৰ্চি। ২ সততা একটি বৰফৰ টুকুৰাৰ দৰে; যদি এবাৰ ই গলে তেন্তে ইয়াৰ অন্ত পৰে - এনন। ৩ একটি ভাস্কৰ্য হিচাপে অপৰিবৰ্তনীয় - জিন গেৰিগ। ৪ একটি গৰু হিচাপে আইন মানি চলা - জি।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "honesty or integrity definition",
+    "Eng_Answer": "Honesty: The condition of being honest. \nIntegrity: The value and morals of a individual in relation or in addition to honesty.",
+    "query": "সততা বা সততার সংজ্ঞা"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 1060386,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "When the air pressure rises, it pushes the mercury higher. When the air pressure drops, so does the mercury level.. Atmospheric pressure can also be measured in millibars (mb), with a bar being roughly equivalent to one atmosphere of pressure (one atmosphere equals 1.01325 bars). One bar is equivalent to 29.6 in. Hg.A barometer reading of 30 inches (Hg) is considered normal.",
+        "third one is the methane emission we measured at Bluff Road Landfill near Lincoln, Nebraska; the fourth. I will present some of the results, and to show how pressure changing regulates the methane emission; and at the end I will discuss some of the implications from our results.",
+        "Liukang Xu, Xiaomao Lin, Jim Amen, Dayle McDermitt LI-COR Biosciences, Lincoln NE 68504 USA. Karla Welding. City of Lincoln, Lincoln NE 68517 USA. Impact of Changes in Barometric . Pressure on Landfill Methane Emission",
+        "Omaha, NE current local weather conditions, 5-Day forecast, and live traffic updates. Omaha report includes detailed weather summary.",
+        "Thanks, Ashlee, and I am glad to be here to discuss the research results we obtained two years ago; and. the title of my Webinar is: “ Impact of Changing the Barometric Pressure on the Landfill Methane. Emissions”. And, I want to say thank you for my colleagues: Jim Amen, Xiaomao Lin, and, also, Karla. Welding, she is superintendent at the landfill in Lincoln, Nebraska.",
+        "Atmospheric pressure. Atmospheric pressure, sometimes also called barometric pressure, is the pressure within the atmosphere of Earth (or that of another planet). In most circumstances atmospheric pressure is closely approximated by the hydrostatic pressure caused by the weight of air above the measurement point.",
+        "Regional Current Barometric Pressure Maps: Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon",
+        "© 2017, Southeast Lincoln Weather | Weather-Display (10.37S-(b56)) | Valid XHTML 1.0 | Valid CSS. This website is neither affiliated with nor endorsed by the National Weather Service or any other government agency. The weather data contained herein is offered without any warranties express or implied, and is meant to only supplement, not replace, official NWS weather forecasts and information.",
+        "4 emissions on changes in barometric pressure • Increasing pressure suppresses the emission • Decreasing pressure enhances the emission 2. Large day-to-day variation of methane emissions due to changes in barometric pressure. 3. Must have continuous measurements in order to get the total methane emission of landfill. 4.",
+        "© 2018, Southeast Lincoln Weather | Weather-Display (10.37S-(b66)) | Valid XHTML 1.0 | Valid CSS This website is neither affiliated with nor endorsed by the National Weather Service or any other government agency."
+      ],
+      "Translated_passages": [
+        "যেতিয়া বায়ুৰ চাপ বৃদ্ধি পায়, ই পাৰা উচ্চতালৈ ঠেলি দিয়ে। যেতিয়া বায়ুৰ চাপ হ্ৰাস পায়, তেতিয়া পাৰাৰ স্তৰও হ্ৰাস পায়। বায়ুমণ্ডলীয় চাপ মিলিবাৰ (এমবি)ত পৰিমাপ কৰিব পাৰি, য'ত এটা বাৰ প্ৰায় এক বায়ুমণ্ডলীয় চাপৰ সমান (এক বায়ুমণ্ডলীয় চাপ ১.০১৩২৫ বাৰৰ সমান)। এক বাৰ হৈছে ২৯.৬ ইঞ্চি সমান। এক বেৰোমিটাৰৰ পঠন ৩০ ইঞ্চি (এইচজি) স্বাভাৱিক বুলি বিবেচিত হয়।",
+        "তৃতীয়টো হৈছে নেব্ৰাস্কাৰ লিংকনৰ ওচৰৰ ব্লাফ ৰোড লেণ্ডফিলত আমি পৰিমাপ কৰা মিথেন নিৰ্গমন; চতুৰ্থটো হৈছে কিছুমান ফলাফল উপস্থাপন কৰা, আৰু চাপ সলনি কৰিলে মিথেন নিৰ্গমন কেনেকৈ নিয়ন্ত্ৰণ কৰে তা দেখুৱাবলৈ; আৰু শেষত আমাৰ ফলাফলৰ কিছুমান প্রভাৱ আলোচনা কৰিম।",
+        "লিউকাং জু, জিয়াওমাও লিন, জিম আমেন, ডেইল মেকডাৰমিট এলআই-চিঅ'আৰ বায়োচায়েন্সেছ, লিংকন এনই 68504 ইউএছএ। কাৰ্লা ৱেল্ডিং। লিংকন এনই 68517 ইউএছএ। বেৰোমেট্ৰিক চাপৰ পৰিৱৰ্তনৰ প্ৰভাৱ লেণ্ডফিল মিথেন নিৰ্গমনৰ ওপৰত",
+        "ওমাহা, এনই বৰ্তমানৰ স্থানীয় বতৰৰ পৰিস্থিতি, ৫-দিনৰ পূৰ্বাভাস আৰু লাইভ যান-জঁটৰ আপডেট। ওমাহা ৰিপৰ্টত বিশদ বতৰৰ সাৰাংশ অন্তৰ্ভুক্ত কৰা হৈছে।",
+        "ধন্যবাদ, এশ্লী, আৰু মই দুবছৰ আগতে আমি পোৱা গৱেষণাৰ ফলাফলসমূহ আলোচনা কৰিবলৈ ইয়াত থাকি আনন্দিত; আৰু, মোৰ ৱেবিনাৰৰ শিৰোনাম হৈছে: \"লেণ্ডফিল মিথেনৰ ওপৰত বেৰ'মেট্ৰিক চাপ সলনি কৰাৰ প্ৰভাৱ। নিৰ্গমন\"। আৰু, মই মোৰ সহকৰ্মীসকলক ধন্যবাদ জনাব বিচাৰোঁ: জিম আমেন, জিয়াওমাও লিন, আৰু, কাৰ্লা। ৱেল্ডিং, তেওঁ লিংকন, নেব্ৰাস্কাৰ লেণ্ডফিলত চুপাৰিণ্টেণ্ডেণ্ট।",
+        "বায়ুমণ্ডলীয় চাপ, যাক কেতিয়াবা বেৰ'মেট্ৰিক চাপ বুলিও কোৱা হয়, পৃথিৱীৰ বায়ুমণ্ডলৰ ভিতৰৰ চাপ (বা আন এটা গ্ৰহৰ)। বেছিভাগ পৰিস্থিতিতে বায়ুমণ্ডলীয় চাপ পৰিমাপ কৰা বিন্দুৰ ওপৰত বায়ুৰ ওজনৰ ফলত হোৱা হাইড্ৰ'ষ্টেটিক চাপৰ দ্বাৰা ওচৰে-ওচৰে আনুমানিক হয়।",
+        "আঞ্চলিক বৰ্তমান বেৰ'মেট্ৰিক চাপ মানচিত্ৰ: আলাবামা আলাস্কা আৰিজোনা আৰ্কানছাছ কেলিফৰ্ণিয়া কলৰাডো কানেক্টিকাট ডেলাৱেৰ ফ্ল'ৰিডা জৰ্জিয়া হাৱাই আইডাহো ইলিনয় কানছাছ কেন্টাকি লুইজিয়ানা মেইন মেৰিলেণ্ড মেছাচুছেটছ মিনেছোটা মিছিছিপি মন্টানা নেভাডা নিউ হেম্পশায়াৰ নিউ জাৰ্চি নিউ মেক্সিকো নিউ ইয়ৰ্ক নৰ্থ কেৰোলিনা নৰ্থ ডাকোটা ওহাইঅ' অৰেগন।",
+        "২০১৭ চনৰ দক্ষিণ-পূব লিংকন বতৰ | বতৰ-প্রদর্শন (১০.৩৭S-(b56)) | বৈধ XHTML ১.০ | বৈধ CSS। এই ৱেবছাইটটি নেশ্যনেল ৱেদাৰ ছাৰ্ভিচ বা অন্য কোনো চৰকাৰী সংস্থাৰ সৈতে সংযুক্ত বা অনুমোদিত নহয়। ইয়াত থকা বতৰৰ তথ্য কোনো ওয়াৰেণ্টি বা বোঝাই নহয়, আৰু ইয়াৰ উদ্দেশ্য হৈছে কেৱল আনুষ্ঠানিক NWS বতৰৰ পূৰ্বাভাস আৰু তথ্যৰ পৰিপূৰক হিচাপে ব্যৱহাৰ কৰা, প্ৰতিস্থাপন কৰা নহয়।",
+        "বেৰ'মেট্ৰিক চাপৰ পৰিবৰ্তনৰ সময়ত ৪ উৎসৰণ • বৃদ্ধি পাই থকা চাপে উৎসৰণক দমন কৰে • হ্ৰাস পাই থকা চাপে উৎসৰণক বৃদ্ধি কৰে ২. বেৰ'মেট্ৰিক চাপৰ পৰিবৰ্তনৰ ফলত মিথেন উৎসৰণৰ দৈনন্দিন পৰিবৰ্তন বৃহৎ। ৩. লেণ্ডফিলৰ মুঠ মিথেন উৎসৰণ পাবলৈ অবিৰত পৰিমাপ কৰা আৱশ্যক। ৪.",
+        "2018 চনৰ দক্ষিণ-পূব লিংকন বতৰ | বতৰ-প্ৰদৰ্শন (10.37S-(b66)) | বৈধ XHTML 1.0 | বৈধ চিএছএছ এই ৱেবছাইটটো নেশ্যনেল ৱেদাৰ ছাৰ্ভিচ বা অন্য কোনো চৰকাৰী সংস্থাৰ সৈতে সংযুক্ত বা অনুমোদিত নহয়।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "what is barometric pressure in lincoln ne now?",
+    "Eng_Answer": "No Answer Present.",
+    "query": "লিংকন নিউত এতিয়া বেৰ'মেট্ৰিক চাপ কিমান?"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 1090356,
+    "query_type": "NUMERIC",
+    "passages": {
+      "English_passages": [
+        "SAVE SCHOOL. 1  Struthers Elementary School serves 697 students in grades PK-4. 2  Minority enrollment is 20% of the student body (majority Hispanic), which is less than the state average of 28%. 3  Struthers Elementary School operates within the Struthers City School District. School Overview The student population of 697 students has stayed relatively flat over five years.",
+        "Struthers High School Seniors - Apply for the New $8,000 Scholarship The Guidance Department at Struthers High School announces a new $8,000 scholarship available to one graduating senior. The Otis R. Heldman Sr. and Jr. Scholar-Athlete Awards and Scholarship recognizes achievement in both academics and sports over four years.",
+        "Struthers High School Hall of Fame Weekend. 1  Vince Casey - Class of 1974 - Baseball. 2  Kathy Prest - Class of 1977 - Basketball. 3  John Mikulas - Class of 1992 - Football & Baseball. 4  Tina Palumbo - Class of 2001 - Softball. 5  Jacquie Trevis - Class of 2003 - Track & Field. 6  2004 Men’s 4x100 Relay Team: Ty Campana - Class of 2005.",
+        "Congratulations to Struthers High School’s newspaper, The Student Prints, for winning Best Newspaper at Youngstown State University's Annual Press Day on May 15th! Approximately 35 SHS students, along with teacher Stephanie Muntean, attended Press Day.",
+        "Discover all the facts about Struthers High School and its 567 students, including 8 ratings & reviews; view test scores and nearby houses.",
+        "Struthers City School District's student population of 1,923 students has stayed relatively flat over five years. The revenue/student of $10,998 in this district is less than the state average of $12,824. The district revenue/student has grown by 16% over four years.",
+        "Struthers High School in Youngstown, Ohio was selected as a School of Promise in reading and mathematics for the 2004-2005 academic year. Table 1 summarizes the characteristics for Struthers High School and the Struthers City School District. Table 1. School and district characteristics Struthers High School 2004-2005 Struthers City School",
+        "Struthers City School District is located in east Ohio. Struthers City School District has 5.19 square miles of land area and 0.19 square miles of water area. As of 2010-2014, the total Struthers City School District population is 11,533. Struthers City School District median household income is $37,460 in 2010-2014. Struthers City School District median house value is $72,900 in 2010-2014. On average, Struthers City School District is close to the state average in quality.",
+        "Struthers City School District is an elementary and secondary school located in Struthers, Ohio. View phone number, website, employees, products, revenue, and more.",
+        "Struthers, OH Struthers City School District. About Search Results. YP - The Real Yellow PagesSM - helps you find the right local businesses to meet your specific needs. Search results are sorted by a combination of factors to give you a set of choices in response to your search criteria."
+      ],
+      "Translated_passages": [
+        "সংৰক্ষিত বিদ্যালয়: ১ ষ্ট্ৰুথাৰ্ছ প্ৰাথমিক বিদ্যালয়ে পিকে-৪ শ্ৰেণীৰ ৬৯৭ জন ছাত্ৰ-ছাত্ৰীক সেৱা আগবঢ়ায়। ২ সংখ্যালঘু নামভৰ্তি হৈছে ছাত্ৰ-ছাত্ৰীৰ মুঠ সংখ্যাৰ ২০%, যি ৰাজ্যিক গড় ২৮%তকৈ কম। ৩ ষ্ট্ৰুথাৰ্ছ প্ৰাথমিক বিদ্যালয় ষ্ট্ৰুথাৰ্ছ চিটি স্কুল জিলাৰ ভিতৰত পৰিচালিত হয়। বিদ্যালয়ৰ সাধাৰণ ধাৰণা: পাঁচ বছৰত ৬৯৭ জন ছাত্ৰ-ছাত্ৰীৰ সংখ্যা তুলনামূলকভাৱে স্থিৰ হৈ আছে।",
+        "ষ্ট্ৰুথাৰ্ছ হাইস্কুল ছিনিয়ৰছ - নতুন ৮,০০০ ডলাৰৰ বৃত্তিৰ বাবে আবেদন কৰক ষ্ট্ৰুথাৰ্ছ হাইস্কুলৰ নিৰ্দেশনা বিভাগে এজন স্নাতক হোৱা জ্যেষ্ঠ ছাত্ৰৰ বাবে ৮,০০০ ডলাৰৰ এক নতুন বৃত্তিৰ কথা ঘোষণা কৰিছে। অটিছ আৰ. হেল্ডমেন ছিনিয়ৰ আৰু জুনিয়ৰ স্কলাৰ-এথলীট বঁটা আৰু বৃত্তিয়ে চাৰি বছৰৰ ভিতৰত শৈক্ষিক আৰু ক্ৰীড়া দুয়োটাতে কৃতিত্বক স্বীকৃতি দিয়ে।",
+        "ষ্ট্ৰুথাৰ্ছ হাইস্কুল হল অৱ ফেম উইকেণ্ড। ১ ভিন্স কেচি - ১৯৭৪ শ্ৰেণী - বেছবল। ২ কেথি প্ৰেষ্ট - ১৯৭৭ শ্ৰেণী - বাস্কেটবল। ৩ জন মিকুলাছ - ১৯৯২ শ্ৰেণী - ফুটবল এণ্ড বেছবল। ৪ টিনা পালুম্বো - ২০০১ শ্ৰেণী - ছফ্টবল। ৫ জেকুই ট্ৰেভিছ - ২০০৩ শ্ৰেণী - ট্ৰেক এণ্ড ফিল্ড। ৬ ২০০৪ পুৰুষৰ ৪x১০০ ৰিলে দল: টাই কেম্পানা - ২০০৫ শ্ৰেণী।",
+        "ইয়ংষ্টাউন ষ্টেট ইউনিভাৰ্চিটিৰ বাৰ্ষিক প্ৰেছ দিৱসত ১৫ মে'ত শ্ৰেষ্ঠ বাতৰি কাকতৰ বঁটা লাভ কৰাৰ বাবে ষ্ট্ৰুথাৰ্ছ হাইস্কুলৰ বাতৰি কাকত দ্য ষ্টুডেণ্ট প্ৰিণ্টছক অভিনন্দন জনাইছোঁ! প্ৰায় ৩৫ জন এছএইচএছ ছাত্ৰ-ছাত্ৰীৰ লগতে শিক্ষক ষ্টেফানি মুণ্টেনেও প্ৰেছ দিৱসত অংশগ্ৰহণ কৰিছিল।",
+        "ষ্ট্ৰুথাৰ্ছ হাইস্কুল আৰু ইয়াৰ ৫৬৭ গৰাকী শিক্ষাৰ্থীৰ বিষয়ে সকলো তথ্য আৱিষ্কাৰ কৰক, যাৰ ভিতৰত আছে ৮টা ৰেটিং আৰু পৰ্যালোচনা; পৰীক্ষাৰ স্ক'ৰ আৰু ওচৰৰ ঘৰবোৰ চাওক।",
+        "ষ্ট্ৰুথাৰ্ছ চিটি স্কুল জিলাৰ ছাত্ৰ-ছাত্ৰীৰ জনসংখ্যা ১,৯২৩ জন ছাত্ৰ-ছাত্ৰী হৈ পাঁচ বছৰ ধৰি তুলনামূলকভাৱে স্থিৰ হৈ আছে। এই জিলাৰ ৰাজহ/ছাত্ৰ-ছাত্ৰীৰ সংখ্যা ১২,৮২৪ ডলাৰ ৰাজ্যিক গড়তকৈ কম। চাৰি বছৰত ৰাজহ/ছাত্ৰ-ছাত্ৰীৰ সংখ্যা ১৬% বৃদ্ধি পাইছে।",
+        "অহাইঅ'ৰ ইয়ংষ্টাউনৰ ষ্ট্ৰুথাৰ্ছ হাইস্কুলক ২০০৪-২০০৫ শিক্ষাবৰ্ষৰ বাবে পঢ়া আৰু গণিতৰ বিদ্যালয় হিচাপে স্কুল অৱ প্ৰমিছ হিচাপে নিৰ্বাচিত কৰা হৈছিল। টেবুল ১-এ ষ্ট্ৰুথাৰ্ছ হাইস্কুল আৰু ষ্ট্ৰুথাৰ্ছ চিটি স্কুল জিলাৰ বৈশিষ্ট্যসমূহৰ সাৰাংশ দিয়ে।",
+        "ষ্ট্ৰুথাৰ্ছ চিটি স্কুল ডিষ্ট্ৰিক্ট পূব অহাইঅ'ত অৱস্থিত। ষ্ট্ৰুথাৰ্ছ চিটি স্কুল ডিষ্ট্ৰিক্টৰ ৫.১৯ বৰ্গ মাইল ভূমি আৰু ০.১৯ বৰ্গ মাইল পানীৰ ক্ষেত্ৰফল আছে। ২০১০-২০১৪ চনলৈকে ষ্ট্ৰুথাৰ্ছ চিটি স্কুল ডিষ্ট্ৰিক্টৰ মুঠ জনসংখ্যা ১১,৫৩৩। ২০১০-২০১৪ চনত ষ্ট্ৰুথাৰ্ছ চিটি স্কুল ডিষ্ট্ৰিক্টৰ মধ্যম পৰিয়ালৰ আয় হৈছে ৩৭,৪৬০ ডলাৰ। ২০১০-২০১৪ চনত ষ্ট্ৰুথাৰ্ছ চিটি স্কুল ডিষ্ট্ৰিক্টৰ মধ্যম ঘৰৰ মূল্য হৈছে ৭২,৯০০ ডলাৰ। গড়ে ষ্ট্ৰুথাৰ্ছ চিটি স্কুল ডিষ্ট্ৰিক্ট ৰাজ্যিক গড়ৰ ওচৰা-ওচৰি।",
+        "ষ্ট্ৰুথাৰ্ছ চিটি স্কুল ডিষ্ট্ৰিক্ট হৈছে অহাইঅ'ৰ ষ্ট্ৰুথাৰ্ছত অৱস্থিত এখন প্ৰাথমিক আৰু মাধ্যমিক বিদ্যালয়। ফোন নম্বৰ, ৱেবছাইট, কৰ্মচাৰী, সামগ্ৰী, ৰাজহ আদি চাওক।",
+        "ষ্ট্ৰুথাৰ্ছ, ওএইচ ষ্ট্ৰুথাৰ্ছ চিটি স্কুল ডিষ্ট্ৰিক্ট। প্ৰায় সন্ধান ফলাফল। ৱাইপি - দ্য ৰিয়েল ইয়েলো পেজেছএছএম - আপোনাৰ নিৰ্দিষ্ট প্ৰয়োজনীয়তা পূৰণ কৰিবলৈ সঠিক স্থানীয় ব্যৱসায় বিচাৰি পাবলৈ আপোনাক সহায় কৰে। সন্ধান ফলাফলসমূহ একত্ৰিত কাৰকৰ দ্বাৰা সজাই তোলা হয় যাতে আপোনাৰ সন্ধানৰ মানদণ্ডৰ প্ৰতি সঁহাৰি হিচাপে আপোনাক বিকল্পৰ এটা সমষ্টি দিয়া হয়।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "struthers city school district state number",
+    "Eng_Answer": "No Answer Present.",
+    "query": "ষ্ট্ৰুথাৰ্ছ চিটি স্কুল জিলা ৰাজ্যিক নম্বৰ"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 168868,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "new research from ontario canada has uncovered some interesting finds about how cannabis helps those suffering from post traumatic stress disorder these recent advancements help explain why so many veterans in the usa have abandoned their psychiatric medications and switched to cannabis",
+        "medical marijuana research ptsd beginning january 1 2014 the oregon medical marijuana program ommp will add ptsd to the other nine qualifying medical conditions the oregon health authority oha states may allow a person to obtain a medical marijuana card but the questions arises does cannabis really help patients who suffer ptsd here s some evidence people suffering from ptsd might find interesting there are currently medical studies underway designed to study the relationship between cannabis use and the relief of symptoms of ptsd",
+        "political momentum for linking ptsd and medical marijuana is growing of the 23 states that now allow for medical marijuana nine include ptsd as a qualifying condition for the drug and in three others doctors have broad discretion to recommend medical cannabis for ptsd or other ailments",
+        "part of the problem is that ptsd is unique among medical marijuana conditions since it is a psychiatric disorder not a physical ailment one of the issues with ptsd with medical marijuana is it is the first mental condition to be considered says john evans founder of the organization vets 4 freedoms",
+        "while cannabis based drugs for the treatment of ptsd will need to wait more time for clinical trials in order to obtain fda approval even without the fda the mounting evidence that simple cannabis is enough for treatment will hopefully convince doctors and psychiatrists to quietly recommend cannabis for ptsd",
+        "sue sisley is working to get the first fda approved study on marijuana and ptsd off the ground sue sisley to sisley it was clear her veterans were using marijuana medicinally but for a long time marijuana use among soldiers was seen as an example of america s finest falling prey to a dangerous vice",
+        "sisley aims to help answer the question with the study she launched the first and only fda approved trial on ptsd and medical marijuana which she has spent years fighting to get off the ground sisley says she gets phone calls all the time now i have ptsd but the meds i m on make me feel awful",
+        "but in many jurisdictions ptsd and marijuana remains a political sticking point in colorado which has some of the most liberal cannabis laws in the world ptsd still doesn t count as a qualifying condition for obtaining medical marijuana",
+        "one of the first large scale studies into the effectiveness of marijuana in combating ptsd will be sisley s own funded by a $ 2 million grant from colorado s medical marijuana scientific advisory council",
+        "by senior editor johnna rizzo marijuana and the veterans affairs hospital system s relationship is complicated on the one hand 23 states plus the district of columbia say marijuana is legal for sanctioned medical use and veterans are clamoring for it for their post combat symptoms on the other marijuana is classified a schedule i drug the same as heroin under the aegis of the government the va system and by extension the veterans who use it has been stuck in the middle experts say as many as 20 percent of veterans from iraq and afghanistan suffer from post traumatic stress disorder"
+      ],
+      "Translated_passages": [
+        "অন্টাৰিঅ' কানাডাৰ নতুন গৱেষণাই পোষ্ট ট্ৰমাটিক ষ্ট্ৰেছ ডিজৰ্ডাৰত আক্ৰান্তসকলক কেনেকৈ গাঁজাৰ সহায় কৰে সেই সম্পৰ্কে কিছুমান আকৰ্ষণীয় তথ্য উদ্ধাৰ কৰিছে। এই শেহতীয়া অগ্ৰগতিয়ে ব্যাখ্যা কৰে যে কিয় আমেৰিকা যুক্তৰাষ্ট্ৰৰ বহুতো প্ৰবীণ লোকে তেওঁলোকৰ মানসিক ঔষধ ত্যাগ কৰি গাঁজালৈ সলনি কৰিছে।",
+        "চিকিৎসা গাঁজা গৱেষণা পত্র ১ জানুৱাৰী ২০১৪ তাৰিখে আৰম্ভ হৈছিল যে চিকিৎসা গাঁজা কাৰ্যসূচীটো অন্য নটা যোগ্য চিকিৎসা অৱস্থাত যোগ কৰা হ'ব যি স্বাস্থ্য কৰ্তৃপক্ষই কোনো ব্যক্তিক চিকিৎসা গাঁজা কাৰ্ড পাবলৈ অনুমতি দিব পাৰে কিন্তু প্রশ্ন উদ্ভৱ হয় যে গাঁজাই প্ৰকৃততে ইয়াত যে রোগীসকলক সহায় কৰে যিসকলে ইয়াত যোগ্যতা অৰ্জন কৰিছে তেওঁলোকে কিছু প্ৰমাণ পাব পাৰে যে গাঁজা ব্যৱহাৰ আৰু ইয়াৰ লক্ষণসমূহৰ উপশমৰ মাজত সম্পৰ্ক অধ্যয়ন কৰিবলৈ বৰ্তমানে চিকিৎসা অধ্যয়ন চলি আছে।",
+        "পইণ্টড আৰু চিকিৎসা গাঁজাৰ সংযোগৰ বাবে ৰাজনৈতিক গতি ২৩খন ৰাজ্যৰ বৃদ্ধি হৈছে যিয়ে এতিয়া চিকিৎসা গাঁজাৰ অনুমতি দিয়ে যাৰ ভিতৰত নটছড এটা যোগ্যতা অৰ্জন কৰা অৱস্থা হিচাপে আৰু আন তিনিটা ৰাজ্যত চিকিৎসা গাঁজা পইণ্টছড বা অন্যান্য ৰোগৰ বাবে সুপাৰিশ কৰাৰ বিস্তৃত বিচক্ষণতা চিকিৎসকসকলৰ আছে।",
+        "সমস্যাটোৰ এটা অংশ হৈছে যে মেডিকেল মাৰিজুৱানাৰ অৱস্থাত পিটিএছডি অনন্য কাৰণ ই এটা মানসিক ৰোগ নহয়, এটা শাৰীৰিক ৰোগ নহয়, মেডিকেল মাৰিজুৱানাৰ সৈতে পিটিএছডিৰ সমস্যাটো হৈছে ই প্ৰথম মানসিক অৱস্থা যাক প্ৰথম বিবেচনা কৰা হয় বুলি ভেটছ ৪ ফ্ৰীডমছ নামৰ সংস্থাৰ প্ৰতিষ্ঠাপক জন ইভান্সে কয়।",
+        "যদিও পণ্ডিতসকলৰ চিকিৎসাৰ বাবে গাঁজা ভিত্তিক ঔষধসমূহে এফডিএ অনুমোদন লাভ কৰিবলৈ চিকিৎসা পৰীক্ষাৰ বাবে অধিক সময় অপেক্ষা কৰিব লাগিব, এফডিএ অবিহনেও চিকিৎসাৰ বাবে সাধাৰণ গাঁজা যথেষ্ট তাৰ প্ৰমাণ বৃদ্ধি পোৱাটোৱে চিকিৎসক আৰু মনোৰোগ বিশেষজ্ঞসকলক নিঃশব্দে গাঁজা পৰামৰ্শ দিবলৈ পতিয়ন নিব।",
+        "ছিজলীৰ বিৰুদ্ধে গোচৰ দাখিল কৰা হৈছে যে ছিজলীৰ পুৰণি সমৰ অভিজ্ঞসকলে ঔষধি হিচাপে গাঁজা ব্যৱহাৰ কৰিছিল কিন্তু দীৰ্ঘদিন ধৰি সৈনিকসকলৰ মাজত গাঁজাৰ ব্যৱহাৰক আমেৰিকাৰ সৰ্বশ্ৰেষ্ঠ বিপদজনক নিচৰ পতনৰ উদাহৰণ হিচাপে দেখা গৈছিল।",
+        "ছিজলীয়ে প্ৰথম আৰু একমাত্ৰ এফডিএ অনুমোদিত প্ৰশ্নটোৰ উত্তৰ দিয়াত সহায় কৰাৰ লক্ষ্য ৰাখিছে যে তেওঁ বহু বছৰ ধৰি প্ৰশ্নটোৰ উত্তৰ দিবলৈ যুঁজি আছে যে তেওঁ এতিয়া সদায় ফোন কল পাই আছে কিন্তু ঔষধবোৰে মোক ভয়ংকৰ অনুভৱ কৰাইছে।",
+        "কিন্তু বহুতো আইনী পৰিসীমাত গাঁজা এতিয়াও কলৰাডোত এক ৰাজনৈতিক বিতৰ্কৰ বিষয় হৈ আছে য'ত বিশ্বৰ কিছুমান উদাৰ গাঁজা আইন এতিয়াও চিকিৎসা গাঁজা পোৱাৰ বাবে যোগ্যতা অৰ্জনৰ চৰ্ত হিচাপে গণ্য কৰা নহয়।",
+        "গাঁজাৰ ফলপ্ৰসূতা বিষয়ক প্ৰথম বৃহৎ পৰিসৰৰ অধ্যয়নসমূহৰ ভিতৰত এটা হ’ব ক’লৰাডো চিকিৎসা গাঁজা বৈজ্ঞানিক উপদেষ্টা পৰিষদৰ পৰা ২ নিযুত ডলাৰৰ অনুদানৰ দ্বাৰা পৃষ্ঠপোষিত ছিছলিৰ।",
+        "জ্যেষ্ঠ সম্পাদক জনা ৰিজো মাৰিজুৱানা আৰু প্ৰবীণ বিষয়াসকলৰ চিকিৎসা প্ৰতিষ্ঠানৰ সম্পৰ্ক একফালে জটিল আৰু আনফালে ২৩খন ৰাজ্য আৰু কলম্বিয়া জিলাৰ মতে মাৰিজুৱানা চিকিৎসা ব্যৱহাৰৰ বাবে বৈধ আৰু প্ৰবীণসকলে ইয়াৰ বাবে তেওঁলোকৰ যুদ্ধোত্তৰ লক্ষণসমূহৰ বাবে দাবী কৰি আছে। মাৰিজুৱানাক চৰকাৰী ব্যৱস্থাৰ অধীনত হেৰ'ইনৰ দৰে একেই তালিকাভুক্ত ড্ৰাগ হিচাপে শ্ৰেণীবদ্ধ কৰা হৈছে আৰু ইয়াক ব্যৱহাৰ কৰা প্ৰবীণসকল মধ্যবৰ্তী বিশেষজ্ঞসকলৰ মাজত আছে যে ইৰাক আৰু আফগানিস্তানৰ ২০ শতাংশ প্ৰবীণসকল পোষ্ট ট্ৰমাটিক ষ্ট্ৰেছ ডিজৰ্ডাৰত ভুগি আছে।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "does medical marijuana help with ptsd",
+    "Eng_Answer": "No Answer Present.",
+    "query": "চিকিৎসা সংক্ৰান্ত গাঁজাই মন্ত্ৰসমূহৰ সৈতে সহায় কৰে নেকি?"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "ফ্ৰেংক গিফৰ্ডে তিনিগৰাকী মহিলাক বিয়া কৰাইছিল।",
+    "query_id": 300122,
+    "query_type": "NUMERIC",
+    "passages": {
+      "English_passages": [
+        "People Celebrity. Celebrity. Inside Kathie Lee and Frank Gifford's 29-Year Love Story. While the legendary NFL player and sportscaster, who died on Sunday at the age of 84, had many successes in his long career, perhaps the thing he could be most proud of was his long and enduring relationship with his wife of almost 29 years.",
+        "Mini Bio (1) Frank Gifford was born on August 16, 1930 in Santa Monica, California, USA as Frank Newton Gifford. He is known for his work on NFL Monday Night Football (1970), Super Bowl XXIX (1995) and 1987 Florida Citrus Bowl (1987). He was married to Kathie Lee Gifford, Astrid Gifford and Maxine Avis Ewart.",
+        "That’s a new one, coming from the effusive Kathie Lee, 43, who married Frank in 1986, after a four-year friendship-courtship that began when the two were working for ABC’s Good Morning America.",
+        "Hand in hand, Kathie Lee Gifford and her husband Frank Gifford leave a May 1998 rally in Washington, D.C., against child labor. Their activism was sparked by a scandal a year earlier involving her Wal-Mart clothing line.",
+        "Kathie Lee's Crisis. IN ANECDOTE AFTER ANECDOTE, RECOUNTED TO an audience of millions in a voice of brassy confidence, Kathie Lee Gifford has made life with husband Frank sound so warm, so sexy, so comfy, it’s easy to forget that the star of Live with Regis & Kathie Lee has never said things were perfect.",
+        "6' 1 (1.85 m) Frank Gifford was born on August 16, 1930 in Santa Monica, California, USA as Frank Newton Gifford. He is known for his work on NFL Monday Night Football (1970), Super Bowl XXIX (1995) and 1987 Florida Citrus Bowl (1987). He was married to Kathie Lee Gifford, Astrid Gifford and Maxine Avis Ewart.",
+        "Christie D'ZurillaContact Reporter. Things weren't always perfect for Kathie Lee Gifford and the late Frank Gifford during the 29 years they were married -- but the couple weathered their scandals pretty darned well. It was the second marriage for Kathie Lee and third for Frank.",
+        "The famed sportscaster and former NFL player died on Aug. 9 at the age of 84. He will be missed. Frank Gifford, renowned sportscaster and NFL legend, died suddenly on Aug. 9 at his Connecticut home. Frank, who was married to TODAY show co-host Kathie Lee Gifford, 61, was 84 years old. He played for the New York Giants before transitioning into a successful career in sports broadcasting.",
+        "The couple had two children together. Frank, who had three children from a previous marriage, welcomed two kids with Kathie Lee: son Cody Newton, 25, and Cassidy, 22. When Frank was asked how he would like to be remembered, parenthood was at the top of his mind.",
+        "It looks like Kathie Lee Gifford can finally laugh about her hubby’s cheating ways. The “Today” show co-host mocked Frank Gifford’s infamous philandering Tuesday during a discussion of new claims that he had an affair with Johnny Carson’s wife in the 1970s. Kathie Lee told co-host Hoda Kotb that such a tryst would be right out of the ex-Giant’s playbook."
+      ],
+      "Translated_passages": [
+        "কেথি লী আৰু ফ্ৰেংক গিফৰ্ডৰ ২৯ বছৰীয়া প্ৰেম কাহিনীৰ ভিতৰত জনপ্ৰিয় খেলুৱৈ আৰু খেলৰ ভাষ্যকাৰ, যি ৮৪ বছৰ বয়সত দেওবাৰে মৃত্যুবৰণ কৰিছিল, তেওঁৰ দীঘলীয়া কেৰিয়াৰত বহুতো সফলতা লাভ কৰিছিল, সম্ভৱতঃ তেওঁ যিটো বিষয়ত সবাতোকৈ গৌৰৱান্বিত হ'ব পাৰিছিল সেয়া আছিল তেওঁৰ প্ৰায় ২৯ বছৰীয়া পত্নীৰ সৈতে তেওঁৰ দীৰ্ঘদিনীয়া আৰু চিৰস্থায়ী সম্পৰ্ক।",
+        "মিনি বায়' (১) ফ্ৰেংক গিফৰ্ডৰ জন্ম হৈছিল ১৯৩০ চনৰ ১৬ আগষ্টত আমেৰিকা যুক্তৰাষ্ট্ৰৰ কেলিফৰ্ণিয়াৰ ছান্টা মনিকাত ফ্ৰেংক নিউটন গিফৰ্ড হিচাপে। তেওঁ এনএফএল মানডে' নাইট ফুটবল (১৯৭০), ছুপাৰ ব'ল এক্সএক্সআইএক্সএক্স (১৯৯৫) আৰু ১৯৮৭ ফ্ল'ৰিডা চাইট্ৰাছ ব'ল (১৯৮৭)ত তেওঁৰ কামৰ বাবে পৰিচিত। তেওঁ কেথি লী গিফৰ্ড, এষ্ট্ৰিড গিফৰ্ড আৰু মেক্সিন এভিছ এভিছ এভাৰ্টৰ সৈতে বিবাহপাশত আবদ্ধ হৈছিল।",
+        "এইজন হৈছে ৪৩ বছৰীয়া কেথি লীৰ পৰা অহা এগৰাকী নতুন ব্যক্তি, যিয়ে ১৯৮৬ চনত ফ্ৰেংকক বিয়া কৰাইছিল, এবিচি-ৰ গুড মৰ্নিং আমেৰিকাৰ বাবে কাম কৰাৰ সময়ত আৰম্ভ হোৱা চাৰি বছৰীয়া বন্ধুত্ব-প্ৰেমৰ পিছত।",
+        "কেথি লী গিফৰ্ড আৰু তেওঁৰ স্বামী ফ্ৰেংক গিফৰ্ডে হাতে হাতে ১৯৯৮ চনৰ মে’ মাহত ৱাশ্বিংটন ডি.চি.-ত শিশু শ্ৰমৰ বিৰুদ্ধে এক সমাৱেশ অনুষ্ঠিত কৰে। এবছৰ পূৰ্বে তেওঁৰ ৱাল-মাৰ্ট কাপোৰৰ লাইনৰ সৈতে জড়িত এক কেলেংকাৰীৰ ফলত তেওঁলোকৰ এই কাৰ্যকলাপ আৰম্ভ হৈছিল।",
+        "কেথি লীৰ সংকট। এএনইচিডিঅ'টিঅ', এএনইচিডিঅ'টিঅ'ৰ পিছত লাখ লাখ দৰ্শকৰ সন্মুখত ব্যক্তিগত আত্মবিশ্বাসেৰে কথা কৈ কেথি লী গিফৰ্ডে স্বামী ফ্ৰেংকৰ সৈতে জীৱনটো এনেকুৱা উষ্ণ, এনেকুৱা যৌন আৱেদনময়, এনেকুৱা আৰামদায়ক কৰি তুলিছে যে লাইভ উইথ ৰেজিছ এণ্ড কেথি লীৰ তাৰকাই কেতিয়াও কোনো কথা নিখুঁত বুলি কোৱা নাই।",
+        "১৯৩০ চনৰ ১৬ আগষ্টত কেলিফৰ্নিয়াৰ চান্টা মনিকাত ফ্ৰেংক নিউটন গিফৰ্ড নামেৰে ফ্ৰেংক গিফৰ্ডৰ জন্ম হৈছিল। তেওঁ এনএফএল মানডে' নাইট ফুটবল (১৯৭০), চুপাৰ বাউল চব্বিশ (১৯৯৫) আৰু ১৯৮৭ ফ্লৰিডা চাইট্ৰাছ বাউল (১৯৮৭) ত তেওঁৰ কামৰ বাবে পৰিচিত। তেওঁ কেথি লী গিফৰ্ড, এষ্ট্ৰিড গিফৰ্ড আৰু মেক্সিন এভিছ এভিছ এভাৰ্টৰ সৈতে বিবাহপাশত আবদ্ধ হৈছিল।",
+        "ক্ৰিষ্টি ডি'জুৰিলা কণ্টেক্ট ৰিপোৰ্টাৰ। কেথি লী গিফৰ্ড আৰু প্ৰয়াত ফ্ৰেংক গিফৰ্ডৰ বাবে তেওঁলোকৰ বিবাহৰ ২৯ বছৰৰ সময়ছোৱাত সকলো কথাই নিখুঁত নাছিল -- কিন্তু দম্পতীটোৱে তেওঁলোকৰ কেলেংকাৰীবোৰ ভালদৰে সামলাইছিল। এয়া আছিল কেথি লীৰ দ্বিতীয় বিবাহ আৰু ফ্ৰেংকৰ তৃতীয় বিবাহ।",
+        "বিখ্যাত ক্ৰীড়া সম্প্ৰচাৰক আৰু প্ৰাক্তন এনএফএল খেলুৱৈৰ ৯ আগষ্টত ৮৪ বছৰ বয়সত মৃত্যু হৈছিল। তেওঁক মিছ কৰা হ'ব। বিখ্যাত ক্ৰীড়া সম্প্ৰচাৰক আৰু এনএফএল কিংবদন্তি ফ্ৰেংক গিফৰ্ডৰ আকস্মিক মৃত্যু হৈছিল ৯ আগষ্টত তেওঁৰ কানেক্টিকাটৰ ঘৰত। ফ্ৰেংক, যি টুডে শ্ব'ৰ সহ-আয়োজক কেথি লী গিফৰ্ডৰ সৈতে বিবাহিত আছিল, ৬১ বছৰীয়া আছিল ৮৪ বছৰ বয়সীয়া। তেওঁ নিউয়ৰ্ক জায়েন্টছৰ হৈ খেলিছিল আৰু ক্ৰীড়া সম্প্ৰচাৰত সফল কেৰিয়াৰলৈ পৰিবৰ্তন হোৱাৰ আগতে এনএফএল-ত খেলিছিল।",
+        "দম্পতীটোৰ দুটি সন্তান আছিল। পূৰ্বৰ বিবাহৰ পৰা তিনিটি সন্তান জন্ম দিয়া ফ্ৰেংকে কেথি লীৰ সৈতে দুটি সন্তানক আদৰণি জনাইছিল: ২৫ বছৰীয়া পুত্ৰ ক'ডি নিউটন আৰু ২২ বছৰীয়া কেছিডি। ফ্ৰেংকক সোধা হৈছিল যে তেওঁক কেনেকৈ স্মৰণ কৰা হ'ব, তেতিয়া তেওঁৰ মনত পিতৃত্ব আছিল সৰ্বোচ্চ স্থানত।",
+        "কেথি লী গিফৰ্ডে অৱশেষত তেওঁৰ স্বামীৰ প্ৰতাৰণামূলক কামৰ বিষয়ে হাঁহিব পাৰে বুলি লাগে। \"টুডে\" শ্ব'টোৰ সহ-আয়োজকে ফ্ৰেংক গিফৰ্ডৰ কুখ্যাত ফিলাণ্ডাৰিং টিউজডে'ক নতুন দাবীৰ আলোচনাৰ সময়ত উপহাস কৰিছিল যে ১৯৭০-ৰ দশকত জনী কাৰ্চনৰ পত্নীৰ সৈতে তেওঁৰ এক সম্পৰ্ক আছিল। কেথি লীয়ে সহ-আয়োজক হোডা কটবক কৈছিল যে এনে ধৰণৰ প্ৰেমৰ সম্পৰ্ক প্ৰাক্তন জায়েন্টৰ পুস্তকৰ পৰা সম্পূৰ্ণৰূপে আহিছে।"
+      ],
+      "is_selected": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "how many women did frank gifford marry",
+    "Eng_Answer": "Frank Gifford married to three women.",
+    "query": "ফ্ৰেংক গিফৰ্ডে কিমানগৰাকী মহিলাক বিয়া কৰাইছিল"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 290643,
+    "query_type": "NUMERIC",
+    "passages": {
+      "English_passages": [
+        "The newspaper’s “ongoing, nationwide analysis of state and federal court records” found that “at least 75 of the 4,000-plus lawsuits involving Trump and his businesses” remained open two weeks before Election Day.",
+        "The officials would not disclose many details, including what was discussed on the calls, the identity of the Russian intelligence officials who participated, and how many of Mr. Trump’s advisers were talking to the Russians. It is also unclear whether the conversations had anything to do with Mr. Trump himself.",
+        "The Center for Public Integrity examined a subset of 1,154 egregious …. … billion. Trump and federal contractors In the weeks before Election Day, Donald Trump released a 30-second television message to voters that crystallized his ph …. … and cut taxes on manufacturers.",
+        "The voiceover ended with this promise: “Donald Trump knows business and he’ll fight for the American worker.” Some of Trum …. … , assets and business interests of many of the people closest to President Donald Trump. The Center for Public Integrity’s news developer, Chris Zubak-Skees, ex ….",
+        "Credit Sam Hodgson for The New York Times. 1  WASHINGTON — Phone records and intercepted calls show that members of Donald J. Trump’s 2016 presidential campaign and other Trump associates had repeated contacts with senior Russian intelligence officials in the year before the election, according to four current and former American officials.",
+        "Both committees are currently leading the ongoing investigation into the alleged links. There are currently three investigations into Russian interference in the 2016 election and alleged collusion with the Trump campaign.",
+        "Just two weeks before Election Day, at least 75 of the 4,000-plus lawsuits involving Trump and his businesses remain open, according to an ongoing, nationwide analysis of state and federal court records by USA TODAY.",
+        "Director Confirms Russia Investigation. 1  James B. Comey said that the agency is investigating Russian interference in the 2016 presidential election. Regarding President Trump’s tweets about alleged wiretapping by the Obama administration, Mr. Comey said the agency has “no information that supports those tweets.”. By THE ASSOCIATED PRESS.",
+        "The need for an independent investigation. As it stands, all three men in charge of the investigations into the Trump campaign are Republicans, and two of the three are vociferous Trump allies. Burr, the third, also tied himself to Trump during his close 2016 reelection campaign.",
+        "USA Today: “At Least 75 Of The 4,000-Plus Lawsuits Involving Trump And His Businesses Remain Open.” “The number of unresolved cases” regarding Trump and his businesses, campaign, and other organizations is “unprecedented for a presidential candidate,” according to a USA Today special report."
+      ],
+      "Translated_passages": [
+        "বাতৰি কাকতখনৰ \"ৰাজ্য আৰু ফেডাৰেল আদালতৰ ৰেকৰ্ডৰ চলি থকা, দেশজুৰি বিশ্লেষণ\"ত পোৱা গৈছিল যে \"নিৰ্বাচনৰ দিনৰ দুসপ্তাহ পূৰ্বে ট্ৰাম্প আৰু তেওঁৰ ব্যৱসায়ৰ সৈতে জড়িত ৪,০০০ৰো অধিক গোচৰৰ ভিতৰত কমেও ৭৫টা খোলা আছিল\"।",
+        "কলত আলোচনা কৰা বিষয়বোৰ, অংশগ্ৰহণকাৰী ৰাছিয়ান চোৰাংচোৱা বিষয়াসকলৰ পৰিচয় আৰু মিষ্টাৰ ট্ৰাম্পৰ উপদেষ্টাসকলৰ মাজত কিমানজন ৰাছিয়ানৰ সৈতে কথা পাতিছিল আদি বিষয়কে ধৰি বিষয়াসকলে বিশেষ বিৱৰণ প্ৰকাশ কৰা নাছিল। এই কথোপকথনবোৰৰ মিষ্টাৰ ট্ৰাম্পৰ সৈতে কোনো সম্পৰ্ক আছিল নে নাই সেয়াও স্পষ্ট নহয়।",
+        "দ্য চেণ্টাৰ ফৰ পাব্লিক ইণ্টিগ্ৰিটিয়ে ১,১৫৪ গুৰুত্বপূৰ্ণ বিষয়ৰ এটা উপসমষ্টি পৰীক্ষা কৰিছিল … বিলিয়ন ট্ৰাম্প আৰু ফেডাৰেল ঠিকাদাৰসকলে নিৰ্বাচনৰ আগৰ সপ্তাহবোৰত ভোটাৰসকলক ৩০ ছেকেণ্ডৰ দূৰদৰ্শন বাৰ্তা প্ৰকাশ কৰিছিল যিয়ে তেওঁৰ ফলাফলক স্পষ্ট কৰিছিল … আৰু উৎপাদকসকলৰ ওপৰত কৰ কমাইছিল।",
+        "এই প্ৰতিশ্ৰুতিৰে ভয়েচ অভাৰ শেষ হৈছিল: \"ডোনাল্ড ট্ৰাম্পে ব্যৱসায় জানে আৰু তেওঁ আমেৰিকান শ্ৰমিকৰ বাবে যুঁজ দিব।\" ট্ৰাম্পৰ কিছুমান ঘনিষ্ঠ লোকৰ সম্পত্তি আৰু ব্যৱসায়িক স্বাৰ্থ। চেণ্টাৰ ফৰ পাব্লিক ইণ্টিগ্ৰিটিৰ বাতৰি বিকাশক ক্ৰিছ জুবাক-স্কিজে প্ৰেসিডেন্ট ডোনাল্ড ট্ৰাম্পৰ সৈতে যুঁজ দিছিল।",
+        "দ্য নিউয়ৰ্ক টাইমছৰ বাবে ক্ৰেডিট ছেম হজছন। ১ ৱাশ্বিংটন — ফোন ৰেকৰ্ড আৰু ইণ্টাৰচেপ্ট কৰা কলসমূহে দেখুৱাইছে যে ডোনাল্ড জে. ট্ৰাম্পৰ ২০১৬ চনৰ ৰাষ্ট্ৰপতি প্ৰচাৰ অভিযান আৰু অন্যান্য ট্ৰাম্প সহযোগীসকলে নিৰ্বাচনৰ আগৰ বছৰটোত ৰাছিয়াৰ জ্যেষ্ঠ গোপন তথ্য বিষয়াসকলৰ সৈতে পুনৰাবৃত্তি সম্পৰ্ক স্থাপন কৰিছিল, চাৰিজন বৰ্তমান আৰু প্ৰাক্তন আমেৰিকান বিষয়াৰ মতে।",
+        "দুয়োখন সমিতিয়ে বৰ্তমান অভিযোগমূলক সংযোগৰ তদন্তৰ নেতৃত্ব দি আছে। ২০১৬ চনৰ নিৰ্বাচনত ৰাছিয়াৰ হস্তক্ষেপ আৰু ট্ৰাম্প প্ৰচাৰ অভিযানৰ সৈতে অভিযোগমূলক মিলা-মিছা হোৱাৰ তিনিটা তদন্ত চলি আছে।",
+        "ইউএছএ টুডেৰ দ্বাৰা ৰাজ্য আৰু ফেডাৰেল আদালতৰ ৰেকৰ্ডৰ চলি থকা দেশব্যাপী বিশ্লেষণ অনুসৰি নিৰ্বাচনৰ দিনৰ মাত্ৰ দুসপ্তাহ আগতে ট্ৰাম্প আৰু তেওঁৰ ব্যৱসায়ৰ সৈতে জড়িত ৪,০০০ৰো অধিক গোচৰৰ ভিতৰত কমেও ৭৫টা খোলা আছে।",
+        "পরিচালকে নিৰ্দেশক দিছে যে ২০১৬ চনৰ ৰাষ্ট্ৰপতি নিৰ্বাচনত ৰাছিয়াৰ হস্তক্ষেপৰ তদন্ত কৰি আছে। অবামা প্ৰশাসনে কৰা তথ্য চোৰা কৰাৰ অভিযোগত প্ৰেচিডেন্ট ট্ৰাম্পৰ টুইটৰ বিষয়ে মিঃ কমি কৈছে যে সংস্থাটোৰ \"সেই টুইটসমূহক সমৰ্থন কৰা কোনো তথ্য নাই।\"",
+        "স্বাধীন তদন্তৰ প্ৰয়োজনীয়তা। যিহেতু এইটো আছে, ট্ৰাম্প প্ৰচাৰ অভিযানৰ তদন্তৰ দায়িত্বত থকা তিনিওজন লোক হৈছে ৰিপাব্লিকান আৰু তিনিজনৰ ভিতৰত দুজন হৈছে সৰৱ ট্ৰাম্পৰ সহযোগী। তৃতীয়জন বাৰে তেওঁৰ ২০১৬ চনৰ পুনৰ নিৰ্বাচনী প্ৰচাৰৰ সময়ত ট্ৰাম্পৰ সৈতে নিজকে সংযুক্ত কৰিছিল।",
+        "ইউএছএ টুডে: \"ট্ৰাম্প আৰু তেওঁৰ ব্যৱসায়িক প্ৰতিষ্ঠানসমূহৰ সৈতে জড়িত ৪,০০০-তকৈও কম ৭৫টা গোচৰ এতিয়াও খোলা আছে।\" ইউএছএ টুডেৰ এক বিশেষ প্ৰতিবেদন অনুসৰি, ট্ৰাম্প আৰু তেওঁৰ ব্যৱসায়িক প্ৰতিষ্ঠান, প্ৰচাৰ অভিযান আৰু অন্যান্য সংগঠনসমূহৰ সৈতে জড়িত \"অমীমাংসিত গোচৰৰ সংখ্যা এজন ৰাষ্ট্ৰপতি পদৰ প্ৰাৰ্থীৰ বাবে অভূতপূৰ্ব।\""
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "how many ongoing trump administration investigations",
+    "Eng_Answer": "No Answer Present.",
+    "query": "ট্ৰাম্প প্ৰশাসনৰ কিমানটা তদন্ত চলি আছে"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 197590,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "That concludes our how to guide on obtaining three easy to obtain Followers. Be sure and keep watch for our next installment that will detail how to get four more Followers for your Garrison with little to no work! In the meantime, get to work collecting the Followers found above! To read the latest guides, news, and features you can visit our World of Warcraft Game Page.",
+        "A simple starter guide to Class Order Hall Missions in World of Warcraft: Legion. Class Order Halls are the place to be in World of Warcraft: Legion. Each hall is unique to the class it represents and is not only a place where players will spend much of their time but also a driving force in the story line in this new expansion. One of major features of Class Order Halls are the Missions found there.",
+        "Rezlak (Horde) or Sparz Boltwist (Alliance) sells the blueprints at your garrison for 750 gold. Mine is the only exception because you can upgrade it at level 92 for 1000 gold. Once your building is level 2, you can assign a follower to that building if you select it at your architect table. How to get the followers. The Lunarfall Inn / Frostwall Tavern medium building let's you specify one trait of one follower each week. But, you can only choose the traits of your followers if you have a level 2 building, which requires completing Spires of Arak outpost or to be level 98. (the blueprint is sold by the same NPCs I mentioned above) A much easier way to get the followers is from questing.",
+        "Each follower has access to up to 3 abilities based on their quality (1 for uncommon, 2 for rare or epic). There are over 80 abilities available, but usually each is desirable based on what mission mob ability they can counter. List of ability counters: [edit this group]",
+        "There are a lot of followers to collect in Warlords of Draenor, to make it easier to do so we’ve made guides for each zone as to where you can find them. (Last update: 27 December 2014) Shadowmoon Valley Follower Locations. Frostfire Ridge Follower Locations. Gorgrond Follower Locations. Talador Follower Locations.",
+        "Simply browse for your screenshot using the form below. 1  In-game screenshots are preferred over model-viewer-generated ones. 2  The higher the quality the better! 3  Be sure to read the tips & tricks if you haven't before.",
+        "Below you will find three Followers that live up to that very idea. These Followers are so easy to obtain that you'll find yourself wondering if it is to good to be true! Read on to learn more about these Followers and how to obtain them for your very own Garrison: Class/Spec: Assassination Rogue.",
+        "Class Order Hall Missions. To start a mission, you must choose one of the quests on the map. Instead of one large mission, you are typically given smaller pieces of one mission. Completing these pieces will allow you to complete the larger mission over time.",
+        "This comment is stupid for two reasons, they are as follows: Reason 1: You're just flat out wrong. The followers of Legion wont work the same as the WoD followers. ather than sending them on missions to collect !@#$ for you, you send them on scouting missions for them to find quests/objectives for YOU TO DO. Reason 2: Developing the follower system took way more than 2 hours.",
+        "Many followers are available to both factions (), but there are also several followers who are faction-specific. In 0700 Legion, followers are far mor class-specific. Players with Taverns or Inns earn one extra follower each week by speaking to at Garrison building (Horde) or at Lunarfall Inn (Alliance). To get the extra follower, speak to Akjana or Lysa, and select an attribute you want your follower to have."
+      ],
+      "Translated_passages": [
+        "এইটোৱেই আমাৰ তিনিজন সহজে পোৱা অনুগামী পোৱাৰ নিৰ্দেশনা দিয়ে। নিশ্চিত হওক আৰু আমাৰ পৰৱৰ্তী খণ্ডটোৰ বাবে চকু ৰাখক যিয়ে আপোনাৰ গেৰিছনৰ বাবে আৰু চাৰিজন অনুগামী কেনেকৈ পাব তাৰ বিশদ বিৱৰণ দিব য'ত কোনো কাম নাথাকিব! ইয়াৰ মাজতে, ওপৰত পোৱা অনুগামীসকলক সংগ্ৰহ কৰাৰ কামত লাগক! আপুনি আমাৰ ৱৰ্ল্ড অফ ৱাৰক্ৰাফ্ট গেম পৃষ্ঠাটো ভিজিট কৰি শেহতীয়া নিৰ্দেশনা, বাতৰি আৰু বৈশিষ্ট্যসমূহ পঢ়িব পাৰে।",
+        "ওৱাৰ্ল্ড অৱ ৱাৰক্ৰাফ্ট: লিজিয়নৰ ক্লাছ অৰ্ডাৰ হল মিছনসমূহৰ এক সহজ আৰম্ভণি নিৰ্দেশিকা: ক্লাছ অৰ্ডাৰ হলসমূহ হৈছে ওৱাৰ্ল্ড অৱ ৱাৰক্ৰাফ্ট: লিজিয়নত থাকিবলগীয়া ঠাই। প্ৰতিটো হল ইয়াক প্ৰতিনিধিত্ব কৰা শ্ৰেণীৰ বাবে অনন্য আৰু ই কেৱল এক ঠাই নহয় য'ত খেলুৱৈসকলে তেওঁলোকৰ বেছি সময় ব্যয় কৰে, বৰং এই নতুন সম্প্ৰসাৰণৰ কাহিনীৰ এক চালিকা শক্তিও। ক্লাছ অৰ্ডাৰ হলসমূহৰ এক প্ৰধান বৈশিষ্ট্য হৈছে তাত পোৱা মিছনসমূহ।",
+        "ৰেজলাক (হৰ্ড) বা স্পাৰ্জ বল্টৱিষ্ট (এলায়েন্স) আপোনাৰ গেৰিচনত ৭৫০ টকাত নীলনক্ষা বিক্ৰী কৰে। মাইন হৈছে একমাত্ৰ ব্যতিক্ৰম কাৰণ আপুনি ইয়াক ৯২ লেভেলত ১০০০ টকাত আপগ্ৰেড কৰিব পাৰে। এবাৰ আপোনাৰ বিল্ডিং লেভেল ২ হোৱাৰ পিছত, আপুনি সেই বিল্ডিংটোত এজন অনুগামী নিযুক্তি কৰিব পাৰে যদি আপুনি ইয়াক আপোনাৰ আৰ্কিটেক্ট টেবুলত বাছনি কৰে। অনুগামীসকল কেনেকৈ পাব। লুনাৰফল ইন / ফ্ৰস্টৱাল টেভাৰ্ন মিডিয়াম বিল্ডিংটোৱে আপোনাক প্ৰতি সপ্তাহে এজন অনুগামীৰ এটা বৈশিষ্ট্য নিৰ্দিষ্ট কৰিবলৈ দিয়ে। কিন্তু, আপুনি কেৱল আপোনাৰ অনুগামীসকলৰ বৈশিষ্ট্যসমূহ বাছনি কৰিব পাৰে যদি আপোনাৰ ২ লেভেলৰ বিল্ডিং থাকে, যাৰ বাবে আৰাক আউটপোষ্টৰ স্পায়াৰসমূহ সম্পূৰ্ণ কৰা বা ৯৮ লেভেল হোৱা প্ৰয়োজন। (ব্লুপ্ৰিণ্টটো উপৰে উল্লেখ কৰা একেই এনপিচিসমূহে বিক্ৰী কৰে) অনুগামীসকল পাবলৈ এটা অতি সহজ উপায় হৈছে কোৱেষ্টিংৰ পৰা।",
+        "প্ৰতিটো অনুগামীৰ তেওঁলোকৰ গুণগত মানৰ ওপৰত ভিত্তি কৰি ৩টা ক্ষমতা পৰ্যন্ত প্ৰৱেশাধিকাৰ আছে (অস্বাভাৱিকৰ বাবে ১, বিৰল বা মহাকাব্যৰ বাবে ২)। ৮০টাতকৈও অধিক ক্ষমতা উপলব্ধ আছে, কিন্তু সাধাৰণতে প্ৰতিটো ক্ষমতা তেওঁলোকে কোনটো মিছন মব ক্ষমতাৰ বিৰুদ্ধে যুঁজিব পাৰে তাৰ ওপৰত ভিত্তি কৰি কাম্য। ক্ষমতা কাউণ্টাৰৰ তালিকা: [এই গোটটো সম্পাদনা কৰক]",
+        "ড্ৰেনৰৰ ৱাৰলৰ্ডছত সংগ্ৰহ কৰিবলৈ বহুতো অনুগামী আছে, যাতে এইটো কৰাটো সহজ হয় আমি প্ৰতিটো অঞ্চলৰ বাবে গাইড তৈয়াৰ কৰিছো যাতে আপুনি তেওঁলোকক ক'ত বিচাৰি পাব পাৰে। (শেষ আপডেট: ২৭ ডিচেম্বৰ ২০১৪) শ্বেড'মুন ভেলী ফলোৱাৰ লোকেশ্যন। ফ্ৰষ্টফায়াৰ ৰিজ ফলোৱাৰ লোকেশ্যন। গৰ্গ্ৰণ্ড ফলোৱাৰ লোকেশ্যন। টেলাডৰ ফলোৱাৰ লোকেশ্যন।",
+        "তলত দিয়া ফর্মটো ব্যৱহাৰ কৰি আপোনাৰ স্ক্ৰীনশ্বটটো ব্ৰাউজ কৰক। ১ মডেল-ভিউয়াৰ-উৎপাদিতসমূহতকৈ ইন-গেম স্ক্ৰীনশ্বটসমূহক পছন্দ কৰা হয়। ২ গুণমান যিমান বেছি হয় তত ভাল! ৩ যদি আপুনি আগতে নাই তেন্তে টিপস আৰু ট্ৰিকসমূহ পঢ়িবলৈ নিশ্চিত হওক।",
+        "আপোনাৰ তলত তিনিজন অনুগামী পাব যি সেই ধাৰণাটোকে বাস্তৱায়িত কৰে। এই অনুগামীসকলক পোৱাটো ইমান সহজ যে আপুনি নিজেই ভাবিব যে এইটো সঁচা হোৱাটো ভাল নেকি! এই অনুগামীসকলৰ বিষয়ে আৰু আপোনাৰ নিজৰ গেৰিছনৰ বাবে তেওঁলোকক কেনেকৈ পাব পাৰি সেই বিষয়ে জানিবলৈ পঢ়ক: শ্ৰেণী/বিশেষ: হত্যাৰ অপৰাধী।",
+        "ক্লাছ অৰ্ডাৰ হল মিছন। এটা মিছন আৰম্ভ কৰিবলৈ, আপুনি মানচিত্ৰত থকা কোনো এটা অনুসন্ধান বাছনি কৰিব লাগিব। এটা ডাঙৰ মিছনৰ পৰিৱৰ্তে, আপোনাক সাধাৰণতে এটা মিছনৰ সৰু সৰু অংশ দিয়া হয়। এই অংশবোৰ সম্পূৰ্ণ কৰিলে আপুনি সময়ৰ সৈতে ডাঙৰ মিছনটো সম্পূৰ্ণ কৰিব পাৰিব।",
+        "এই মন্তব্যটি দুটা কাৰণত মূৰ্খতা, সেইবোৰ হৈছে: কাৰণ ১: আপুনি সম্পূৰ্ণৰূপে ভুল। লিজিয়নৰ অনুগামীসকলে আপোনাৰ বাবে অভিযান সংগ্ৰহ কৰিবলৈ মিছনত পঠিয়াই দিয়াতকৈ আপোনাৰ বাবে অভিযান/উদ্দেশ্য বিচাৰি উলিয়াবলৈ স্কাউটিং মিছনত পঠিয়াই দিয়াতকৈ ভুল। কাৰণ ২: অনুগামী পদ্ধতি বিকাশ কৰাত ২ ঘণ্টাতকৈ বেছি সময় লাগিছিল।",
+        "বহুতো অনুগামী উভয় গোষ্ঠীৰ বাবে উপলব্ধ, কিন্তু কেইবাজনো অনুগামী আছে যারা গোষ্ঠী-নিৰ্দিষ্ট। ১০৭০ লিজিয়নত, অনুগামীসকল বহুত বেছি শ্ৰেণী-নিৰ্দিষ্ট। টেভাৰ্ন বা ইনসমূহৰ সৈতে খেলুৱৈসকলে প্ৰতি সপ্তাহে গেৰিছন বিল্ডিং (হৰ্ড) বা লুনাৰফল ইন (এলায়েন্স)ত কথা পাতি এজন অতিৰিক্ত অনুগামী অৰ্জন কৰে। অতিৰিক্ত অনুগামী পাবলৈ, আকজানা বা লিছাৰ সৈতে কথা পাতক আৰু আপুনি আপোনাৰ অনুগামীক যি গুণ থাকিব বিচাৰে সেইটো বাছনি কৰক।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "guide to how to collect followers on wow",
+    "Eng_Answer": "No Answer Present.",
+    "query": "ৱাওত অনুগামীসকলক কেনেকৈ সংগ্ৰহ কৰিব লাগে তাৰ নিৰ্দেশনা"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 265552,
+    "query_type": "NUMERIC",
+    "passages": {
+      "English_passages": [
+        "If your monthly payment is not made, the store does reserve the right to cancel the layaway. A refund will be provided to you by the method of payment originally received. If the payment method was cash, a corporate check will be sent to you. The maximum amount of time allowed to pay off a layaway is 10 months.",
+        "Me and my boyfriend want to get married , we want a store that offer layaway. I know that Robbin brothers does but they don't have a good selection of rings there. i want to know if Jared the galleria of jewelry , or kay , offer layaway. I know that zales doesn't. Follow. 9 answers 9.",
+        "Diamond Empowerment Fund (D.E.F) was founded in 2007 by leaders in the diamond industry, music mogul/business entrepreneur Russell Simmons, and social justice advocate Dr. Benjamin Chavis, Jr.",
+        "No cancellation fee in OH. Requires biweekly payments. Total Layaway contract amount spread over 4 biweekly payments for an 8 week contract or 6 biweekly payments for a 12 week contract. MD, DC and online offer 8 week contracts only. 12 weeks Layaway option available in-store only for purchases of $400 or more. Not available at all stores or at Hometown, Hardware or Outlet locations, except Puerto Rico. Exclusions apply, see store for details.",
+        "What jewelry stores offer layaway for engagement rings? Me and my boyfriend want to get married , we want a store that offer layaway. I know that Robbin brothers does but they don&#39;t have a good selection of rings there. i want to know if Jared the galleria of jewelry , or kay , offer layaway. I know that zales doesn&#39;t.",
+        "1 Available only for a total purchase of $1,000 or more. 2  20% Down Payment Required.  The required minimum payment for the plan is 1/12th of the purchase rounded up to the nearest $5.00, but not less than $70.",
+        "Free ShippingFREE UPS Shipping with any order of $149 or more. ship-to-storeOrder online at zales.com and your order ships FREE if you pick it up at your local store Learn More. 60 Day Risk-Free Return PolicySurprise her with the perfect ring worry-free. If she absolutely doesn't love it, you have 60 days to return your purchase for a FULL refund.",
+        "1 Available only for a total purchase of $1,000 or more. 2  20% Down Payment Required. 3  The required minimum payment for the plan is 1/12th of the purchase rounded up to the nearest $5.00, but not less than $70.  No interest for 12 months if you make all required minimum payments by the end of the 12th month. Interest will be imposed at a rate of 9.9% for the next 6 months and at the APR for Regular Purchases thereafter (which is 17% to 26.99% depending on the state). See the Regular Card Credit Terms disclosure below.",
+        "Minimum down payment amount to start layaway is 10% of the total sale. You define the payment amount per month, as long as you can pay off within 10 months.",
+        "If the payment method was cash, a check will be sent to you. To learn more about the details of the program and how it can benefit you, please visit one of our stores or call our Customer Care Team at 1-800-HELZBERG. *Helzberg Diamonds Price Lock™ Layaway is available at all store locations and is currently not available online. The minimum down payment for any item at the store is 10% of the total sale, with a minimum requirement of $10.00."
+      ],
+      "Translated_passages": [
+        "যদি আপোনাৰ মাহিলী পৰিশোধ কৰা নহয়, তেন্তে দোকানখনে লে'এৱে' বাতিল কৰাৰ অধিকাৰ সংৰক্ষণ কৰে। পৰিশোধৰ পদ্ধতিটো মূলতঃ আপুনি পোৱা পদ্ধতিৰে আপোনাক ধন ঘূৰাই দিয়া হ'ব। যদি পৰিশোধৰ পদ্ধতিটো নগদ হয়, তেন্তে আপোনালৈ এখন কৰ্পোৰেট চেক পঠিওৱা হ'ব। লে'এৱে' পৰিশোধ কৰিবলৈ দিয়া সৰ্বাধিক সময় হৈছে ১০ মাহ।",
+        "মই আৰু মোৰ প্ৰেমিকে বিয়া কৰাব বিচাৰোঁ, আমি এখন দোকান বিচাৰোঁ যিয়ে লে'অৱে' অফাৰ কৰে। মই জানো যে ৰবিন ভাইসকলে কৰে কিন্তু তাত আঙুঠিৰ ভাল পছন্দ নাই। মই জানিব খোজো যে জেৰেড গেলেৰিয়া অফ জুৱেলাৰী, বা কে'ই, লে'অৱে' অফাৰ কৰে নেকি। মই জানো যে জেলছে নকৰে। অনুসৰণ কৰক। ৯টা উত্তৰ ৯টা।",
+        "ডায়মণ্ড এম্পৱাৰমেণ্ট ফাণ্ড (ডি.ই.এফ) ২০০৭ চনত হীৰা উদ্যোগৰ নেতা, সংগীত মগল/ব্যৱসায়ী উদ্যোগী ৰাছেল ছিমনছ আৰু সামাজিক ন্যায় সমৰ্থক ডঃ বেঞ্জামিন চেভিছ জুনিয়ৰে প্ৰতিষ্ঠা কৰিছিল।",
+        "ওএইচ-ত কোনো বাতিল মাচুল নাই। দুই সপ্তাহৰ মূল্য দিব লাগে। মুঠ লেওৱে চুক্তিৰ পৰিমাণ ৮ সপ্তাহৰ চুক্তিৰ বাবে ৪ দুই সপ্তাহৰ মূল্য বা ১২ সপ্তাহৰ চুক্তিৰ বাবে ৬ দুই সপ্তাহৰ মূল্য। এমডি, ডিচি আৰু অনলাইনে কেৱল ৮ সপ্তাহৰ চুক্তি আগবঢ়ায়। ১২ সপ্তাহৰ লেওৱে বিকল্প কেৱল ৪০০ ডলাৰ বা তাতোধিক মূল্যৰ ক্ৰয়ৰ বাবে দোকানত উপলব্ধ। সকলো দোকান বা হোমটাউন, হাৰ্ডৱেৰ বা আউটলেট অৱস্থানত উপলব্ধ নহয়, পুৱেৰ্টো ৰিকো ব্যতীত। বাদ দিয়া হৈছে, বিশদ বিবৰণৰ বাবে দোকান চাওক।",
+        "কোনবোৰ অলংকাৰৰ দোকানে বাগদানৰ আঙুঠিৰ বাবে লেঅ' অফাৰ কৰে? মই আৰু মোৰ প্ৰেমিকে বিয়া কৰাব বিচাৰোঁ, আমি এনে এখন দোকান বিচাৰোঁ যিয়ে লেঅ' অফাৰ কৰে। মই জানো যে ৰবিন ভাইসকলে কৰে কিন্তু তাত আঙুঠিৰ ভাল পৰিমাণ নাই। মই জানিব খোজো যে জেৰেড দ্য গেলেৰিয়া অফ জুৱেলাৰী, বা কেই, লেঅ' অফাৰ কৰে নেকি। মই জানো যে জেলছে নকৰে।",
+        "১ মুঠ $১,০০০ বা তাতোধিক কেনার বাবে উপলব্ধ। ২ ২০% ডাউন পেমেন্ট প্রয়োজন। পরিকল্পনাটির জন্য প্রয়োজনীয় ন্যূনতম পেমেন্ট হল কেনার ১/১২ যা নিকটতম $৫.০০ পর্যন্ত বৃত্তাকার করা হয়, কিন্তু $৭০-এর কম নয়।",
+        "যেকোনো অৰ্ডাৰৰ সৈতে বিনামূলীয়া শ্বিপিং বিনামূলীয়া ইউপিএছ শ্বিপিং ১৪৯ ডলাৰ বা তাতোকৈ বেছি। অনলাইনত zales.com-ত শ্বিপ-টু-ষ্ট'ৰ অৰ্ডাৰ কৰক আৰু যদি আপুনি আপোনাৰ স্থানীয় দোকানত লৈ যায় তেন্তে আপোনাৰ অৰ্ডাৰ বিনামূলীয়াকৈ পঠিয়াই দিয়া হয়। ৬০ দিনৰ বিনা বিপদ ঘূৰাই দিয়াৰ নীতি আপোনাক নিশ্চিত কৰি দিয়ে যে আপুনি এই অৰ্ডাৰটো সম্পূৰ্ণ বিনা চিন্তাৰে ল'ব পাৰে। যদি তেওঁ এই অৰ্ডাৰটো একেবাৰেই ভাল নাপায়, তেন্তে আপুনি আপোনাৰ ক্ৰয় বিনামূলীয়াকৈ ঘূৰাই দিবলৈ ৬০ দিন সময় পাব।",
+        "১ মোট $১,০০০ বা তাতোধিক কেনার বাবে উপলব্ধ। ২ ২০% ডাউন পেমেন্ট প্রয়োজন। ৩ পরিকল্পনার জন্য প্রয়োজনীয় ন্যূনতম পেমেন্ট হল কেনার ১/১২ ভাগ, নিকটতম $৫.০০ পর্যন্ত বৃত্তাকার, কিন্তু $৭০-এর কম নয়। ১২ মাসের শেষে সমস্ত প্রয়োজনীয় ন্যূনতম পেমেন্ট করলে ১২ মাসের জন্য কোনো সুদ নেই। পরবর্তী ৬ মাসের জন্য ৯.৯% এবং তারপরে নিয়মিত ক্রয়ের জন্য APR (যা রাজ্যের উপর নির্ভর করে ১৭% থেকে ২৬.৯৯%) এ সুদ আরোপ করা হবে। নিচে নিয়মিত কার্ড ক্রেডিট শর্তাবলী প্রকাশ দেখুন।",
+        "লেঅ’ৱে আৰম্ভ কৰিবলৈ ন্যূনতম ডাউন পেমেণ্ট পৰিমাণ হ’ল মুঠ বিক্ৰীৰ ১০%। আপুনি প্ৰতি মাহে পৰিশোধৰ পৰিমাণ নিৰ্ধাৰণ কৰক, যেতিয়ালৈকে আপুনি ১০ মাহৰ ভিতৰত পৰিশোধ কৰিব পাৰে।",
+        "যদি পৰিশোধ পদ্ধতিটো নগদ হয়, তেন্তে আপোনালৈ এখন চেক পঠিয়াই দিয়া হ'ব। কাৰ্যসূচীটোৰ বিশদ আৰু ই আপোনাক কেনেকৈ উপকৃত কৰিব পাৰে সেই বিষয়ে অধিক জানিবলৈ, অনুগ্ৰহ কৰি আমাৰ এটা দোকানলৈ যাওক বা আমাৰ গ্ৰাহক যত্ন দলটোক ১-৮০০-এইচইএলজেডবিইআৰজি-ত ফোন কৰক। *হেলজবাৰ্গ ডায়মণ্ডছ প্ৰাইচ লেয়াৱে সকলো দোকানতে উপলব্ধ আৰু বৰ্তমানে অনলাইনত উপলব্ধ নহয়। দোকানত যিকোনো সামগ্ৰীৰ ন্যূনতম ডাউন পেমেণ্ট হৈছে মুঠ বিক্ৰীৰ ১০%, যাৰ ন্যূনতম প্ৰয়োজনীয়তা হৈছে $১০.০০।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "how long is zales layaway",
+    "Eng_Answer": "No Answer Present.",
+    "query": "জেলছ কিমান দিন আছে আঁতৰত থাকিব লাগে"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "এই প্ৰক্ৰিয়া অনুসৰি প্ৰকৃত � পদাৰ্থটো পোৱা গৈছিল এক � সুকীয়া স্থানত পোৱা যায়।",
+    "query_id": 227261,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "Worldwide, population is seven billion. Projections are that population in the United States will reach 400 million by 2050 – a 33 percent increase in roughly 40 years’ time; the U.S. registered its 300 millionth resident in 2006. With an increase in world population has come an increase in air pollution.",
+        "Projections are that population in the United States will reach 400 million by 2050 – a 33 percent increase in roughly 40 years’ time; the U.S. registered its 300 millionth resident in 2006. With an increase in world population has come an increase in air pollution.",
+        "With an increase in world population has come an increase in air pollution. The burning of fossil fuels and the amount of fossil fuels being burned is the culprit.",
+        "As the world’s population continues to increase, and standards of living improve, there is serious danger of a permanent change to the global environment. Human activities have led to the pollution of the environment, particularly in water and the air.",
+        "The growth in the human population is increasing the use of finite resources. These resources include: 1  fossil fuels such as coal, oil and natural gas are being used up rapidly. 2  raw materials such as metal ores and other minerals are being used up rapidly.",
+        "Resources. The growth in the human population is increasing the use of finite resources. These resources include: 1  fossil fuels such as coal, oil and natural gas are being used up rapidly. 2  raw materials such as metal ores and other minerals are being used up rapidly.",
+        "About 40 percent of human deaths worldwide are caused by water, air and soil pollution, according to David Pimentel, professor of ecology and agricultural sciences at Cornell University and a well-known researcher.",
+        "The human population is increasing rapidly and stretching the Earth’s finite resources, such as fossil fuels and minerals. As a result, the amount of waste and pollution is also on the rise.",
+        "The World Health Organization has reported that such environmental degradation, combined with the growth in world population, is a major cause of the rapid increase in human diseases. Pimentel says both factors contribute to the malnutrition of 3.7 billion people worldwide and make them more susceptible to disease.",
+        "The human population. Like all living things, humans exploit their surroundings for resources. Before the beginning of agriculture about 10,000 years ago, small groups of humans wandered across large areas, hunting and gathering just enough food to stay alive."
+      ],
+      "Translated_passages": [
+        "বিশ্বব্যাপী জনসংখ্যা সাত বিলিয়ন। পূৰ্বাভাস অনুসৰি ২০৫০ চনলৈকে আমেৰিকা যুক্তৰাষ্ট্ৰৰ জনসংখ্যা ৪০০ নিযুত হ'ব – প্ৰায় ৪০ বছৰৰ ভিতৰত ৩৩ শতাংশ বৃদ্ধি; ২০০৬ চনত আমেৰিকাই ৩০০ নিযুত বাসিন্দা নিবন্ধিত কৰিছে। বিশ্বৰ জনসংখ্যা বৃদ্ধিৰ লগে লগে বায়ু প্ৰদূষণ বৃদ্ধি পাইছে।",
+        "প্ৰক্ষেপণসমূহ হৈছে যে ২০৫০ চনলৈকে আমেৰিকা যুক্তৰাষ্ট্ৰৰ জনসংখ্যা ৪০০ নিযুত পৰ্যন্ত পাব – প্ৰায় ৪০ বছৰৰ ভিতৰত ৩৩ শতাংশ বৃদ্ধি; ২০০৬ চনত ইউ.এছ.-এ ইয়াৰ ৩০০ নিযুত বাসিন্দা নিবন্ধিত কৰিছিল। বিশ্বৰ জনসংখ্যা বৃদ্ধিৰ লগে লগে বায়ু প্ৰদূষণ বৃদ্ধি পাইছে।",
+        "বিশ্বৰ জনসংখ্যা বৃদ্ধিৰ লগে লগে বায়ু প্ৰদূষণ বৃদ্ধি পাইছে। জীৱাশ্ম ইন্ধন জ্বলোৱা আৰু জীৱাশ্ম ইন্ধনৰ পৰিমাণ বৃদ্ধি হোৱাটোৱেই ইয়াৰ কাৰণ।",
+        "বিশ্বৰ জনসংখ্যা বৃদ্ধি পোৱাৰ লগতে জীৱনধাৰণৰ মানদণ্ড উন্নত হোৱাৰ লগে লগে বিশ্বৰ পৰিৱেশত স্থায়ী পৰিৱৰ্তন হোৱাৰ গুৰুতৰ বিপদ আহি পৰিছে। মানুহৰ কাৰ্যকলাপৰ ফলত পৰিৱেশ বিশেষকৈ পানী আৰু বায়ু প্ৰদূষিত হৈছে।",
+        "মানৱ জনসংখ্যা বৃদ্ধিৰ ফলত সীমিত সম্পদৰ ব্যৱহাৰ বৃদ্ধি পাইছে। এই সম্পদসমূহৰ ভিতৰত আছে: ১ কয়লা, তেল আৰু প্ৰাকৃতিক গেছৰ দৰে জীৱাশ্ম ইন্ধন দ্ৰুতগতিত ব্যৱহাৰ হৈ আছে। ২ ধাতুৰ আকৰ আৰু অন্যান্য খনিজ সম্পদৰ দৰে কেঁচা সামগ্ৰী দ্ৰুতগতিত ব্যৱহাৰ হৈ আছে।",
+        "সম্পদ। মানৱ জনসংখ্যাৰ বৃদ্ধিৰ ফলত সীমিত সম্পদৰ ব্যৱহাৰ বৃদ্ধি পাইছে। এই সম্পদসমূহৰ ভিতৰত আছে: ১ জীৱাশ্ম ইন্ধন যেনে কয়লা, তেল আৰু প্ৰাকৃতিক গেছ দ্ৰুতগতিত ব্যৱহাৰ হৈ আছে। ২ কেচা সামগ্ৰী যেনে ধাতুৰ আকৰ আৰু অন্যান্য খনিজ দ্ৰব্য দ্ৰুতগতিত ব্যৱহাৰ হৈ আছে।",
+        "কৰ্নেল বিশ্ববিদ্যালয়ৰ পৰিৱেশ আৰু কৃষি বিজ্ঞানৰ অধ্যাপক তথা এগৰাকী সুপৰিচিত গৱেষক ডেভিড পিমেণ্টেলৰ মতে, বিশ্বজুৰি প্ৰায় ৪০ শতাংশ মানুহৰ মৃত্যু পানী, বায়ু আৰু মাটিৰ প্ৰদূষণৰ ফলত হয়।",
+        "মানুহৰ জনসংখ্যা দ্ৰুতগতিত বৃদ্ধি পাই পৃথিৱীৰ সীমিত সম্পদ যেনে জীৱাশ্ম ইন্ধন আৰু খনিজ পদাৰ্থসমূহ বৃদ্ধি কৰিছে। ফলস্বৰূপে, আৱৰ্জনা আৰু প্ৰদূষণৰ পৰিমাণো বৃদ্ধি পাইছে।",
+        "বিশ্ব স্বাস্থ্য সংস্থাই প্ৰকাশ কৰিছে যে বিশ্বৰ জনসংখ্যা বৃদ্ধিৰ সৈতে এনে পৰিৱেশগত অৱক্ষয় মানুহৰ ৰোগৰ দ্ৰুত বৃদ্ধিৰ এক প্ৰধান কাৰণ। পিমেণ্টেলে কয় যে এই দুয়োটা কাৰকেই বিশ্বজুৰি ৩.৭ বিলিয়ন লোকৰ অপুষ্টিৰ কাৰণ আৰু তেওঁলোকক ৰোগৰ প্ৰতি অধিক সংবেদনশীল কৰি তোলে।",
+        "মানুহৰ জনসংখ্যা। সকলো জীৱিত বস্তুৰ দৰেই মানুহেও নিজৰ চৌপাশৰ সম্পদৰ বাবে শোষণ কৰিছিল। প্ৰায় ১০,০০০ বছৰ আগতে কৃষিৰ আৰম্ভণিৰ আগতে মানুহৰ সৰু সৰু দলবোৰে বিশাল এলেকাত ঘূৰি ফুৰি শিকাৰ কৰিছিল আৰু জীয়াই থাকিবলৈ যথেষ্ট খাদ্য সংগ্ৰহ কৰিছিল।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "how does pollution increase human population",
+    "Eng_Answer": "",
+    "query": "প্ৰদূষণে মানুহৰ জনসংখ্যা কেনেকৈ বৃদ্ধি কৰে"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 227029,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "The NHL is divided into 2 conferences and then 3 divisions per conference. The teams with the most points in each division are seeded 1-3 and the next highest teams are seeded 4-8 for each conference. 16 teams make the playoffs and each round consists of a best of 7 series. Round 1 (quarterfinals): 16 teams (8 per conference). 1vs8, 2vs7, 3vs6, 4vs5. Seeds 1-4 have home ice advantage*.",
+        "For the first time in 20 years, the NHL's playoff format is primarily based on divisions, not conferences. No more 1 vs. 8, 2 vs. 7, etc. Change is hard, and sure, the new way is a little bit complicated.",
+        "The NHL didn’t just realign its divisions this season; the league came up with an entirely new playoff format. This year’s Stanley Cup Playoffs still includes 16 teams, eight per conference.",
+        "The NHL has a new playoff format for the 2013-14 season.",
+        "Round 2 (semifinals): 8 teams (4 per conference). After the first round, the teams are re-seeded so that the highest ranking team plays the lowest ranking team. i.e. If seeds 1, 2, 5, 6 won in round one, then the matchups would be 1vs6, and 2vs5, with the higher seeds having home ice advantage. Round 3 (conference finals): 4 teams.",
+        "1 The first place team in each division gets the No. 1 seed in their divisional playoff. 2  The second and third place teams in each division are the No. 2 and No. 3 seeds in their divisional playoff. 3  They will go head-to-head in the first round. 4  Here's where it gets tricky: The two wild card teams will take the No. 4 seeds.",
+        "Here’s how the matchups work in the opening round: 1. The division leader with the most points in the conference will face the wild card team with the fewest points. 2. The division leader with the fewest points in the same conference will face the wild card team with the most points. 3. The second-place team in each division will host the third-place team in its own division. The second round is where things really differ from the past format.",
+        "1 The second and third place teams in each division are the No. 2 and No. 3 seeds in their divisional playoff. 2  They will go head-to-head in the first round. 3  Here's where it gets tricky: The two wild card teams will take the No. 4 seeds. 4  They will each play a No. 1 seed in the first round.",
+        "But there are some new tweaks with the addition of wild card teams. Under the new format, the top three teams in each of the four divisions automatically qualify for the post-season, while the remaining two playoff spots per conference are given to the teams with the most remaining points.",
+        "How teams qualify. 1  There are still 16 overall teams in the Stanley Cup Playoffs, eight from the East and eight from the West. 2  The top three teams in each division automatically qualify for the postseason. 3  The 4 remaining teams will qualify via wild card spots: two in the East, two in the West."
+      ],
+      "Translated_passages": [
+        "এনএইচএল-কে ২টা কনফাৰেন্সত বিভক্ত কৰা হৈছে আৰু তাৰপিছত প্ৰতিটো কনফাৰেন্সত ৩টা বিভাগ কৰা হৈছে। প্ৰতিটো বিভাগত সৰ্বাধিক পইণ্ট থকা দলসমূহ ১-৩ স্থানত আৰু পৰৱৰ্তী সৰ্বোচ্চ দলসমূহ ৪-৮ স্থানত স্থান দিয়া হৈছে। ১৬টা দলে প্লে-অফত প্ৰৱেশ কৰে আৰু প্ৰতিটো ৰাউণ্ডত ৭টাৰ ভিতৰত শ্ৰেষ্ঠ এটা শৃংখলা থাকে। ৰাউণ্ড ১ (কোৱাৰ্টাৰ ফাইনেল): ১৬টা দল (প্ৰতি কনফাৰেন্সত ৮টা)। ১বনাম ৮, ২বনাম ৭, ৩বনাম ৬, ৪বনাম ৫। বাছনি ১-৪ দলসমূহৰ ঘৰুৱা বৰফৰ সুবিধা আছে।",
+        "২০ বছৰৰ পিছত প্ৰথমবাৰৰ বাবে এন.এইচ.এল.-ৰ প্লে'-অফ ফৰ্মেট মূলতঃ বিভাগৰ ওপৰত আধাৰিত, কনফাৰেন্সৰ ওপৰত নহয়। আৰু ১ বনাম ৮, ২ বনাম ৭, ইত্যাদি নহয়। পৰিৱৰ্তন কঠিন, আৰু নিশ্চিত, নতুন পদ্ধতিটো অলপ জটিল।",
+        "এন.এইচ.এল.-এ এই ছিজনটোত কেৱল নিজৰ বিভাগসমূহ পুনৰ সংগঠিত কৰা নাছিল; লীগখনে এক সম্পূৰ্ণ নতুন প্লে'-অফ ফৰ্মেট আগবঢ়াইছিল। এই বছৰৰ ষ্টেনলি কাপ প্লে'-অফত এতিয়াও ১৬টা দল আছে, প্ৰতিটো কনফাৰেন্সত আঠটা।",
+        "২০১৩-১৪ ছিজনৰ বাবে এনএইচএল-ৰ এটা নতুন প্লে'-অফ ফৰ্মেট আছে।",
+        "ৰাউণ্ড ২ (ছেমিফাইনেল): ৮টা দল (প্ৰতি কনফাৰেন্সত ৪টা)। প্ৰথম ৰাউণ্ডৰ পিছত, দলসমূহক পুনৰ বাছনি কৰা হয় যাতে সৰ্বোচ্চ ৰেংকিং থকা দলটোৱে সৰ্বনিম্ন ৰেংকিং থকা দলটোৰ সৈতে খেলে। অৰ্থাৎ, যদি ১, ২, ৫, ৬ নম্বৰ দলসমূহে প্ৰথম ৰাউণ্ডত জয়লাভ কৰে, তেন্তে মেচসমূহ ১বনাম ৬, আৰু ২বনাম ৫ হ'ব, য'ত উচ্চ সীডসমূহৰ ঘৰুৱা বৰফৰ সুবিধা থাকিব। ৰাউণ্ড ৩ (কনফাৰেন্স ফাইনেল): ৪টা দল।",
+        "১ প্রথম স্থানৰ দলটি তেওঁলোকৰ বিভাগীয় প্লে-অফত ১ নম্বৰ স্থান পাব। ২ প্রতিটি বিভাগৰ দ্বিতীয় আৰু তৃতীয় স্থানৰ দলসমূহ তেওঁলোকৰ বিভাগীয় প্লে-অফত ২ নম্বৰ আৰু ৩ নম্বৰ স্থান পাব। ৩ তেওঁলোক প্ৰথম ৰাউণ্ডত মুখামুখি হ'ব। ৪ এইটো কঠিন হৈ পৰে: দুটি ওয়াইল্ড কাৰ্ড দল ৪ নম্বৰ স্থান ল'ব।",
+        "এইবাৰ প্রথম ৰাউণ্ডত কেনেকৈ খেল খেলা হয় তা এইদৰে: ১. কনফাৰেন্সত সৰ্বাধিক পইণ্ট থকা বিভাগৰ নেতাই সৰ্বনিম্ন পইণ্ট থকা ওয়াইল্ড কাৰ্ড দলৰ সৈতে খেলিব। ২. একেই কনফাৰেন্সত সৰ্বনিম্ন পইণ্ট থকা বিভাগৰ নেতাই সৰ্বাধিক পইণ্ট থকা ওয়াইল্ড কাৰ্ড দলৰ সৈতে খেলিব। ৩. প্রতিটো বিভাগৰ দ্বিতীয় স্থানৰ দলটোৱে নিজৰ বিভাগত তৃতীয় স্থানৰ দলটোক আয়োজন কৰিব। দ্বিতীয় ৰাউণ্ডটো হৈছে যেখানত পূৰ্বৰ ফৰ্মেটৰ পৰা পৃথক হয়।",
+        "১ প্রতিটি বিভাগৰ দ্বিতীয় আৰু তৃতীয় স্থানৰ দলসমূহ হৈছে তেওঁলোকৰ বিভাগীয় প্লে-অফত ২ নং ২ আৰু ৩ নং ৩ বাছনি। ২  তেওঁলোক প্ৰথম ৰাউণ্ডত মুখামুখি হ'ব। ৩  এইটো কঠিন হৈ পৰে: দুটা ওয়াইল্ড কাৰ্ড দলে ৪ নং বাছনি ল'ব। ৪  তেওঁলোক প্ৰথম ৰাউণ্ডত ১ নং বাছনিৰ সৈতে খেলিব।",
+        "কিন্তু ওয়াইল্ড কাৰ্ড দলসমূহৰ সংযোজনৰ সৈতে কিছুমান নতুন সালসলনি কৰা হৈছে। নতুন ফৰ্মেটৰ অধীনত, চাৰিটা বিভাগৰ প্ৰতিটোতে শীৰ্ষ তিনিটা দলে স্বয়ংক্ৰিয়ভাৱে পোষ্ট-ছিজনৰ বাবে যোগ্যতা অৰ্জন কৰে, আনহাতে বাকী থকা দুটা প্লে'-অফ স্থান প্ৰতিটো কনফাৰেন্সত সৰ্বাধিক অৱশিষ্ট পইণ্ট থকা দলসমূহক দিয়া হয়।",
+        "কেনেকৈ দলসমূহ যোগ্যতা অর্জন কৰে। ১ ষ্টেনলি কাপ প্লে-অফত এতিয়াও ১৬টা মুঠ দল আছে, আঠটা পূব আৰু আঠটা পশ্চিমৰ পৰা। ২ প্রতিটো বিভাগৰ শীৰ্ষ তিনিটা দল স্বয়ংক্ৰিয়ভাৱে পোষ্টছিজনৰ বাবে যোগ্যতা অৰ্জন কৰে। ৩ বাকী ৪টা দল ওয়াইল্ড কাৰ্ড স্পটৰ মাধ্যমে যোগ্যতা অৰ্জন কৰিব: দুটা পূবত, দুটা পশ্চিমত।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "how does nhl playoff seeding work",
+    "Eng_Answer": "No Answer Present.",
+    "query": "এনএইচএল প্লে'অফ ছীডিং কেনেকৈ কাম কৰে"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 166290,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "Ringworm of the skin (tinea corporis) is most commonly caused by the fungus Trichophyton rubrum, which spreads from one person to another. It can also be caused by Microsporum canis, which is spread by cats and dogs. This type is less common but causes a more severe infection.",
+        "What causes ringworm? Ringworm isn't caused by worms. The skin infection, also known as tinea, is caused by fungi called dermatophytes. Fungi are microscopic organisms that can live off the dead tissues of your skin, hair, and nails, much like a mushroom can grow on the bark of a tree. Ringworm is caused by a fungus that grows on the skin.",
+        "About 40 types of fungi can cause ringworm. They are typically of the Trichophyton, Microsporum, or Epidermophyton type. Risk factors include using public showers, contact sports such as wrestling, excessive sweating, contact with animals, obesity, and poor immune function.",
+        "Ringworm fungi feed on the keratin that is found in the outer layers of skin, hair and nails.. Ringworm fungi feed on the keratin that is found in the outer layers of the skin, hair and nails. In animals, the fungi commonly infect hair follicles, which causes the affected hair shafts to break off at the skin line. This usually results in round patches of hair loss.",
+        "Catching Ringworm From Pets. Ringworm is a common skin disorder otherwise known as tinea that can affect the skin on the body (tinea corporis), the scalp (tinea capitis), the feet (tinea pedis, or athlete's foot), or the groin (tinea cruris, or jock itch). Ringworm is not, as its name suggests, caused by a worm.",
+        "What is ringworm? Ringworm — which has nothing at all to do with worms — is a contagious fungal infection of the skin. It can be itchy and unpleasant, but it's not painful or dangerous. When the fungus affects the scalp, the condition is called tinea capitis, and when it affects the body it's tinea corporis.",
+        "Dermatophytosis, also known as ringworm, is a fungal infection of the skin. Typically it results in a red, itchy, scaly, circular rash. Hair loss may occur in the area affected. Symptoms begin four to fourteen days after exposure. Multiple areas can be affected at a given time.",
+        "Ringworm infection is caused by a fungus. Fungi (plural of fungus) that cause ringworm live and spread on the outer layer of skin. Ringworm is not caused by a worm or other parasite. Fungi are present everywhere in our environment, including on the human body. They thrive in warm, moist areas, such as locker rooms and swimming pools, and in skin folds.",
+        "Ringworm is a contagious fungal infection of the skin that has nothing to do with worms. It's hard to protect your toddler from... Newborn and baby rashes: Eczema, acne, & other skin conditions. A visual guide to skin conditions in babies, understanding baby acne and eczema, and more.",
+        "What is ringworm and what causes it? Ringworm is the common name given to a fungal infection of the superficial layers of the skin, hair and nails. Ringworm infections can occur in humans and in all domesticated species of animals."
+      ],
+      "Translated_passages": [
+        "ছালৰ ৰিংৱৰ্ম (টিনিয়া কৰ্পোৰিছ) সাধাৰণতে ভেঁকুৰ ট্ৰাইকোফাইটন ৰুব্ৰামৰ ফলত হয়, যি এজন ব্যক্তিৰ পৰা আন এজনলৈ বিয়পে। ই মাইক্ৰ'স্পৰাম কেনিছৰ ফলতো হ'ব পাৰে, যি মেকুৰী আৰু কুকুৰৰ দ্বাৰা বিয়পে। এই প্ৰকাৰটো কম সাধাৰণ কিন্তু অধিক গুৰুতৰ সংক্ৰমণৰ কাৰণ হয়।",
+        "কি কাৰণে ৰিংৱৰ্ম হয়? ৰিংৱৰ্ম পোকাৰ দ্বাৰা নহয়। ছালৰ সংক্ৰমণ, যাক টিনিয়া বুলিও জনা যায়, ডাৰ্মাটোফাইট নামৰ ভেঁকুৰৰ দ্বাৰা হয়। ভেঁকুৰ হৈছে অণুবীক্ষণিক জীৱ যি আপোনাৰ ছাল, চুলি আৰু নখৰ মৃত কলাৰ পৰা বাচি থাকিব পাৰে, ঠিক এজোপা গছৰ বাকলিত কাঠফুলা গজিব পাৰে। ৰিংৱৰ্ম ছালত গজা ভেঁকুৰৰ দ্বাৰা হয়।",
+        "প্ৰায় ৪০ প্ৰকাৰৰ ভেঁকুৰে ৰিংৱৰ্ম সৃষ্টি কৰিব পাৰে। সেইবোৰ সাধাৰণতে ট্ৰাইকোফাইটন, মাইক্ৰ’স্পোৰাম বা এপিডাৰ্ম’ফাইটন প্ৰকাৰৰ হয়। বিপদৰ কাৰকসমূহৰ ভিতৰত আছে পাব্লিক শ্বাৱাৰ ব্যৱহাৰ কৰা, মল্লযুঁজৰ দৰে স্পৰ্শ ক্ৰীড়া, অত্যধিক ঘাম ওলোৱা, জীৱ-জন্তুৰ সংস্পৰ্শলৈ অহা, মেদবহুলতা আৰু দুৰ্বল ৰোগ প্ৰতিৰোধ ক্ষমতা।",
+        "চোকোৰা ভেঁকুৰে ছাল, চুলি আৰু নখৰ বাহিৰৰ স্তৰত পোৱা কেৰাটিন খায়। চোকোৰা ভেঁকুৰে ছাল, চুলি আৰু নখৰ বাহিৰৰ স্তৰত পোৱা কেৰাটিন খায়। পশুৰ ক্ষেত্ৰত, ভেঁকুৰে সাধাৰণতে চুলিৰ ছিদ্ৰবোৰত সংক্ৰমণ ঘটায়, যাৰ ফলত ছালৰ ৰেখাত প্ৰভাৱিত চুলিৰ ডালবোৰ ভাঙি যায়। এইটো সাধাৰণতে চুলি সৰাৰ বৃত্তাকাৰ দাগৰ সৃষ্টি কৰে।",
+        "পোহনীয়া প্ৰাণীৰ পৰা ধৰা পৰা ৰিংৱৰ্ম। ৰিংৱৰ্ম হৈছে এক সাধাৰণ ছালৰ ৰোগ যাক অন্যথা টিনিয়া বুলি জনা যায় যি শৰীৰৰ ছাল (টিনিয়া কৰ্পোৰিছ), মূৰৰ ছাল (টিনিয়া কেপিটিছ), ভৰি (টিনিয়া পেডিছ, বা খেলুৱৈৰ ভৰি), বা কৰঙন (টিনিয়া ক্ৰুৰিছ, বা জক ইটচ)ক প্ৰভাৱিত কৰিব পাৰে। ৰিংৱৰ্ম ইয়াৰ নামে পৰামৰ্শ দিয়াৰ দৰে কোনো পোকাৰ দ্বাৰা হোৱা নহয়।",
+        "ৰিংৱৰ্ম কি? ৰিংৱৰ্ম — যাৰ পোকৰ সৈতে একো সম্পৰ্ক নাই — হৈছে ছালৰ এক সংক্ৰামক ভেঁকুৰৰ সংক্ৰমণ। ই খজুৱতি আৰু অপ্ৰীতিকৰ হ'ব পাৰে, কিন্তু ই বেদনাদায়ক বা বিপদজনক নহয়। যেতিয়া ভেঁকুৰে মূৰৰ ছালত প্ৰভাৱ পেলায়, তেতিয়া এই অৱস্থাটোক টিনিয়া কেপিটিছ বোলা হয়, আৰু যেতিয়া ই শৰীৰত প্ৰভাৱ পেলায় তেতিয়া ইয়াক টিনিয়া কৰ্পোৰিছ বোলা হয়।",
+        "ডাৰ্মাটোফাইটোচিছ, যাক ৰিংৱৰ্ম বুলিও জনা যায়, হৈছে ছালৰ এক ভেঁকুৰৰ সংক্ৰমণ। সাধাৰণতে ইয়াৰ ফলত ৰঙা, খজুৱতি, আঁচিল, বৃত্তাকাৰ ফোঁহা হয়। সংস্পৰ্শলৈ অহাৰ চাৰিৰ পৰা চৈধ্য দিনৰ পিছত লক্ষণসমূহ দেখা দিব পাৰে। একে সময়তে একাধিক অংশ প্ৰভাৱিত হ'ব পাৰে।",
+        "চক্ৰীয় পোকাৰ সংক্ৰমণ এবিধ ভেঁকুৰৰ ফলত হয়। ভেঁকুৰ (ভেঁকুৰৰ বহুবচন) যি চক্ৰীয় পোকাৰ জীৱন আৰু ছালৰ বাহিৰৰ স্তৰত বিয়পে। চক্ৰীয় পোকা কোনো পোকা বা অন্য পৰজীৱীৰ ফলত নহয়। ভেঁকুৰ আমাৰ পৰিৱেশত সকলো ঠাইতে থাকে, মানুহৰ শৰীৰতো থাকে। তেওঁলোক উষ্ণ, আৰ্দ্ৰ ঠাইত যেনে লকাৰ ৰুম আৰু সাঁতোৰৰ পুখুৰীত আৰু ছালৰ ভাঁজত বাঢ়ি থাকে।",
+        "ৰিংৱৰ্ম হৈছে ছালৰ এক সংক্ৰামক ভেঁকুৰৰ সংক্ৰমণ যাৰ পোকৰ সৈতে কোনো সম্পৰ্ক নাই। আপোনাৰ কেঁচুৱাটিক সুৰক্ষিত কৰা কঠিন... নৱজাতক আৰু শিশুৰ ফোঁহা: একজেমা, শালমইনা আৰু অন্যান্য ছালৰ অৱস্থা। শিশুৰ ছালৰ অৱস্থাৰ এক দৃশ্যমান নিৰ্দেশিকা, শিশুৰ শালমইনা আৰু একজেমা বুজি পোৱা আৰু আৰু বহুত কিছু।",
+        "আঙুঠিৰ কী আৰু ইয়াৰ কাৰণ কি? আঙুঠি হৈছে ছাল, চুলি আৰু নখৰ উপৰিভাগৰ ভেঁকুৰৰ সংক্ৰমণৰ সাধাৰণ নাম। আঙুঠিৰ সংক্ৰমণ মানুহ আৰু সকলো পোহনীয় প্ৰাণীৰ মাজত হ'ব পাৰে।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "does filth cause ringworm?",
+    "Eng_Answer": "No Answer Present.",
+    "query": "ময়লাৰ ফলত আঙুঠিৰ ক্ষত হয় নেকি?"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 316415,
+    "query_type": "NUMERIC",
+    "passages": {
+      "English_passages": [
+        "How much does it cost to recement a tooth crown? How much approximately does it cost to recement a crowned tooth in Charlotte, nc?. Yes I had a tooth replaced with a crown about 10 or so years ago in the front and now it is loose Post to Facebook",
+        "Gold Crown Costs. Cost Summary of Dental Crowns The prices for dental crowns range from $500 to $2,500 per crown and are dependent upon the materials used, location of tooth and geographic location. The average cost of a crown is $825, with or without dental insurance coverage. The cheapest cost of a dental crown is $500 for a simple metal crown. Dental crowns are specifically shaped shells that fit over damaged or broken teeth for either cosmetic or structural purposes.",
+        "13 Dental Fee Schedule. The Industrial Commission has a special bill form for use by dentists. All dentists rendering treatment to Workers’ Compensation claimants must prepare a full itemized statement of services rendered on I.C. Form No.25D, sign the form at the place indicated, and forward two copies to the employer or insurance carrier.",
+        "Report Abuse. 1  Chat or rant, adult content, spam, insulting other members,show more. 2  Harm to minors, violence or threats, harassment or privacy invasion, impersonation or misrepresentation, fraud or phishing, show more. 3  Chat or rant, adult content, spam, insulting other members,show more.",
+        "1 Upload failed. 2  We are experiencing some problems, please try again. 3  You can only upload files of type PNG, JPG, or JPEG. 4  You can only upload files of type 3GP, 3GPP, MP4, MOV, AVI, MPG, MPEG, or RM. 5  You can only upload photos smaller than 5 MB. 6  You can only upload videos smaller than 600MB.",
+        "7 Comments + Add Comment. 1  How about zirconium crowns? 2  My dentist wants to charge $200 for a tooth-colored filling, one surface, on back of tooth. 3  I NEED CROWNS ON 6 TEETH, MY DENTIST QUOTED 1,000 PER TOOTH. IS THAT THE GOING RATE. 4  I have an implant done for one tooth.",
+        "Hi, Just want to know what to expect. Is recementing a crown an expensive procedure? Does anyone know the price range? Thanks.",
+        "If you need to know about tooth crown cost of the tooth crown would cost around 500$ without insurance and if you know with insurance it costs almost 1000 to 1500$,but the cost may varies from state to state.If you need information dental.justanswer.com hope my answer will help you to satisfy.",
+        "Crowns cost from $500-$3,000 a tooth, depending on materials, complexity, location, and the dentist`s training a beautiful porcelain crown on a front tooth will generally cost much more than a basic crown on a back tooth.its cost is $950 to over $2000 in Florida depending upon the part of the country.",
+        "1 Cost of dental crown varies from place to place and dentist to dentist....  2 To 1 hour after dental crown is cemented....  3 Cost of dental crown also varies on....  4 On yahoo and msn for the latest dental costs.crown cost in all the countries....  5 The average price of a dental crown cost is $500-$3,000 per tooth...."
+      ],
+      "Translated_passages": [
+        "এটা টুথ ক্ৰাউন পুনৰ লগোৱাৰ খৰচ কিমান? চাৰ্লট, এনচি?ত এটা ক্ৰাউন কৰা দাঁত পুনৰ লগোৱাৰ খৰচ প্ৰায় কিমান? হয়, প্ৰায় ১০ বছৰ আগতে মোৰ সন্মুখত এটা টুথ ক্ৰাউনেৰে দাঁত সলনি কৰিছিলো আৰু এতিয়া ই ফেচবুকত ঢিলা হৈ পৰিছে।",
+        "সোণৰ মুকুটৰ খৰচ। দাঁতৰ মুকুটৰ খৰচৰ সাৰাংশ দাঁতৰ মুকুটৰ মূল্য প্ৰতি মুকুটত $500 ৰ পৰা $2,500 লৈকে হয় আৰু ব্যৱহৃত সামগ্ৰী, দাঁতৰ অৱস্থান আৰু ভৌগোলিক অৱস্থানৰ ওপৰত নিৰ্ভৰশীল। এটা মুকুটৰ গড় খৰচ হৈছে $825, দাঁতৰ বীমা কভাৰেজ সহ বা নকৰাকৈ। এটা দাঁতৰ মুকুটৰ সবাতোকৈ সস্তা খৰচ হৈছে $500 এটা সাধাৰণ ধাতুৰ মুকুটৰ বাবে। দাঁতৰ মুকুট হৈছে বিশেষভাৱে আকৃতিৰ খোলা যি ক্ষতিগ্ৰস্ত বা ভাঙি যোৱা দাঁতৰ ওপৰত সাজ-সজ্জা বা গাঁথনিগত উদ্দেশ্যৰ বাবে লগোৱা হয়।",
+        "১৩ দন্ত চিকিৎসা ফি তালিকা। শিল্প আয়োগে দন্ত চিকিৎসকসকলৰ ব্যৱহাৰৰ বাবে এক বিশেষ বিল ফৰ্ম আছে। শ্ৰমিক ক্ষতিপূৰণ দাবীদাতাসকলক চিকিৎসা প্ৰদান কৰা সকলো দন্ত চিকিৎসকে আই.চি. ফৰ্ম নং ২৫ডি-ত প্ৰদান কৰা সেৱাসমূহৰ এক সম্পূৰ্ণ বিশদ বিবৃতি প্ৰস্তুত কৰিব লাগিব, নিৰ্দিষ্ট স্থানত স্বাক্ষৰ কৰিব লাগিব আৰু নিয়োগকৰ্তা বা বীমা বাহকক দুটা প্ৰতিলিপি পঠিয়াব লাগিব।",
+        "অপব্যৱহাৰৰ প্ৰতিবেদন। ১ চেট বা বক্তৃতা, প্ৰাপ্তবয়স্ক বিষয়বস্তু, স্পেম, অন্য সদস্যক অপমান কৰা, আৰু অধিক দেখুৱাও। ২ নাবালকক ক্ষতি, হিংসা বা ভাবুকি, হয়ৰানি বা গোপনীয়তা আক্ৰমণ, ভুৱা বা ভুল প্ৰতিনিধিত্ব, প্ৰতাৰণা বা ফিছিং, আৰু অধিক দেখুৱাও। ৩ চেট বা বক্তৃতা, প্ৰাপ্তবয়স্ক বিষয়বস্তু, স্পেম, অন্য সদস্যক অপমান কৰা, আৰু অধিক দেখুৱাও।",
+        "১ আপলোড ব্যর্থ হয়েছে। ২ আমরা কিছু সমস্যাৰ সন্মুখীন হচ্ছো, অনুগ্রহ কৰি আবার চেষ্টা কৰক। ৩ আপুনি কেবল PNG, JPG, বা JPEG ধৰণৰ ফাইলসমূহ আপলোড কৰিব পাৰেন। ৪ আপুনি কেবল 3GP, 3GPP, MP4, MOV, AVI, MPG, MPEG, বা RM ধৰণৰ ফাইলসমূহ আপলোড কৰিব পাৰেন। ৫ আপুনি কেবল ৫ MB তকৈ সৰু ফটো আপলোড কৰিব পাৰেন। ৬ আপুনি কেবল ৬০০MB তকৈ সৰু ভিডিঅ' আপলোড কৰিব পাৰেন।",
+        "৭টা মন্তব্য + মন্তব্য যোগ করুন। ১ জিৰকোনিয়াম মুকুট সম্পৰ্কে কি? ২ মোৰ দাঁতৰ ডাক্তৰে এটা দাঁতৰ পিছনৰ এটা পৃষ্ঠত দাঁতৰ ৰং কৰা এটা ফিলিংৰ বাবে $২০০ চাৰ্জ কৰিব বিচাৰে। ৩ মোৰ এটা দাঁতৰ বাবে মুকুট লাগে, মোৰ দাঁতৰ ডাক্তৰে উদ্ধৃতি দিছে ১,০০০ প্ৰতি দাঁত। সেই হৈছে সঠিক মূল্য? ৪ মোৰ এটা দাঁতৰ বাবে এটা ইমপ্লাণ্ট কৰিছো।",
+        "হাই, মই জানিব খোজোঁ কি আশা কৰিব লাগে। মুকুট পুনৰ লগোৱাটো এটা ব্যয়বহুল পদ্ধতি নেকি? কোনেও দামৰ সীমা জানে নেকি? ধন্যবাদ।",
+        "যদি আপুনি দাঁতৰ মূল্য সম্পৰ্কে জানিব বিচাৰে তেন্তে বীমা অবিহনে দাঁতৰ মূল্য প্ৰায় ৫০০ ডলাৰ হ'ব আৰু যদি আপুনি জানে যে বীমাৰ সৈতে ইয়াৰ মূল্য প্ৰায় ১০০০ৰ পৰা ১৫০০ ডলাৰ হ'ব, কিন্তু খৰচ প্ৰতিখন ৰাজ্যত বেলেগ বেলেগ হ'ব পাৰে। যদি আপুনি দাঁতৰ তথ্য জানিব বিচাৰে তেন্তে মোৰ উত্তৰটো আপোনাক সন্তুষ্ট কৰিবলৈ সহায় কৰিব।",
+        "দাঁতৰ ওপৰত এটা সুন্দৰ পৰ্চেলেইন মুকুট তৈয়াৰ কৰিবলৈ দাঁতৰ ওপৰত প্ৰয়োজনীয় সামগ্ৰী, জটিলতা, অৱস্থান আৰু দন্ত চিকিৎসকৰ প্ৰশিক্ষণৰ ওপৰত নিৰ্ভৰ কৰি এটা মুকুটৰ মূল্য সাধাৰণতে পিছফালৰ দাঁততকৈ বহুত বেছি হয়। দেশৰ অংশটোৰ ওপৰত নিৰ্ভৰ কৰি ফ্ল’ৰিডাত ইয়াৰ মূল্য ৯৫০ ডলাৰৰ পৰা ২০০০ ডলাৰলৈকে হয়।",
+        "১ দাঁতের মুকুটৰ মূল্য বিভিন্ন স্থানত আৰু দাঁতৰ চিকিৎসকৰ পৰা দাঁতৰ চিকিৎসকলৈ পৃথক হয়... ২ দাঁতের মুকুট সিমেন্ট কৰাৰ ১ ঘণ্টাৰ পিছত... ৩ দাঁতের মুকুটৰ মূল্যও বিভিন্ন হয়... ৪ সকলো দেশত নতুন দাঁতের মুকুটৰ খৰচ... ৫ দাঁতের মুকুটৰ গড় মূল্য হল $500-$3,000 প্রতি দাঁত..."
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "how much does it cost to recement a crown",
+    "Eng_Answer": "No Answer Present.",
+    "query": "এটা মুকুট পুনৰ স্থাপন কৰিবলৈ কিমান খৰচ হয়"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 1060370,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "English_passages": [
+        "Related: barrel slime slime toy slime goo nickelodeon slime science kit slime green slime glow in the dark slime jelly bracelets kids slime glow putty putty oil slime Refine more Format",
+        "Slime mold, a broad term often referring to roughly 6 groups of Eukaryotes. Biofilm, an aggregate of microorganisms in which cells adhere to each other and/or to a surface. Slimy (fish), also known as the Ponyfish. Snail slime, the mucus used by gastropods for locomotion.",
+        "Slime (toy), a viscous, oozing green material made primarily from guar gum and sold in a plastic trash can; Slime (brand), a brand of tire care products; Music. Slime (band), a German punk rock band, founded in 1979 and disbanded in 1994; Other uses. Slime, a 1982 video game for Atari 8-bit family; Slime (video game series) See also",
+        "Slimer, a green ghost made of slime from the film Ghostbusters Brands Slime (toy), a viscous, oozing green material made primarily from guar gum and sold in a plastic trash can",
+        "Slime (Dragon Quest), the mascot of the Dragon Quest console role-playing game franchise; Slimer, a green ghost made of slime from the film Ghostbusters; Brands. Slime (toy), a viscous, oozing green material made primarily from guar gum and sold in a plastic trash can; Slime (brand), a brand of tire care products; Music",
+        "Barrel O Slime 24 pcs Asst Colors Putty Goo Gag Prank Fun Party Favors Joke Toys",
+        "All pages with a title containing Slime This disambiguation page lists articles associated with the title Slime. If an internal link led you here, you may wish to change the link to point directly to the intended article.",
+        "Find great deals on eBay for barrel o slime and barrel slime. Shop with confidence.",
+        "Slime mold, a broad term often referring to roughly 6 groups of Eukaryotes Biofilm, an aggregate of microorganisms in which cells adhere to each other and/or to a surface Slimy (fish), also known as the Ponyfish",
+        "Slime - Biology. 1  Slime mold, a broad term often referring to roughly 6 groups of Eukaryotes. 2  Biofilm, an aggregate of microorganisms in which cells adhere to each other and/or to a surface. 3  Slimy (fish), also known as the Ponyfish. 4  Snail slime, the mucus used by gastropods for locomotion."
+      ],
+      "Translated_passages": [
+        "সম্পৰ্কিত: বেৰেল স্লাইম স্লাইম খেলনা স্লাইম গু নিকেলোডিয়ন স্লাইম বিজ্ঞান কিট স্লাইম গ্ৰীন স্লাইম গ্লো ডাৰ্ক স্লাইম জেলি ব্ৰেচলেট কিডছ স্লাইম গ্লো পুটি পুটি অইল স্লাইম ৰিফাইন মৰ ফৰ্মেট",
+        "স্লাইম মোল্ড, একটি বিস্তৃত শব্দ যি প্রায়শই ইউকেৰিয়োটসৰ প্রায় ৬টি গোটকে বুজায়। বায়'ফিল্ম, একটি অণুজীৱৰ সমষ্টি য'ত কোষবোৰ একে অপৰৰ সৈতে আৰু/বা এটা পৃষ্ঠৰ সৈতে লেপ্টে থাকে। স্লাইমি (মাছ), যাক পনিফিশ বুলিও জনা যায়। শামুকৰ শ্লেষ্ম, গেষ্ট্ৰ'পডবোৰে গতিৰ বাবে ব্যৱহাৰ কৰা শ্লেষ্ম।",
+        "স্লাইম (খেলনা), প্লাষ্টিকৰ আবৰ্জনাৰ পাত্ৰত বিক্ৰী হোৱা প্ৰধানতঃ গুৱাৰ গামৰ পৰা তৈয়াৰ কৰা এবিধ আঠালো আৰু পানী ওলোৱা সেউজীয়া পদাৰ্থ; স্লাইম (ব্ৰেণ্ড), টায়াৰ যত্নৰ সামগ্ৰীৰ এটা ব্ৰেণ্ড; মিউজিক. স্লাইম (বেণ্ড), ১৯৭৯ চনত প্ৰতিষ্ঠা হোৱা আৰু ১৯৯৪ চনত ভাঙি পৰা এটা জাৰ্মান পাংক ৰক বেণ্ড; অন্যান্য ব্যৱহাৰ। স্লাইম, ১৯৮২ চনৰ এটাৰি ৮-বিট পৰিয়ালৰ বাবে এটা ভিডিঅ' গেম; স্লাইম (ভিডিঅ' গেম শৃংখলা) চাওক।",
+        "স্লাইমাৰ, ফিল্ম ঘোষ্টবাষ্টাৰ্ছ ব্ৰেণ্ডছ স্লাইম (খেলনা)ৰ পৰা প্রাথমিকভাৱে গুৱাৰ আঠাৰে তৈয়াৰ কৰা আৰু প্লাষ্টিকৰ আৱৰ্জনাৰ পাত্ৰত বিক্ৰী কৰা এবিধ চিকণ, পোহৰা সেউজীয়া পদাৰ্থ।",
+        "ড্ৰেগন কুৱেষ্ট কনছ'ল ৰোল-প্লেইং গেইম ফ্ৰেঞ্চাইজিৰ মাস্কট স্লাইম (ড্ৰেগন কুৱেষ্ট); গ্ল'বষ্টাৰ্ছ চলচ্চিত্ৰৰ পৰা স্লাইমেৰে তৈয়াৰ কৰা এটা সেউজীয়া ভূত স্লাইমাৰ; ব্ৰেণ্ডছ স্লাইম (খেলনা), প্লাষ্টিকৰ আবৰ্জনাৰ পাত্ৰত বিক্ৰী কৰা প্ৰধানকৈ গুৱাৰ আঠাৰে তৈয়াৰ কৰা এবিধ পিচলা, পৰিত্যাগ কৰা সেউজীয়া পদাৰ্থ; স্লাইম (ব্ৰেণ্ড), টায়াৰ যত্ন সামগ্ৰীৰ এটা ব্ৰেণ্ড; মিউজিক",
+        "বেৰেল অ’ স্লাইম ২৪ পিচ এছট কালাৰ্ছ পুটি গু গেগ প্ৰেংক ফান পাৰ্টি ফেভাৰ্ছ জোক টয়ছ",
+        "স্লাইম শিৰোনাম থকা সকলো পৃষ্ঠাই স্লাইম শিৰোনামৰ সৈতে জড়িত প্ৰবন্ধসমূহ তালিকাভুক্ত কৰে। যদি এটা আভ্যন্তৰীণ লিংকে আপোনাক ইয়ালৈ আগবঢ়াই আনে, তেন্তে আপুনি লিংকটো সলনি কৰি প্ৰত্যক্ষভাৱে উদ্দেশ্যমূলক প্ৰবন্ধটোলৈ নিৰ্দেশ কৰিব পাৰে।",
+        "ইবে'ত বেৰেল স্লাইম আৰু বেৰেল স্লাইমৰ বাবে ভাল ডিল বিচাৰি উলিয়াওক। আত্মবিশ্বাসেৰে কিনক।",
+        "স্লাইম মোল্ড, প্ৰায়ে ইউকেৰিয়টছ বায়'ফিল্মৰ প্ৰায় ৬টা গোটক বুজায়, যি কোষবোৰ এটাই আনটোৰ সৈতে আৰু/বা পৃষ্ঠত লেপ্টি থকা অণুজীৱৰ এক সমষ্টি, যাক পনিফিছ বুলিও কোৱা হয়।",
+        "স্লাইম - জীৱবিজ্ঞান ১ স্লাইম মোল্ড, একটি বিস্তৃত শব্দ যি প্রায়শই ইউক্যারিয়োটসৰ প্রায় ৬টি গোষ্ঠীকে বুজায়। ২ বায়োফিল্ম, একটি অণুজীৱৰ সমষ্টি যাতে কোষবোৰ একে অপৰৰ সৈতে আৰু/বা এটি পৃষ্ঠৰ সৈতে লেপ্টে থাকে। ৩ স্লিমি (মাছ), যাক পনিফিশ বুলিও জনা যায়। ৪ শামুকৰ স্লাইম, গেষ্ট্ৰোপডসমূহে গতিৰ বাবে ব্যৱহাৰ কৰা শ্লেষ্মা।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "what is barrel o slime?",
+    "Eng_Answer": "No Answer Present.",
+    "query": "বেৰেল অ’ স্লাইম কি?"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "৩০ থেকে ৫৫ মাইল প্রতি ঘণ্টা",
+    "query_id": 233826,
+    "query_type": "NUMERIC",
+    "passages": {
+      "English_passages": [
+        "Quick Answer. Eagles fly 30 to 55 mph and dive at over 100 mph. Eagles can soar for hours on warm air currents, which conserves energy, especially during long migrations.",
+        "How much does it cost? The price ranges from $50.00 to $98.00 round trip, depending on how far in advance you make the reservation and how full the train is. Contact Amtrak for pricing information; prices are not available through the Heartland Flyer website.",
+        "Receive a free companion rail fare with the purchase of one regular adult fare. Available for sale starting Dec. 27, 2016 through May 14, 2017. Travel must occur between January 3, 2017 through May 15, 2017. Advance reservations are required a minimum of one day prior to travel. Promotion is good on Texas Eagle and Heartland Flyer only, Seating is limited; may not be available on all days.",
+        "Where can I go on the train from Fort Worth? Once the Heartland Flyer arrives into Fort Worth, it terminates. You can connect to the Texas Eagle and go all the way to Chicago and further east; south to Austin and San Antonio; and west to Los Angeles three days a week via San Antonio.",
+        "Occasionally a clutch of 3 eggs will be produced. Chicks. Eagle chicks are fed a steady diet of fish, occasionally supplemented by waterfowl. (ducks, geese) or water birds (gulls, cormorants). About 85% of a chick's diet will. typically consist of fish such as carp, white sucker, shad, bullhead and sunfish.",
+        "A bald eagle egg is slightly smaller than a domestic goose egg. The chick will measure 4 to 5 inches at hatching and weigh only. a matter of ounces. Bald eagles incubate their eggs for about. 35 days. They begin incubation as soon as the first egg is laid. The second egg usually appears within 36 to 72 hours after the.",
+        "A bird might be able to stay aloft 6 hours at 15 mph (maximum endurance, covering 90 miles) or 5 hours at 20 mph (maximum range, covering 100 miles). Birds can also choose to maximize speed, as when being chased by a predator or racing to defend a territory. Or they can choose some compromise between speed and range.",
+        "Eagles do not migrate in the way that many other birds do, but they will move from one area to another in search of food, particularly in winter. Although these birds will feed gregariously, they often hunt independently. 6 people found this useful.",
+        "An eagle chick will eat as much as it can at a single. feeding, storing food in its crop. The crop, an organ located. near the base of the bird's neck, will enlarge as it fills, resembling a golf ball. Hunting and Feeding. The male parent does most of the hunting and scavenging during the early weeks of.",
+        "Eaglets have downy feathers, which are replaced by juvenile feathers between 10 and 13 weeks after hatching, when they are ready to fly. In the wild, eagles live up to 20 years, but in captivity, they have been known to live for 50 years."
+      ],
+      "Translated_passages": [
+        "দ্ৰুত উত্তৰ। ঈগলে ৩০ৰ পৰা ৫৫ মাইল প্ৰতি ঘণ্টা বেগেৰে উৰে আৰু ১০০ মাইল প্ৰতি ঘণ্টাৰ ওপৰত ডাইভ মাৰে। ঈগলে উষ্ণ বায়ুৰ সোঁতত ঘণ্টাধৰি উৰিব পাৰে, যিয়ে শক্তি সঞ্চয় কৰে, বিশেষকৈ দীঘলীয়া প্ৰব্ৰজনৰ সময়ত।",
+        "ইয়াৰ মূল্য কিমান? আপুনি কিমান আগতীয়াকৈ সংৰক্ষণ কৰে আৰু ৰে'লখন কিমান ভৰ্তি হৈ আছে তাৰ ওপৰত নিৰ্ভৰ কৰি এই পৰিভ্ৰমণৰ মূল্য ৫০.০০ ডলাৰৰ পৰা ৯৮.০০ ডলাৰলৈকে হয়। মূল্যৰ তথ্যৰ বাবে আমট্ৰাকৰ সৈতে যোগাযোগ কৰক; হাৰ্টলেণ্ড ফ্লায়াৰ ৱেবছাইটৰ জৰিয়তে মূল্য উপলব্ধ নহয়।",
+        "২০১৬ চনৰ ২৭ ডিচেম্বৰৰ পৰা ২০১৭ চনৰ ১৪ মে’লৈকে বিক্ৰীৰ বাবে উপলব্ধ এটা নিয়মীয়া প্ৰাপ্তবয়স্কৰ টিকট কিনি এটা বিনামূলীয়া সংগী ৰেল ভাড়া লাভ কৰক। ২০১৭ চনৰ ৩ জানুৱাৰীৰ পৰা ২০১৭ চনৰ ১৫ মে’লৈকে ভ্ৰমণ কৰিব লাগিব। ভ্ৰমণৰ পূৰ্বে অতি কমেও এদিন আগতে আগতীয়া সংৰক্ষণৰ প্ৰয়োজন। টেক্সাছ ঈগল আৰু হাৰ্টলেণ্ড ফ্লায়াৰত মাত্ৰ প্ৰচাৰ ভাল; আসন সীমিত; সকলো দিনতে উপলব্ধ নহ’বও পাৰে।",
+        "ফৰ্ট ৱৰ্থৰ পৰা মই কেনেকৈ ট্ৰেইনত উঠিব পাৰোঁ? হাৰ্টলেণ্ড ফ্লায়াৰ ফৰ্ট ৱৰ্থত উপস্থিত হোৱাৰ পিছত ইয়াৰ অন্ত পৰে। আপুনি টেক্সাছ ঈগলৰ সৈতে সংযোগ কৰিব পাৰে আৰু সমগ্ৰ পথটো চিকাগো আৰু পূবলৈ যাব পাৰে; দক্ষিণে অষ্টিন আৰু ছান এণ্টনিঅ'লৈ আৰু ছান এণ্টনিঅ' হৈ সপ্তাহত তিনিদিন পশ্চিমে লছ এঞ্জেলছলৈ যাব পাৰে।",
+        "মাজে মাজে ৩টা কণীৰ এটা থূপ উৎপন্ন হ'ব। কুকুৰাৰ পোৱালিবোৰক মাছৰ এক স্থিৰ আহাৰ দিয়া হয়, মাজে মাজে পানীচৰাই (হাঁহ, হাঁহ) বা পানীৰ চৰাই (চৰাই, কৰ্মোৰেণ্ট) যোগ কৰা হয়। এটা কুকুৰাৰ পোৱালিৰ আহাৰৰ প্ৰায় ৮৫% সাধাৰণতে কাৰ্প, বগা চুকুৰা, শ্বেড, বুলহেড আৰু ছানফিছৰ দৰে মাছেৰে গঠিত হয়।",
+        "এটা ডাল ঈগলৰ কণী ঘৰচীয়া হাঁহৰ কণীতকৈ সামান্য সৰু। পোৱালিটো ফুটি ওলোৱাৰ সময়ত ইয়াৰ ওজন মাত্ৰ এক আউন্স হয়। ডাল ঈগলে প্ৰায় ৩৫ দিন ধৰি তেওঁলোকৰ কণী ফুটায়। প্ৰথম কণীটো পাৰ হোৱাৰ লগে লগে তেওঁলোকে প্ৰথম কণী পাৰ কৰাৰ পৰা দ্বিতীয় কণীটো সাধাৰণতে ৩৬ ৰ পৰা ৭২ ঘণ্টাৰ ভিতৰত পোৱা যায়।",
+        "এটা চৰাই প্ৰতি ঘণ্টাত ১৫ মাইল বেগত ৬ ঘণ্টা (সৰ্বোচ্চ সহনশীলতা, ৯০ মাইল অতিক্ৰম কৰি) বা প্ৰতি ঘণ্টাত ২০ মাইল বেগত ৫ ঘণ্টা (সৰ্বোচ্চ পৰিসৰ, ১০০ মাইল অতিক্ৰম কৰি) উৰি থাকিব পাৰে। চৰাইবোৰে গতি সৰ্বাধিক কৰিবলৈও বাছি ল'ব পাৰে, যেতিয়া কোনো চিকাৰীয়ে খেদি থাকে বা কোনো এটা অঞ্চল ৰক্ষা কৰিবলৈ দৌৰে। বা তেওঁলোকে গতি আৰু পৰিসৰৰ মাজত কিছু আপোচ কৰিব পাৰে।",
+        "ঈগলে আন বহুতো চৰাইৰ দৰে পৰিভ্ৰমণ নকৰে, কিন্তু খাদ্যৰ সন্ধানত বিশেষকৈ শীতকালত তেওঁলোক এটা অঞ্চলৰ পৰা আন এটা অঞ্চললৈ যায়। যদিও এই চৰাইবোৰে সমবেতভাৱে খাদ্য খায়, তেওঁলোকে প্ৰায়ে স্বাধীনভাৱে চিকাৰ কৰে। ৬জন লোকে এইটো উপযোগী বুলি পাইছে।",
+        "এটা ঈগল পোৱালিয়ে একেবাৰতে যিমান পাৰে খাব পাৰে, সিমান খাব, খাদ্য তাইৰ শস্যত সঞ্চয় কৰি ৰাখে। চকীটো, চৰাইটোৰ ডিঙিৰ তলত থকা এটা অংগ, গল্ফ বলৰ দৰে ফুলি উঠে। চিকাৰ আৰু খুৱাই দিয়া। পুৰুষ পিতৃ-মাতৃয়ে প্ৰথম সপ্তাহবোৰত বেছিভাগ চিকাৰ আৰু খাদ্য সংগ্ৰহ কৰে।",
+        "ঈগলৰ পাখিৰ নোম থাকে, যিবোৰ কণী ফুটাৰ পাছত ১০-১৩ সপ্তাহৰ ভিতৰত কম বয়সীয়া পাখিৰ পাখিৰে সলনি হয়, যেতিয়া সিহঁত উৰিবলৈ সাজু হয়। বনত ঈগল ২০ বছৰ পৰ্যন্ত জীয়াই থাকে, কিন্তু বন্দী অৱস্থাত সিহঁত ৫০ বছৰ জীয়াই থাকিব পাৰে।"
+      ],
+      "is_selected": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "how fast does an eagle travel",
+    "Eng_Answer": "30 to 55 mph",
+    "query": "এটা ঈগলে কিমান দ্ৰুতগতিত ভ্ৰমণ কৰে"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "ষ্টাবহাবৰ টোল মুক্ত নম্বৰ হৈছে ৮৬৬-৭৮৮-২৪৮২।",
+    "query_id": 1090355,
+    "query_type": "NUMERIC",
+    "passages": {
+      "English_passages": [
+        "The postal and official address, email address and phone number (helpline) of Stubhub Telephone Service Center and Stubhub Telephone customer service phone number is given below. The helpline of Stubhub Telephone customer service phone number may or may not be toll free.",
+        "Phone Contact Numbers. 1  US and Canada: 1-866-788-2482. 2  Australia: 1-800-910-921. 3  France: 0800-919-278. 4  Germany: 0800-181-10-77. 5  Mexico: 001-800-514-8175. 6  United Kingdom: 0800-358-8585. 7  Other Countries: 1-415-222-8400.",
+        "File a complaint with StubHub customer service department. Best contact info for StubHub corporate headquarters with 1-800 phone number, email, and office address.",
+        "Some More Phone Numbers Related To Stubhub Stubhub Telephone toll free customer service number : 1-866-788-2482 Espn Bristol toll free customer service number : +1 (860) 766-2000 Ace Cash Express toll free customer service number : (972) 550-5000 Transit Calgary toll free customer service number : +1 403-262-1000 More about Stubhub StubHub StubHub is an American online marketplace offering their product & services across the world. The company was founded in 2000 by Eric Baker & Jeff Fluhr.",
+        "Toll free phone number: 1-866-788-2482 Stub Hub Company is an American based online ticket exchange owned by eBay. Buyers and sellers exchange sports, concert, theatre and other live event tickets.",
+        "StubHub mailing / postal and corporate office address, StubHub toll free number, customer care service helpline number, corporate headquarters HQ office address of StubHub, customer support number and email id is given with official web page links, social profiles, ratings and reviews.",
+        "StubHub - the phone number is clearly a sham. i received a the phone number is clearly a sham. i received a receipt for 2700$ worth of tickets i never ordered and i've never ordered anything from stub hub. they can't be reached to discuss the matter. very bad business.",
+        "StubHub toll-free number 866-788-2482 How To Contact StubHub Customer Service While 866-788-2482 is StubHub’s best toll-free number, there are 3 total ways to get in touch with them.",
+        "It appears that StubHub offers one main phone number for all customer needs. US and Canada: 1-866-788-2482; Australia: 1-800-910-921; France: 0800-919-278; Germany: 0800-181-10-77; Mexico: 001-800-514-8175; United Kingdom: 0800-358-8585; Other Countries: 1-415-222-8400; Mailing Address. Some customers prefer to contact StubHub by mail.",
+        "StubHub / Unethical charges. On 4/22/16 i sold derby tickets on stub hub. On 4/25/16, i still havent received my tickets, so stub hub told me to lenghten the delivery date. When i did this the buyer decided he didnt want wait till i got them, so stub hub got them some other tickets."
+      ],
+      "Translated_passages": [
+        "ডাক আৰু চৰকাৰী ঠিকনা, ইমেইল ঠিকনা আৰু ফোন নম্বৰ (হেল্পলাইন) ষ্টাবহাব টেলিফোন সেৱা কেন্দ্ৰ আৰু ষ্টাবহাব টেলিফোন গ্ৰাহক সেৱা ফোন নম্বৰ তলত দিয়া হৈছে। ষ্টাবহাব টেলিফোন গ্ৰাহক সেৱা ফোন নম্বৰৰ হেল্পলাইন টোল মুক্ত হ'বও পাৰে বা নহ'বও পাৰে।",
+        "ফোন কণ্টেক্ট নম্বৰ। ১ আমেৰিকা যুক্তৰাষ্ট্ৰ আৰু কানাডা: ১-৮৬৬-৭৮৮-২৪৮২। ২ অষ্ট্ৰেলিয়া: ১-৮০০-৯১০-৯২১। ৩ ফ্ৰান্স: ০৮০০-৯১৯-২৭৮। ৪ জাৰ্মানী: ০৮০০-১৮১-১০-৭৭। ৫ মেক্সিকো: ০০১-৮০০-৫১৪-৮১৭৫। ৬ যুক্তৰাজ্য: ০৮০০-৩৫৮-৮৫৮৫। ৭ অন্যান্য দেশ: ১-৪১৫-২২২-৮৪০০।",
+        "ষ্টাবহাব গ্ৰাহক সেৱা বিভাগত অভিযোগ দাখিল কৰক। ষ্টাবহাব কৰ্পোৰেট মুখ্য কাৰ্যালয়ৰ বাবে ১-৮০০ ফোন নম্বৰ, ইমেইল আৰু কাৰ্যালয়ৰ ঠিকনাৰ সৈতে সৰ্বোত্তম যোগাযোগৰ তথ্য।",
+        "কিছুমান মোৰ ফোন নম্বৰ স্টাবহাব স্টাবহাব টেলিফোন টোল বিনামূলীয়া গ্ৰাহক সেৱা নম্বৰ : ১-৮৬৬-৭৮৮-২৪৮২ এস্পন ব্ৰিষ্টল টোল বিনামূলীয়া গ্ৰাহক সেৱা নম্বৰ : +১ (৮৬০) ৭৬৬-২০০০ এচ কেশ এক্সপ্ৰেছ টোল বিনামূলীয়া গ্ৰাহক সেৱা নম্বৰ : (৯৭২) ৫৫০-৫০০০ ট্ৰানজিট কেলগাৰী টোল বিনামূলীয়া গ্ৰাহক সেৱা নম্বৰ : +১ ৪০৩-২৬২-১০০০ মোৰ সম্পৰ্কে স্টাবহাব স্টাবহাব স্টাবহাব হৈছে এক আমেৰিকান অনলাইন বজাৰ যি তেওঁলোকৰ সমগ্ৰ বিশ্বতে পণ্য আৰু সেৱা আগবঢ়ায়। কোম্পানীটো ২০০০ চনত এৰিক বেকাৰ আৰু জেফ ফ্লুহৰে প্ৰতিষ্ঠা কৰিছিল।",
+        "টোল বিনামূলীয়া ফোন নম্বৰ: ১-৮৬৬-৭৮৮-২৪৮২ ষ্টাব হাব কোম্পানী হৈছে ইবে'ৰ মালিকানাধীন এক আমেৰিকান অনলাইন টিকেট বিনিময় সংস্থা। ক্ৰেতা আৰু বিক্ৰেতাসকলে ক্ৰীড়া, কনচাৰ্ট, থিয়েটাৰ আৰু অন্যান্য লাইভ ইভেণ্টৰ টিকেট বিনিময় কৰে।",
+        "ষ্টাবহাব মেইলিং / ডাক আৰু কৰ্পোৰেট কাৰ্যালয়ৰ ঠিকনা, ষ্টাবহাব টোল বিনামূলীয়া নম্বৰ, গ্ৰাহক যত্ন সেৱাৰ হেল্পলাইন নম্বৰ, ষ্টাবহাবৰ কৰ্পোৰেট মুখ্য কাৰ্যালয়ৰ মুখ্য কাৰ্যালয়ৰ ঠিকনা, গ্ৰাহক সমৰ্থন নম্বৰ আৰু ইমেইল আইডি আধিকাৰিক ৱেব পৃষ্ঠাৰ লিংক, সামাজিক প্ৰ'ফাইল, ৰেটিং আৰু সমীক্ষাৰ সৈতে দিয়া হয়।",
+        "ষ্টাবহাব - ফোন নম্বৰটো স্পষ্টভাৱে ভুৱা। মই এটা ফোন নম্বৰ পাইছিলো যেন স্পষ্টভাৱে ভুৱা। মই ২৭০০ ডলাৰৰ টিকটৰ বাবে এখন ৰচিদ পাইছিলো যিটো মই কেতিয়াও অৰ্ডাৰ কৰা নাছিলো আৰু মই কেতিয়াও ষ্টাবহাবৰ পৰা একো অৰ্ডাৰ কৰা নাই। তেওঁলোকক বিষয়টো আলোচনা কৰিবলৈ যোগাযোগ কৰিব নোৱাৰি। বৰ বেয়া ব্যৱসা।",
+        "ষ্টাবহাব টোল-মুক্ত নম্বৰ ৮৬৬-৭৮৮-২৪৮২ কেনেকৈ ষ্টাবহাব গ্ৰাহক সেৱাৰ সৈতে যোগাযোগ কৰিব লাগে যদিও ৮৬৬-৭৮৮-২৪৮২ হৈছে ষ্টাবহাবৰ শ্ৰেষ্ঠ টোল-মুক্ত নম্বৰ, তেওঁলোকৰ সৈতে যোগাযোগ কৰাৰ মুঠ ৩টা উপায় আছে।",
+        "দেখা যায় যে ষ্টাবহাবে সকলো গ্ৰাহকৰ প্ৰয়োজনীয়তাৰ বাবে এটা মুখ্য ফোন নম্বৰ আগবঢ়ায়: ইউএছ আৰু কানাডা: ১-৮৬৬-৭৮৮-২৪৮২; অষ্ট্ৰেলিয়া: ১-৮০০-৯১০-৯২১; ফ্ৰান্স: ০৮০০-৯১৯-২৭৮; জাৰ্মানী: ০৮০০-১৮১-১০-৭৭; মেক্সিকো: ০০১-৮০০-৫১৪-৮১৭৫; ইউনাইটেড কিংডম: ০৮০০-৩৫৮-৮৫৮৫; অন্যান্য দেশ: ১-৪১৫-২২২-৮৪০০; ডাক ঠিকনা। কিছুমান গ্ৰাহকে ডাকযোগে ষ্টাবহাবক যোগাযোগ কৰাটো পছন্দ কৰে।",
+        "ষ্টাবহাব/অনৈতিক অভিযোগ। ৪/২২/১৬ তাৰিখে ষ্টাবহাবত ডাৰ্বি টিকট বিক্ৰী কৰিছিল। ৪/২৫/১৬ তাৰিখে মই এতিয়াও মোৰ টিকটবোৰ পাইছিলোঁ, সেয়েহে ষ্টাবহাবে মোক ডেলিভাৰীৰ তাৰিখটো দীঘলীয়া কৰিবলৈ কৈছিল। মই এইটো কৰোঁতে ক্ৰেতাই সিদ্ধান্ত লৈছিল যে তেওঁ মোৰ টিকটবোৰ নোপোৱালৈকে অপেক্ষা কৰিব নিবিচাৰে, সেয়েহে ষ্টাবহাবে মোক আন কিছুমান টিকট দিছিল।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "stubhub toll free number",
+    "Eng_Answer": "The toll free number of Stubhub is 866-788-2482.",
+    "query": "ষ্টাবহাব টোল বিনামূলীয়া নম্বৰ"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "asm_Beng",
+    "meta": {
+      "frequency_penalty": 0,
+      "max_tokens": 4096,
+      "model_name": "ckpt-3epochs-sft-then-400k-kd",
+      "presence_penalty": 0,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "Answer": "কোনো উত্তৰ দিয়া হোৱা নাই।",
+    "query_id": 287284,
+    "query_type": "NUMERIC",
+    "passages": {
+      "English_passages": [
+        "One kilowatt-hour (1 kWh) means an energy source supplies 1,000 watts (1 kW) of energy for one hour. Generally, a solar energy system will provide output for about 5 hours per day. So, if you have a 1.8 kW system size and it produces for 5 hours a day, 365 days a year: This solar energy system will produce 3,285 kWh in a year (1.8 kW x 5 hours x 365 days). If the PV panels are shaded for part of the day, the output would be reduced in accordance to the shading percentage.",
+        "100/1000 (kiloWatt) x 10 (hours) x 30 days = 30 kWh hours per month. Solar panels will work anywhere there is sun; however, some locations are better than others. Here are some of the more important factors you need to take into account: Location. Southern locations receive more direct sunlight than northern locations.",
+        "Figure how many kWh you need to generate each hour. From the map above you can see that if you live in a yellow area that you'll get 5 to 6 hours of peak sun per day on average. We'll call that 5 hours/day to be conservative. Since you need to generate 29.6 kwH/day, you need a 29.6 kWh / 5 hours = 5.92 kWp system.",
+        "Each solar array has a specific rating. Some are 50 W, 80 W or 120 W which means how much power it can output under ideal sunny conditions. As you can see, the panels are measured in Watts yet most appliances require kiloWatts. Therefore, a number of these solar arrays are required in order to meet a typical daily energy needs.",
+        "A kiloWatt hour is simply: The amount of electricity used (1000 Watts = 1 kiloWatts), in kiloWatts. multiplied by. The number of hours the energy is used. Usually the calculation states the time period such as one day, one month or one year.",
+        "The kBTU units can be converted to kWh, a typical unit of measure for electricity. A typical solar thermal collector will produce about 10 kWh per day. Or, over the course of a year (365 days) about 3,650 kWh.",
+        "On average (as a general rule of thumb) modern photovoltaics (PV) solar panels will produce 8 - 10 watts per square foot of solar panel area. For example, a roof area of 20 feet by 10 feet is 200 square-feet (20 ft x 10 ft).",
+        "Kilowatts and watts both describe a rate of energy transfer; a watt is defined as one joule per second. Your electrical bill charges you for electricity in terms of kilowatt-hours (kWh). One kilowatt-hour is a unit of energy that is equivalent to one kilowatt of power expended for one hour of time. For example, a hair dryer that is rated at 1,000 watts (1 kW) and operates for one hour will use one kilowatt-hour of energy. A solar panel's output depends on its size. A 100 watt panel left in the sun for 1 hour will produce 100 watt-hours (or 0.1 kilowatt-hour) of electricity.",
+        "For example, for a panel rated at 150 watts in New York, we'd have: 4 hours peak sun x 150 watts panel x 30.5 days per month 1000 kWh/watt-hour = 18.3 kWh/mo. Somehow the myth got started that it takes more energy to make a solar panel than the panel generates in its lifetime.",
+        "A: A well-situated 3.3 kW solar PV array in Utah will produce approximately 4,500 kilowatt-hours of electricity per year. The average Utahn uses around 9,000 kilowatt-hours of electricity annually, and a 6.4 kilowatt system would cover 100% of usage."
+      ],
+      "Translated_passages": [
+        "এক কিলোৱাট-ঘণ্টা (১ কিলোৱাট ঘণ্টা) মানে এক শক্তি উৎসে এক ঘণ্টাৰ বাবে ১,০০০ ওৱাট (১ কিলোৱাট) শক্তি যোগান ধৰে। সাধাৰণতে, এক সৌৰ শক্তি ব্যৱস্থাই দিনে প্ৰায় ৫ ঘণ্টা বিদ্যুৎ উৎপাদন কৰে। সুতৰাং, যদি আপোনাৰ ১.৮ কিলোৱাট ব্যৱস্থাৰ আকাৰ থাকে আৰু ই দিনে ৫ ঘণ্টাৰ বাবে উৎপাদন কৰে, বছৰত ৩৬৫ দিন: এই সৌৰ শক্তি ব্যৱস্থাই বছৰত ৩,২৮৫ কিলোৱাট ঘণ্টা (১.৮ কিলোৱাট x ৫ ঘণ্টা x ৩৬৫ দিন) উৎপাদন কৰিব। যদি পিভি পেনেলবোৰ দিনৰ কিছু অংশৰ বাবে ছায়াযুক্ত হয়, তেন্তে ছায়াযুক্ত শতাংশ অনুসৰি উৎপাদন হ্ৰাস পাব।",
+        "100/1000 (কিলোৱাট) x 10 (ঘণ্টা) x 30 দিন = 30 কিলোৱাট ঘণ্টা প্ৰতি মাহ। সৌৰ পেনেলসমূহ যেকোনো ঠাইতে কাম কৰিব; যদিও কিছুমান স্থান আনবোৰতকৈ ভাল। এইবোৰ কিছুমান গুৰুত্বপূৰ্ণ কাৰক আপুনি বিবেচনা কৰিব লাগিব: অৱস্থান। দক্ষিণৰ স্থানসমূহে উত্তৰৰ স্থানতকৈ বেছি পোহৰ পায়।",
+        "প্ৰতি ঘণ্টাত আপুনি কিমান কিলোৱাট বিদ্যুৎ উৎপাদন কৰিব লাগিব তাক হিচাপ কৰক। ওপৰৰ মানচিত্ৰখনৰ পৰা আপুনি দেখিব পাৰিব যে যদি আপুনি এটা হালধীয়া অঞ্চলত বাস কৰে য'ত আপুনি দিনে ৫ৰ পৰা ৬ ঘণ্টা সূৰ্যৰ শিখৰ সময় পাব, তেন্তে আমি সেইটোক ৫ ঘণ্টা/দিন বুলি ক'ব। যেহেতু আপুনি ২৯.৬ কিলোৱাট/দিন উৎপাদন কৰিব লাগিব, আপুনি ২৯.৬ কিলোৱাট/৫ ঘণ্টা = ৫.৯২ কিলোৱাট প্ৰণালীৰ প্ৰয়োজন।",
+        "প্ৰতিটো সৌৰ শৃংখলাৰ এটা নিৰ্দিষ্ট ৰেটিং থাকে। কিছুমান হৈছে ৫০ ডব্লিউ, ৮০ ডব্লিউ বা ১২০ ডব্লিউ যাৰ অৰ্থ হৈছে আদৰ্শ সূৰ্যৰ পোহৰৰ অধীনত ই কিমান শক্তি উৎপাদন কৰিব পাৰে। আপুনি দেখিব পাৰিছেনে, পেনেলবোৰ ওৱাটত পৰিমাপ কৰা হয় যদিও বেছিভাগ যন্ত্ৰপাতিতে কিলোৱাটৰ প্ৰয়োজন হয়। সেয়েহে, সাধাৰণ দৈনিক শক্তিৰ প্ৰয়োজনীয়তা পূৰণ কৰিবলৈ এই সৌৰ শৃংখলাবোৰৰ ভিতৰত কেইবাটাও প্ৰয়োজন।",
+        "এক কিলোৱাট ঘণ্টা হৈছে সাধাৰণতে এনেদৰে: ব্যৱহৃত বিদ্যুতৰ পৰিমাণ (১০০০ ৱাট = ১ কিলোৱাট), কিলোৱাটত গুণ কৰা হয়। শক্তি ব্যৱহাৰ কৰা ঘণ্টাৰ সংখ্যা। সাধাৰণতে গণনাত সময়সীমা যেনে এদিন, এমাহ বা এবছৰ বুলি উল্লেখ কৰা হয়।",
+        "কেবিটিইউ ইউনিটবোৰক কিলোৱাট প্ৰতি ঘণ্টালৈ ৰূপান্তৰ কৰিব পাৰি, যি বিদ্যুতৰ এক সাধাৰণ পৰিমাপৰ একক। এটা সাধাৰণ সৌৰ তাপ সংগ্ৰাহকে প্ৰতিদিনে প্ৰায় ১০ কিলোৱাট প্ৰতি ঘণ্টা বা বছৰটোৰ ভিতৰত (৩৬৫ দিন) প্ৰায় ৩,৬৫০ কিলোৱাট প্ৰতি ঘণ্টা উৎপাদন কৰিব।",
+        "গড়ে (এক সাধাৰণ নিয়ম হিচাপে) আধুনিক ফটোভলটেইক (পিভি) সৌৰ পেনেলে প্ৰতি বৰ্গফুট সৌৰ পেনেল এলেকাত ৮ - ১০ ৱাট উৎপাদন কৰিব। উদাহৰণস্বৰূপে, ২০ ফুট আৰু ১০ ফুটৰ এখন চালৰ এলেকা হ’ল ২০০ বৰ্গফুট (২০ ফুট x ১০ ফুট)।",
+        "কিলোৱাট আৰু ৱাট দুয়োটাই শক্তি স্থানান্তৰৰ হাৰ বৰ্ণনা কৰে; এক প্ৰতি ছেকেণ্ডত এক জুল হিচাপে এক ৱাট সংজ্ঞায়িত কৰা হয়। আপোনাৰ বৈদ্যুতিক বিলে আপোনাক কিলোৱাট-ঘণ্টা (কেডব্লিউএইচ) পৰিপ্ৰেক্ষিতত বিদ্যুৎ চাৰ্জ কৰে। এক কিলোৱাট-ঘণ্টা হৈছে শক্তিৰ একক যি এক ঘণ্টাৰ বাবে ব্যয় কৰা এক কিলোৱাট শক্তিৰ সমতুল্য। উদাহৰণস্বৰূপে, ১,০০০ ৱাট (১ কেডব্লিউ) আৰু এক ঘণ্টাৰ বাবে কাম কৰা এক চুলি শুকোৱা যন্ত্ৰই এক কিলোৱাট-ঘণ্টা শক্তি ব্যৱহাৰ কৰিব। এক সৌৰ পেনেলৰ আউটপুট ইয়াৰ আকাৰৰ ওপৰত নিৰ্ভৰ কৰে। ১ ঘণ্টাৰ বাবে সূৰ্যত এটা ১০০ ৱাট পেনেল এক ১০০ ৱাট-ঘণ্টা (বা ০.১ কিলোৱাট-ঘণ্টা) বিদ্যুৎ উৎপন্ন কৰিব।",
+        "উদাহৰণস্বৰূপে, নিউয়ৰ্কত ১৫০ ৱাট ৰেটিং প্ৰাপ্ত এটা পেনেলৰ বাবে, আমাৰ আছে: ৪ ঘণ্টা শীৰ্ষ সূৰ্যৰ পেনেল x ১৫০ ৱাট পেনেল x ৩০.৫ দিন প্ৰতি মাহ ১০০০ কিলোৱাট/ঘণ্টা = ১৮.৩ কিলোৱাট/মাহ। কোনোমতে এই মিথ আৰম্ভ হৈছিল যে এটা সৌৰ পেনেল তৈয়াৰ কৰিবলৈ ইয়াৰ জীৱনকালত পেনেলটোৱে উৎপাদন কৰা শক্তিৰ তুলনাত বেছি শক্তি লাগে।",
+        "ক: উটাহত এটা সুস্থাপিত ৩.৩ কিলোৱাট সৌৰ পিভি এৰে বছৰি প্ৰায় ৪,৫০০ কিলোৱাট বিদ্যুৎ উৎপাদন কৰিব। গড় উটাহে বছৰি প্ৰায় ৯,০০০ কিলোৱাট বিদ্যুৎ ব্যৱহাৰ কৰে আৰু এটা ৬.৪ কিলোৱাট ব্যৱস্থাই ১০০% ব্যৱহাৰ সামৰি ল'ব।"
+      ],
+      "is_selected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Eng_Query": "how many kw do solar city panels produce",
+    "Eng_Answer": "No Answer Present.",
+    "query": "সৌৰ চিটি পেনেলসমূহে কিমান কিলোৱাট উৎপাদন কৰে"
+  },
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "hin_Deva",
+    "meta": {
+      "model_name": "development-fixture"
+    },
+    "query": "भारत में सौर ऊर्जा के क्या लाभ हैं?",
+    "Answer": "सौर ऊर्जा एक नवीकरणीय ऊर्जा स्रोत है।",
+    "query_id": 1,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "is_selected": [
+        1,
+        0
+      ],
+      "English_passages": [
+        "Solar energy is a renewable source of energy.",
+        "Solar panels convert sunlight into electricity."
+      ],
+      "Translated_passages": [
+        "सौर ऊर्जा एक नवीकरणीय ऊर्जा स्रोत है।",
+        "सौर पैनल सूर्य के प्रकाश को बिजली में बदलते हैं।"
+      ]
+    },
+    "Eng_Query": "What are the benefits of solar energy in India?",
+    "Eng_Answer": "Solar energy is a renewable source of energy."
+  }
+]

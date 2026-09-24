@@ -1,0 +1,29 @@
+[
+  {
+    "source_lang": "eng_Latn",
+    "target_lang": "hin_Deva",
+    "meta": {
+      "model_name": "development-fixture"
+    },
+    "query": "भारत में सौर ऊर्जा के क्या लाभ हैं?",
+    "Answer": "सौर ऊर्जा एक नवीकरणीय ऊर्जा स्रोत है।",
+    "query_id": 1,
+    "query_type": "DESCRIPTION",
+    "passages": {
+      "is_selected": [
+        1,
+        0
+      ],
+      "English_passages": [
+        "Solar energy is a renewable source of energy.",
+        "Solar panels convert sunlight into electricity."
+      ],
+      "Translated_passages": [
+        "सौर ऊर्जा एक नवीकरणीय ऊर्जा स्रोत है।",
+        "सौर पैनल सूर्य के प्रकाश को बिजली में बदलते हैं।"
+      ]
+    },
+    "Eng_Query": "What are the benefits of solar energy in India?",
+    "Eng_Answer": "Solar energy is a renewable source of energy."
+  }
+]
